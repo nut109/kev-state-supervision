@@ -1,0 +1,1402 @@
+{
+  "bottleneck1": [
+    {
+      "seed": 11,
+      "mode": "bottleneck1",
+      "best_epoch": 2,
+      "val_long_accuracy": 0.3795180722891566,
+      "trainable_parameters": 6309889,
+      "peak_head_gpu_gib": 0.5082354545593262,
+      "id_test": {
+        "all": {
+          "accuracy": 0.376,
+          "n": 2000
+        },
+        "depth_1": {
+          "accuracy": 0.38622754491017963,
+          "n": 668
+        },
+        "depth_2": {
+          "accuracy": 0.37425149700598803,
+          "n": 668
+        },
+        "depth_3": {
+          "accuracy": 0.3674698795180723,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.253,
+          "n": 1000
+        },
+        "relation_depth_1": {
+          "accuracy": 0.27245508982035926,
+          "n": 334
+        },
+        "relation_depth_2": {
+          "accuracy": 0.24850299401197604,
+          "n": 334
+        },
+        "relation_depth_3": {
+          "accuracy": 0.23795180722891565,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.499,
+          "n": 1000
+        },
+        "rule_depth_1": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_2": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_3": {
+          "accuracy": 0.49698795180722893,
+          "n": 332
+        }
+      },
+      "ood_test": {
+        "all": {
+          "accuracy": 0.373,
+          "n": 2000
+        },
+        "depth_4": {
+          "accuracy": 0.3727544910179641,
+          "n": 668
+        },
+        "depth_5": {
+          "accuracy": 0.3727544910179641,
+          "n": 668
+        },
+        "depth_6": {
+          "accuracy": 0.37349397590361444,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.244,
+          "n": 1000
+        },
+        "relation_depth_4": {
+          "accuracy": 0.24550898203592814,
+          "n": 334
+        },
+        "relation_depth_5": {
+          "accuracy": 0.24251497005988024,
+          "n": 334
+        },
+        "relation_depth_6": {
+          "accuracy": 0.24397590361445784,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.502,
+          "n": 1000
+        },
+        "rule_depth_4": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_5": {
+          "accuracy": 0.5029940119760479,
+          "n": 334
+        },
+        "rule_depth_6": {
+          "accuracy": 0.5030120481927711,
+          "n": 332
+        }
+      }
+    },
+    {
+      "seed": 23,
+      "mode": "bottleneck1",
+      "best_epoch": 3,
+      "val_long_accuracy": 0.3825301204819277,
+      "trainable_parameters": 6309889,
+      "peak_head_gpu_gib": 0.5708346366882324,
+      "id_test": {
+        "all": {
+          "accuracy": 0.3715,
+          "n": 2000
+        },
+        "depth_1": {
+          "accuracy": 0.36676646706586824,
+          "n": 668
+        },
+        "depth_2": {
+          "accuracy": 0.37425149700598803,
+          "n": 668
+        },
+        "depth_3": {
+          "accuracy": 0.37349397590361444,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.247,
+          "n": 1000
+        },
+        "relation_depth_1": {
+          "accuracy": 0.23652694610778444,
+          "n": 334
+        },
+        "relation_depth_2": {
+          "accuracy": 0.24850299401197604,
+          "n": 334
+        },
+        "relation_depth_3": {
+          "accuracy": 0.2560240963855422,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.496,
+          "n": 1000
+        },
+        "rule_depth_1": {
+          "accuracy": 0.49700598802395207,
+          "n": 334
+        },
+        "rule_depth_2": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_3": {
+          "accuracy": 0.49096385542168675,
+          "n": 332
+        }
+      },
+      "ood_test": {
+        "all": {
+          "accuracy": 0.372,
+          "n": 2000
+        },
+        "depth_4": {
+          "accuracy": 0.37574850299401197,
+          "n": 668
+        },
+        "depth_5": {
+          "accuracy": 0.3772455089820359,
+          "n": 668
+        },
+        "depth_6": {
+          "accuracy": 0.3629518072289157,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.243,
+          "n": 1000
+        },
+        "relation_depth_4": {
+          "accuracy": 0.24251497005988024,
+          "n": 334
+        },
+        "relation_depth_5": {
+          "accuracy": 0.26047904191616766,
+          "n": 334
+        },
+        "relation_depth_6": {
+          "accuracy": 0.22590361445783133,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.501,
+          "n": 1000
+        },
+        "rule_depth_4": {
+          "accuracy": 0.5089820359281437,
+          "n": 334
+        },
+        "rule_depth_5": {
+          "accuracy": 0.4940119760479042,
+          "n": 334
+        },
+        "rule_depth_6": {
+          "accuracy": 0.5,
+          "n": 332
+        }
+      }
+    },
+    {
+      "seed": 37,
+      "mode": "bottleneck1",
+      "best_epoch": 2,
+      "val_long_accuracy": 0.38755020080321284,
+      "trainable_parameters": 6309889,
+      "peak_head_gpu_gib": 0.5708346366882324,
+      "id_test": {
+        "all": {
+          "accuracy": 0.3765,
+          "n": 2000
+        },
+        "depth_1": {
+          "accuracy": 0.3772455089820359,
+          "n": 668
+        },
+        "depth_2": {
+          "accuracy": 0.37574850299401197,
+          "n": 668
+        },
+        "depth_3": {
+          "accuracy": 0.37650602409638556,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.253,
+          "n": 1000
+        },
+        "relation_depth_1": {
+          "accuracy": 0.25449101796407186,
+          "n": 334
+        },
+        "relation_depth_2": {
+          "accuracy": 0.25149700598802394,
+          "n": 334
+        },
+        "relation_depth_3": {
+          "accuracy": 0.25301204819277107,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.5,
+          "n": 1000
+        },
+        "rule_depth_1": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_2": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_3": {
+          "accuracy": 0.5,
+          "n": 332
+        }
+      },
+      "ood_test": {
+        "all": {
+          "accuracy": 0.3655,
+          "n": 2000
+        },
+        "depth_4": {
+          "accuracy": 0.36676646706586824,
+          "n": 668
+        },
+        "depth_5": {
+          "accuracy": 0.36377245508982037,
+          "n": 668
+        },
+        "depth_6": {
+          "accuracy": 0.36596385542168675,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.231,
+          "n": 1000
+        },
+        "relation_depth_4": {
+          "accuracy": 0.23353293413173654,
+          "n": 334
+        },
+        "relation_depth_5": {
+          "accuracy": 0.2275449101796407,
+          "n": 334
+        },
+        "relation_depth_6": {
+          "accuracy": 0.2319277108433735,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.5,
+          "n": 1000
+        },
+        "rule_depth_4": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_5": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_6": {
+          "accuracy": 0.5,
+          "n": 332
+        }
+      }
+    }
+  ],
+  "recurrent3": [
+    {
+      "seed": 11,
+      "mode": "recurrent3",
+      "best_epoch": 3,
+      "val_long_accuracy": 0.3815261044176707,
+      "trainable_parameters": 23109633,
+      "peak_head_gpu_gib": 0.79656982421875,
+      "id_test": {
+        "all": {
+          "accuracy": 0.378,
+          "n": 2000
+        },
+        "depth_1": {
+          "accuracy": 0.37574850299401197,
+          "n": 668
+        },
+        "depth_2": {
+          "accuracy": 0.3772455089820359,
+          "n": 668
+        },
+        "depth_3": {
+          "accuracy": 0.3810240963855422,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.257,
+          "n": 1000
+        },
+        "relation_depth_1": {
+          "accuracy": 0.25748502994011974,
+          "n": 334
+        },
+        "relation_depth_2": {
+          "accuracy": 0.26047904191616766,
+          "n": 334
+        },
+        "relation_depth_3": {
+          "accuracy": 0.25301204819277107,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.499,
+          "n": 1000
+        },
+        "rule_depth_1": {
+          "accuracy": 0.4940119760479042,
+          "n": 334
+        },
+        "rule_depth_2": {
+          "accuracy": 0.4940119760479042,
+          "n": 334
+        },
+        "rule_depth_3": {
+          "accuracy": 0.5090361445783133,
+          "n": 332
+        }
+      },
+      "ood_test": {
+        "all": {
+          "accuracy": 0.3795,
+          "n": 2000
+        },
+        "depth_4": {
+          "accuracy": 0.3787425149700599,
+          "n": 668
+        },
+        "depth_5": {
+          "accuracy": 0.38772455089820357,
+          "n": 668
+        },
+        "depth_6": {
+          "accuracy": 0.37198795180722893,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.247,
+          "n": 1000
+        },
+        "relation_depth_4": {
+          "accuracy": 0.24850299401197604,
+          "n": 334
+        },
+        "relation_depth_5": {
+          "accuracy": 0.25149700598802394,
+          "n": 334
+        },
+        "relation_depth_6": {
+          "accuracy": 0.24096385542168675,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.512,
+          "n": 1000
+        },
+        "rule_depth_4": {
+          "accuracy": 0.5089820359281437,
+          "n": 334
+        },
+        "rule_depth_5": {
+          "accuracy": 0.5239520958083832,
+          "n": 334
+        },
+        "rule_depth_6": {
+          "accuracy": 0.5030120481927711,
+          "n": 332
+        }
+      }
+    },
+    {
+      "seed": 23,
+      "mode": "recurrent3",
+      "best_epoch": 2,
+      "val_long_accuracy": 0.37751004016064255,
+      "trainable_parameters": 23109633,
+      "peak_head_gpu_gib": 0.79766845703125,
+      "id_test": {
+        "all": {
+          "accuracy": 0.3715,
+          "n": 2000
+        },
+        "depth_1": {
+          "accuracy": 0.36826347305389223,
+          "n": 668
+        },
+        "depth_2": {
+          "accuracy": 0.36976047904191617,
+          "n": 668
+        },
+        "depth_3": {
+          "accuracy": 0.37650602409638556,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.252,
+          "n": 1000
+        },
+        "relation_depth_1": {
+          "accuracy": 0.25149700598802394,
+          "n": 334
+        },
+        "relation_depth_2": {
+          "accuracy": 0.26047904191616766,
+          "n": 334
+        },
+        "relation_depth_3": {
+          "accuracy": 0.24397590361445784,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.491,
+          "n": 1000
+        },
+        "rule_depth_1": {
+          "accuracy": 0.48502994011976047,
+          "n": 334
+        },
+        "rule_depth_2": {
+          "accuracy": 0.47904191616766467,
+          "n": 334
+        },
+        "rule_depth_3": {
+          "accuracy": 0.5090361445783133,
+          "n": 332
+        }
+      },
+      "ood_test": {
+        "all": {
+          "accuracy": 0.372,
+          "n": 2000
+        },
+        "depth_4": {
+          "accuracy": 0.36227544910179643,
+          "n": 668
+        },
+        "depth_5": {
+          "accuracy": 0.37574850299401197,
+          "n": 668
+        },
+        "depth_6": {
+          "accuracy": 0.37801204819277107,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.24,
+          "n": 1000
+        },
+        "relation_depth_4": {
+          "accuracy": 0.2155688622754491,
+          "n": 334
+        },
+        "relation_depth_5": {
+          "accuracy": 0.25748502994011974,
+          "n": 334
+        },
+        "relation_depth_6": {
+          "accuracy": 0.2469879518072289,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.504,
+          "n": 1000
+        },
+        "rule_depth_4": {
+          "accuracy": 0.5089820359281437,
+          "n": 334
+        },
+        "rule_depth_5": {
+          "accuracy": 0.4940119760479042,
+          "n": 334
+        },
+        "rule_depth_6": {
+          "accuracy": 0.5090361445783133,
+          "n": 332
+        }
+      }
+    },
+    {
+      "seed": 37,
+      "mode": "recurrent3",
+      "best_epoch": 1,
+      "val_long_accuracy": 0.3825301204819277,
+      "trainable_parameters": 23109633,
+      "peak_head_gpu_gib": 0.79693603515625,
+      "id_test": {
+        "all": {
+          "accuracy": 0.3725,
+          "n": 2000
+        },
+        "depth_1": {
+          "accuracy": 0.3727544910179641,
+          "n": 668
+        },
+        "depth_2": {
+          "accuracy": 0.37574850299401197,
+          "n": 668
+        },
+        "depth_3": {
+          "accuracy": 0.3689759036144578,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.246,
+          "n": 1000
+        },
+        "relation_depth_1": {
+          "accuracy": 0.25149700598802394,
+          "n": 334
+        },
+        "relation_depth_2": {
+          "accuracy": 0.25449101796407186,
+          "n": 334
+        },
+        "relation_depth_3": {
+          "accuracy": 0.2319277108433735,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.499,
+          "n": 1000
+        },
+        "rule_depth_1": {
+          "accuracy": 0.4940119760479042,
+          "n": 334
+        },
+        "rule_depth_2": {
+          "accuracy": 0.49700598802395207,
+          "n": 334
+        },
+        "rule_depth_3": {
+          "accuracy": 0.5060240963855421,
+          "n": 332
+        }
+      },
+      "ood_test": {
+        "all": {
+          "accuracy": 0.3755,
+          "n": 2000
+        },
+        "depth_4": {
+          "accuracy": 0.38173652694610777,
+          "n": 668
+        },
+        "depth_5": {
+          "accuracy": 0.3727544910179641,
+          "n": 668
+        },
+        "depth_6": {
+          "accuracy": 0.37198795180722893,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.251,
+          "n": 1000
+        },
+        "relation_depth_4": {
+          "accuracy": 0.26047904191616766,
+          "n": 334
+        },
+        "relation_depth_5": {
+          "accuracy": 0.24550898203592814,
+          "n": 334
+        },
+        "relation_depth_6": {
+          "accuracy": 0.2469879518072289,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.5,
+          "n": 1000
+        },
+        "rule_depth_4": {
+          "accuracy": 0.5029940119760479,
+          "n": 334
+        },
+        "rule_depth_5": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_6": {
+          "accuracy": 0.49698795180722893,
+          "n": 332
+        }
+      }
+    }
+  ],
+  "deep": [
+    {
+      "seed": 11,
+      "mode": "deep",
+      "best_epoch": 1,
+      "val_long_accuracy": 0.3744979919678715,
+      "trainable_parameters": 23113729,
+      "peak_head_gpu_gib": 0.7968902587890625,
+      "id_test": {
+        "all": {
+          "accuracy": 0.375,
+          "n": 2000
+        },
+        "depth_1": {
+          "accuracy": 0.37425149700598803,
+          "n": 668
+        },
+        "depth_2": {
+          "accuracy": 0.37425149700598803,
+          "n": 668
+        },
+        "depth_3": {
+          "accuracy": 0.37650602409638556,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.25,
+          "n": 1000
+        },
+        "relation_depth_1": {
+          "accuracy": 0.24850299401197604,
+          "n": 334
+        },
+        "relation_depth_2": {
+          "accuracy": 0.24850299401197604,
+          "n": 334
+        },
+        "relation_depth_3": {
+          "accuracy": 0.25301204819277107,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.5,
+          "n": 1000
+        },
+        "rule_depth_1": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_2": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_3": {
+          "accuracy": 0.5,
+          "n": 332
+        }
+      },
+      "ood_test": {
+        "all": {
+          "accuracy": 0.375,
+          "n": 2000
+        },
+        "depth_4": {
+          "accuracy": 0.37425149700598803,
+          "n": 668
+        },
+        "depth_5": {
+          "accuracy": 0.37425149700598803,
+          "n": 668
+        },
+        "depth_6": {
+          "accuracy": 0.37650602409638556,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.25,
+          "n": 1000
+        },
+        "relation_depth_4": {
+          "accuracy": 0.24850299401197604,
+          "n": 334
+        },
+        "relation_depth_5": {
+          "accuracy": 0.24850299401197604,
+          "n": 334
+        },
+        "relation_depth_6": {
+          "accuracy": 0.25301204819277107,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.5,
+          "n": 1000
+        },
+        "rule_depth_4": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_5": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_6": {
+          "accuracy": 0.5,
+          "n": 332
+        }
+      }
+    },
+    {
+      "seed": 23,
+      "mode": "deep",
+      "best_epoch": 1,
+      "val_long_accuracy": 0.3755020080321285,
+      "trainable_parameters": 23113729,
+      "peak_head_gpu_gib": 0.7961578369140625,
+      "id_test": {
+        "all": {
+          "accuracy": 0.375,
+          "n": 2000
+        },
+        "depth_1": {
+          "accuracy": 0.37574850299401197,
+          "n": 668
+        },
+        "depth_2": {
+          "accuracy": 0.37574850299401197,
+          "n": 668
+        },
+        "depth_3": {
+          "accuracy": 0.37349397590361444,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.25,
+          "n": 1000
+        },
+        "relation_depth_1": {
+          "accuracy": 0.25149700598802394,
+          "n": 334
+        },
+        "relation_depth_2": {
+          "accuracy": 0.25149700598802394,
+          "n": 334
+        },
+        "relation_depth_3": {
+          "accuracy": 0.2469879518072289,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.5,
+          "n": 1000
+        },
+        "rule_depth_1": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_2": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_3": {
+          "accuracy": 0.5,
+          "n": 332
+        }
+      },
+      "ood_test": {
+        "all": {
+          "accuracy": 0.375,
+          "n": 2000
+        },
+        "depth_4": {
+          "accuracy": 0.37574850299401197,
+          "n": 668
+        },
+        "depth_5": {
+          "accuracy": 0.37574850299401197,
+          "n": 668
+        },
+        "depth_6": {
+          "accuracy": 0.37349397590361444,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.25,
+          "n": 1000
+        },
+        "relation_depth_4": {
+          "accuracy": 0.25149700598802394,
+          "n": 334
+        },
+        "relation_depth_5": {
+          "accuracy": 0.25149700598802394,
+          "n": 334
+        },
+        "relation_depth_6": {
+          "accuracy": 0.2469879518072289,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.5,
+          "n": 1000
+        },
+        "rule_depth_4": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_5": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_6": {
+          "accuracy": 0.5,
+          "n": 332
+        }
+      }
+    },
+    {
+      "seed": 37,
+      "mode": "deep",
+      "best_epoch": 1,
+      "val_long_accuracy": 0.3755020080321285,
+      "trainable_parameters": 23113729,
+      "peak_head_gpu_gib": 0.796142578125,
+      "id_test": {
+        "all": {
+          "accuracy": 0.375,
+          "n": 2000
+        },
+        "depth_1": {
+          "accuracy": 0.37425149700598803,
+          "n": 668
+        },
+        "depth_2": {
+          "accuracy": 0.37574850299401197,
+          "n": 668
+        },
+        "depth_3": {
+          "accuracy": 0.375,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.25,
+          "n": 1000
+        },
+        "relation_depth_1": {
+          "accuracy": 0.24850299401197604,
+          "n": 334
+        },
+        "relation_depth_2": {
+          "accuracy": 0.25149700598802394,
+          "n": 334
+        },
+        "relation_depth_3": {
+          "accuracy": 0.25,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.5,
+          "n": 1000
+        },
+        "rule_depth_1": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_2": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_3": {
+          "accuracy": 0.5,
+          "n": 332
+        }
+      },
+      "ood_test": {
+        "all": {
+          "accuracy": 0.375,
+          "n": 2000
+        },
+        "depth_4": {
+          "accuracy": 0.37425149700598803,
+          "n": 668
+        },
+        "depth_5": {
+          "accuracy": 0.37574850299401197,
+          "n": 668
+        },
+        "depth_6": {
+          "accuracy": 0.375,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.25,
+          "n": 1000
+        },
+        "relation_depth_4": {
+          "accuracy": 0.24850299401197604,
+          "n": 334
+        },
+        "relation_depth_5": {
+          "accuracy": 0.25149700598802394,
+          "n": 334
+        },
+        "relation_depth_6": {
+          "accuracy": 0.25,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.5,
+          "n": 1000
+        },
+        "rule_depth_4": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_5": {
+          "accuracy": 0.5,
+          "n": 334
+        },
+        "rule_depth_6": {
+          "accuracy": 0.5,
+          "n": 332
+        }
+      }
+    }
+  ],
+  "original": [
+    {
+      "seed": 11,
+      "trainable_parameters": 524800,
+      "optimized_parameters": 524800,
+      "peak_head_gpu_gib": 0.21893739700317383,
+      "id_test": {
+        "all": {
+          "accuracy": 0.771,
+          "n": 2000
+        },
+        "depth_1": {
+          "accuracy": 0.9431137724550899,
+          "n": 668
+        },
+        "depth_2": {
+          "accuracy": 0.7919161676646707,
+          "n": 668
+        },
+        "depth_3": {
+          "accuracy": 0.5768072289156626,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.74,
+          "n": 1000
+        },
+        "relation_depth_1": {
+          "accuracy": 0.9940119760479041,
+          "n": 334
+        },
+        "relation_depth_2": {
+          "accuracy": 0.8203592814371258,
+          "n": 334
+        },
+        "relation_depth_3": {
+          "accuracy": 0.4036144578313253,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.802,
+          "n": 1000
+        },
+        "rule_depth_1": {
+          "accuracy": 0.8922155688622755,
+          "n": 334
+        },
+        "rule_depth_2": {
+          "accuracy": 0.7634730538922155,
+          "n": 334
+        },
+        "rule_depth_3": {
+          "accuracy": 0.75,
+          "n": 332
+        },
+        "rule_gate_not_required": {
+          "accuracy": 0.6992481203007519,
+          "n": 133
+        },
+        "rule_gate_required": {
+          "accuracy": 0.817762399077278,
+          "n": 867
+        },
+        "rule_neutral_gate_world": {
+          "accuracy": 0.72,
+          "n": 200
+        },
+        "rule_varied_gate_world": {
+          "accuracy": 0.8225,
+          "n": 800
+        }
+      },
+      "ood_test": {
+        "all": {
+          "accuracy": 0.414,
+          "n": 2000
+        },
+        "depth_4": {
+          "accuracy": 0.4416167664670659,
+          "n": 668
+        },
+        "depth_5": {
+          "accuracy": 0.38922155688622756,
+          "n": 668
+        },
+        "depth_6": {
+          "accuracy": 0.411144578313253,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.263,
+          "n": 1000
+        },
+        "relation_depth_4": {
+          "accuracy": 0.3023952095808383,
+          "n": 334
+        },
+        "relation_depth_5": {
+          "accuracy": 0.2155688622754491,
+          "n": 334
+        },
+        "relation_depth_6": {
+          "accuracy": 0.2710843373493976,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.565,
+          "n": 1000
+        },
+        "rule_depth_4": {
+          "accuracy": 0.5808383233532934,
+          "n": 334
+        },
+        "rule_depth_5": {
+          "accuracy": 0.562874251497006,
+          "n": 334
+        },
+        "rule_depth_6": {
+          "accuracy": 0.5512048192771084,
+          "n": 332
+        },
+        "rule_gate_not_required": {
+          "accuracy": 0.6363636363636364,
+          "n": 88
+        },
+        "rule_gate_required": {
+          "accuracy": 0.5581140350877193,
+          "n": 912
+        },
+        "rule_neutral_gate_world": {
+          "accuracy": 0.44,
+          "n": 200
+        },
+        "rule_varied_gate_world": {
+          "accuracy": 0.59625,
+          "n": 800
+        }
+      },
+      "head_latency_ms": 0.12371409684419632,
+      "amortized_shared_extraction_ms": 7.525529772043228
+    },
+    {
+      "seed": 23,
+      "trainable_parameters": 524800,
+      "optimized_parameters": 524800,
+      "peak_head_gpu_gib": 0.24031591415405273,
+      "id_test": {
+        "all": {
+          "accuracy": 0.773,
+          "n": 2000
+        },
+        "depth_1": {
+          "accuracy": 0.9446107784431138,
+          "n": 668
+        },
+        "depth_2": {
+          "accuracy": 0.8053892215568862,
+          "n": 668
+        },
+        "depth_3": {
+          "accuracy": 0.5677710843373494,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.742,
+          "n": 1000
+        },
+        "relation_depth_1": {
+          "accuracy": 0.9940119760479041,
+          "n": 334
+        },
+        "relation_depth_2": {
+          "accuracy": 0.8383233532934131,
+          "n": 334
+        },
+        "relation_depth_3": {
+          "accuracy": 0.39156626506024095,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.804,
+          "n": 1000
+        },
+        "rule_depth_1": {
+          "accuracy": 0.8952095808383234,
+          "n": 334
+        },
+        "rule_depth_2": {
+          "accuracy": 0.7724550898203593,
+          "n": 334
+        },
+        "rule_depth_3": {
+          "accuracy": 0.7439759036144579,
+          "n": 332
+        },
+        "rule_gate_not_required": {
+          "accuracy": 0.6842105263157895,
+          "n": 133
+        },
+        "rule_gate_required": {
+          "accuracy": 0.8223760092272203,
+          "n": 867
+        },
+        "rule_neutral_gate_world": {
+          "accuracy": 0.71,
+          "n": 200
+        },
+        "rule_varied_gate_world": {
+          "accuracy": 0.8275,
+          "n": 800
+        }
+      },
+      "ood_test": {
+        "all": {
+          "accuracy": 0.411,
+          "n": 2000
+        },
+        "depth_4": {
+          "accuracy": 0.44011976047904194,
+          "n": 668
+        },
+        "depth_5": {
+          "accuracy": 0.38622754491017963,
+          "n": 668
+        },
+        "depth_6": {
+          "accuracy": 0.4066265060240964,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.244,
+          "n": 1000
+        },
+        "relation_depth_4": {
+          "accuracy": 0.2844311377245509,
+          "n": 334
+        },
+        "relation_depth_5": {
+          "accuracy": 0.20958083832335328,
+          "n": 334
+        },
+        "relation_depth_6": {
+          "accuracy": 0.23795180722891565,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.578,
+          "n": 1000
+        },
+        "rule_depth_4": {
+          "accuracy": 0.5958083832335329,
+          "n": 334
+        },
+        "rule_depth_5": {
+          "accuracy": 0.562874251497006,
+          "n": 334
+        },
+        "rule_depth_6": {
+          "accuracy": 0.5753012048192772,
+          "n": 332
+        },
+        "rule_gate_not_required": {
+          "accuracy": 0.625,
+          "n": 88
+        },
+        "rule_gate_required": {
+          "accuracy": 0.5734649122807017,
+          "n": 912
+        },
+        "rule_neutral_gate_world": {
+          "accuracy": 0.475,
+          "n": 200
+        },
+        "rule_varied_gate_world": {
+          "accuracy": 0.60375,
+          "n": 800
+        }
+      },
+      "head_latency_ms": 0.09552637736002605,
+      "amortized_shared_extraction_ms": 7.525529772043228
+    },
+    {
+      "seed": 37,
+      "trainable_parameters": 524800,
+      "optimized_parameters": 524800,
+      "peak_head_gpu_gib": 0.24343109130859375,
+      "id_test": {
+        "all": {
+          "accuracy": 0.752,
+          "n": 2000
+        },
+        "depth_1": {
+          "accuracy": 0.937125748502994,
+          "n": 668
+        },
+        "depth_2": {
+          "accuracy": 0.7604790419161677,
+          "n": 668
+        },
+        "depth_3": {
+          "accuracy": 0.5572289156626506,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.715,
+          "n": 1000
+        },
+        "relation_depth_1": {
+          "accuracy": 0.9940119760479041,
+          "n": 334
+        },
+        "relation_depth_2": {
+          "accuracy": 0.781437125748503,
+          "n": 334
+        },
+        "relation_depth_3": {
+          "accuracy": 0.3674698795180723,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.789,
+          "n": 1000
+        },
+        "rule_depth_1": {
+          "accuracy": 0.8802395209580839,
+          "n": 334
+        },
+        "rule_depth_2": {
+          "accuracy": 0.7395209580838323,
+          "n": 334
+        },
+        "rule_depth_3": {
+          "accuracy": 0.7469879518072289,
+          "n": 332
+        },
+        "rule_gate_not_required": {
+          "accuracy": 0.6691729323308271,
+          "n": 133
+        },
+        "rule_gate_required": {
+          "accuracy": 0.8073817762399077,
+          "n": 867
+        },
+        "rule_neutral_gate_world": {
+          "accuracy": 0.685,
+          "n": 200
+        },
+        "rule_varied_gate_world": {
+          "accuracy": 0.815,
+          "n": 800
+        }
+      },
+      "ood_test": {
+        "all": {
+          "accuracy": 0.408,
+          "n": 2000
+        },
+        "depth_4": {
+          "accuracy": 0.4341317365269461,
+          "n": 668
+        },
+        "depth_5": {
+          "accuracy": 0.3712574850299401,
+          "n": 668
+        },
+        "depth_6": {
+          "accuracy": 0.4186746987951807,
+          "n": 664
+        },
+        "relation": {
+          "accuracy": 0.236,
+          "n": 1000
+        },
+        "relation_depth_4": {
+          "accuracy": 0.281437125748503,
+          "n": 334
+        },
+        "relation_depth_5": {
+          "accuracy": 0.17664670658682635,
+          "n": 334
+        },
+        "relation_depth_6": {
+          "accuracy": 0.25,
+          "n": 332
+        },
+        "rule": {
+          "accuracy": 0.58,
+          "n": 1000
+        },
+        "rule_depth_4": {
+          "accuracy": 0.5868263473053892,
+          "n": 334
+        },
+        "rule_depth_5": {
+          "accuracy": 0.5658682634730539,
+          "n": 334
+        },
+        "rule_depth_6": {
+          "accuracy": 0.5873493975903614,
+          "n": 332
+        },
+        "rule_gate_not_required": {
+          "accuracy": 0.625,
+          "n": 88
+        },
+        "rule_gate_required": {
+          "accuracy": 0.5756578947368421,
+          "n": 912
+        },
+        "rule_neutral_gate_world": {
+          "accuracy": 0.455,
+          "n": 200
+        },
+        "rule_varied_gate_world": {
+          "accuracy": 0.61125,
+          "n": 800
+        }
+      },
+      "head_latency_ms": 0.09521494309107463,
+      "amortized_shared_extraction_ms": 7.525529772043228
+    }
+  ]
+}

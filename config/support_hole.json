@@ -1,0 +1,28 @@
+{
+  "source": "results/evidence/support_hole/results.json#/design",
+  "design": {
+    "states": 16,
+    "rules": 8,
+    "hole_fraction": 0.296875,
+    "data_seed": 20260929,
+    "train_seeds": [
+      11,
+      23,
+      37,
+      41,
+      53
+    ],
+    "hidden": 128,
+    "warm_lr": 0.005,
+    "main_lr": 0.001,
+    "factual_weight": 1,
+    "counterfactual_weight": 1,
+    "warm_step_cap": 2000,
+    "main_steps": 400,
+    "batch_size": 128,
+    "factual_loss": "gold-current-state local transition CE",
+    "iit_loss": "gold donor state, recipient suffix final raw-logit CE",
+    "cf_aug_loss": "same intervention tuple, local transition raw-logit CE",
+    "selection": "fixed main steps; warm stop from seen-pair accuracy/loss only"
+  }
+}

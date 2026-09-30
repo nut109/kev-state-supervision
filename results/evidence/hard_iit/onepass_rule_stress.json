@@ -1,0 +1,138 @@
+{
+  "selection_best_epoch": 1,
+  "metrics": {
+    "all": {
+      "initial": {
+        "accuracy": 1.0,
+        "n": 100
+      },
+      "operator": {
+        "accuracy": 1.0,
+        "n": 660
+      },
+      "gate": {
+        "accuracy": 0.996969696969697,
+        "n": 660
+      },
+      "active_gate": {
+        "accuracy": 0.9940119760479041,
+        "n": 334
+      },
+      "exact_program": {
+        "accuracy": 0.98,
+        "n": 100
+      }
+    },
+    "depth_6": {
+      "initial": {
+        "accuracy": 1.0,
+        "n": 20
+      },
+      "operator": {
+        "accuracy": 1.0,
+        "n": 120
+      },
+      "gate": {
+        "accuracy": 1.0,
+        "n": 120
+      },
+      "active_gate": {
+        "accuracy": 1.0,
+        "n": 58
+      },
+      "exact_program": {
+        "accuracy": 1.0,
+        "n": 20
+      }
+    },
+    "depth_4": {
+      "initial": {
+        "accuracy": 1.0,
+        "n": 20
+      },
+      "operator": {
+        "accuracy": 1.0,
+        "n": 80
+      },
+      "gate": {
+        "accuracy": 1.0,
+        "n": 80
+      },
+      "active_gate": {
+        "accuracy": 1.0,
+        "n": 37
+      },
+      "exact_program": {
+        "accuracy": 1.0,
+        "n": 20
+      }
+    },
+    "depth_8": {
+      "initial": {
+        "accuracy": 1.0,
+        "n": 20
+      },
+      "operator": {
+        "accuracy": 1.0,
+        "n": 160
+      },
+      "gate": {
+        "accuracy": 0.99375,
+        "n": 160
+      },
+      "active_gate": {
+        "accuracy": 0.9875,
+        "n": 80
+      },
+      "exact_program": {
+        "accuracy": 0.95,
+        "n": 20
+      }
+    },
+    "depth_5": {
+      "initial": {
+        "accuracy": 1.0,
+        "n": 20
+      },
+      "operator": {
+        "accuracy": 1.0,
+        "n": 100
+      },
+      "gate": {
+        "accuracy": 1.0,
+        "n": 100
+      },
+      "active_gate": {
+        "accuracy": 1.0,
+        "n": 52
+      },
+      "exact_program": {
+        "accuracy": 1.0,
+        "n": 20
+      }
+    },
+    "depth_10": {
+      "initial": {
+        "accuracy": 1.0,
+        "n": 20
+      },
+      "operator": {
+        "accuracy": 1.0,
+        "n": 200
+      },
+      "gate": {
+        "accuracy": 0.995,
+        "n": 200
+      },
+      "active_gate": {
+        "accuracy": 0.9906542056074766,
+        "n": 107
+      },
+      "exact_program": {
+        "accuracy": 0.95,
+        "n": 20
+      }
+    }
+  },
+  "passed": true
+}

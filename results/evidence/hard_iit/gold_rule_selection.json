@@ -1,0 +1,23 @@
+{
+  "seed": 11,
+  "n_train": 5000,
+  "best_accuracy": 1.0,
+  "passed": true,
+  "history": [
+    {
+      "epoch": 1,
+      "train_accuracy": 0.6768,
+      "val_accuracy": 0.634
+    },
+    {
+      "epoch": 2,
+      "train_accuracy": 0.6728,
+      "val_accuracy": 0.658
+    },
+    {
+      "epoch": 3,
+      "train_accuracy": 1.0,
+      "val_accuracy": 1.0
+    }
+  ]
+}

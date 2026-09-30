@@ -1,0 +1,32 @@
+{
+  "scope": "post-hoc fixed-checkpoint depth-10 cross-composition; no selection or training",
+  "n": 200,
+  "encoder_exact_program": {
+    "r3_state": 185,
+    "r3_iit": 199
+  },
+  "combinations": {
+    "E_r3_state+F_r3_state": {
+      "answer_correct": 194,
+      "exact_trajectory_correct": 191
+    },
+    "E_r3_state+F_r3_iit": {
+      "answer_correct": 194,
+      "exact_trajectory_correct": 191
+    },
+    "E_r3_iit+F_r3_state": {
+      "answer_correct": 200,
+      "exact_trajectory_correct": 200
+    },
+    "E_r3_iit+F_r3_iit": {
+      "answer_correct": 200,
+      "exact_trajectory_correct": 200
+    },
+    "GoldE+F_r3_state": {
+      "answer_correct": 200
+    },
+    "GoldE+F_r3_iit": {
+      "answer_correct": 200
+    }
+  }
+}

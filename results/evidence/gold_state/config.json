@@ -1,0 +1,26 @@
+{
+  "source_run": "runs/latent_scratchpad",
+  "input": "gold primitive world facts; deterministic one-hot",
+  "dimension": 1024,
+  "one_hot_scale": 16.0,
+  "n_train_options": 126,
+  "modes": [
+    "bottleneck1",
+    "recurrent3",
+    "deep"
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "max_epochs": 15,
+  "patience": 4,
+  "batch_size": 64,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.01,
+  "loss": "final answer cross entropy only",
+  "selection": "best validation depth-4-to-6 accuracy",
+  "test_policy": "read ID and OOD only after all checkpoints are selected",
+  "status": "exploratory: OOD was opened in preceding study"
+}

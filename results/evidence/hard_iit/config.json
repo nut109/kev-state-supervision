@@ -1,0 +1,31 @@
+{
+  "data_seed": 20260929,
+  "sizes": {
+    "train": 10000,
+    "val": 2000,
+    "stress_val": 200,
+    "id_test": 2000,
+    "ood_test": 2000
+  },
+  "train_depths": [
+    1,
+    2,
+    3
+  ],
+  "stress_and_ood_depths": [
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "gold_core": {
+    "mode": "recurrent",
+    "hidden": 64,
+    "lr": 0.003,
+    "batch": 256,
+    "epochs": 60,
+    "selection": "validation answer accuracy"
+  },
+  "locked_test_policy": "do not score id_test or ood_test before validation gate"
+}

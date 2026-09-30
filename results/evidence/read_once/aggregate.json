@@ -1,0 +1,554 @@
+{
+  "bottleneck1": {
+    "id_test/all": {
+      "mean": 0.37466666666666665,
+      "sd": 0.0027537852736430534,
+      "n_seeds": 3
+    },
+    "id_test/depth_1": {
+      "mean": 0.3767465069860279,
+      "sd": 0.00974013038719718,
+      "n_seeds": 3
+    },
+    "id_test/depth_2": {
+      "mean": 0.37475049900199603,
+      "sd": 0.0008642968101641012,
+      "n_seeds": 3
+    },
+    "id_test/depth_3": {
+      "mean": 0.37248995983935745,
+      "sd": 0.004600979613409475,
+      "n_seeds": 3
+    },
+    "id_test/relation": {
+      "mean": 0.251,
+      "sd": 0.003464101615137758,
+      "n_seeds": 3
+    },
+    "id_test/relation_depth_1": {
+      "mean": 0.25449101796407186,
+      "sd": 0.017964071856287414,
+      "n_seeds": 3
+    },
+    "id_test/relation_depth_2": {
+      "mean": 0.249500998003992,
+      "sd": 0.0017285936203282185,
+      "n_seeds": 3
+    },
+    "id_test/relation_depth_3": {
+      "mean": 0.24899598393574296,
+      "sd": 0.00968238028212145,
+      "n_seeds": 3
+    },
+    "id_test/rule": {
+      "mean": 0.49833333333333335,
+      "sd": 0.0020816659994661348,
+      "n_seeds": 3
+    },
+    "id_test/rule_depth_1": {
+      "mean": 0.499001996007984,
+      "sd": 0.0017285936203282346,
+      "n_seeds": 3
+    },
+    "id_test/rule_depth_2": {
+      "mean": 0.5,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "id_test/rule_depth_3": {
+      "mean": 0.4959839357429719,
+      "sd": 0.004600979613409481,
+      "n_seeds": 3
+    },
+    "ood_test/all": {
+      "mean": 0.37016666666666664,
+      "sd": 0.004072263907623543,
+      "n_seeds": 3
+    },
+    "ood_test/depth_4": {
+      "mean": 0.3717564870259481,
+      "sd": 0.0045734288372812895,
+      "n_seeds": 3
+    },
+    "ood_test/depth_5": {
+      "mean": 0.3712574850299401,
+      "sd": 0.006860143255921903,
+      "n_seeds": 3
+    },
+    "ood_test/depth_6": {
+      "mean": 0.3674698795180723,
+      "sd": 0.005430047101602376,
+      "n_seeds": 3
+    },
+    "ood_test/relation": {
+      "mean": 0.23933333333333334,
+      "sd": 0.007234178138070225,
+      "n_seeds": 3
+    },
+    "ood_test/relation_depth_4": {
+      "mean": 0.2405189620758483,
+      "sd": 0.006232532932533323,
+      "n_seeds": 3
+    },
+    "ood_test/relation_depth_5": {
+      "mean": 0.2435129740518962,
+      "sd": 0.016489732177503304,
+      "n_seeds": 3
+    },
+    "ood_test/relation_depth_6": {
+      "mean": 0.23393574297188754,
+      "sd": 0.009201959226818959,
+      "n_seeds": 3
+    },
+    "ood_test/rule": {
+      "mean": 0.501,
+      "sd": 0.0010000000000000009,
+      "n_seeds": 3
+    },
+    "ood_test/rule_depth_4": {
+      "mean": 0.5029940119760479,
+      "sd": 0.005185780860984672,
+      "n_seeds": 3
+    },
+    "ood_test/rule_depth_5": {
+      "mean": 0.499001996007984,
+      "sd": 0.004573428837281259,
+      "n_seeds": 3
+    },
+    "ood_test/rule_depth_6": {
+      "mean": 0.501004016064257,
+      "sd": 0.001739006834908533,
+      "n_seeds": 3
+    },
+    "peak_head_gpu_gib": {
+      "mean": 0.5499682426452637,
+      "sd": 0.03614165465317443,
+      "n_seeds": 3
+    },
+    "trainable_parameters": 6309889
+  },
+  "recurrent3": {
+    "id_test/all": {
+      "mean": 0.374,
+      "sd": 0.003500000000000003,
+      "n_seeds": 3
+    },
+    "id_test/depth_1": {
+      "mean": 0.3722554890219561,
+      "sd": 0.0037673824527299045,
+      "n_seeds": 3
+    },
+    "id_test/depth_2": {
+      "mean": 0.37425149700598803,
+      "sd": 0.003960705555485903,
+      "n_seeds": 3
+    },
+    "id_test/depth_3": {
+      "mean": 0.3755020080321285,
+      "sd": 0.006086523922179811,
+      "n_seeds": 3
+    },
+    "id_test/relation": {
+      "mean": 0.25166666666666665,
+      "sd": 0.005507570547286107,
+      "n_seeds": 3
+    },
+    "id_test/relation_depth_1": {
+      "mean": 0.25349301397205587,
+      "sd": 0.003457187240656437,
+      "n_seeds": 3
+    },
+    "id_test/relation_depth_2": {
+      "mean": 0.25848303393213573,
+      "sd": 0.003457187240656437,
+      "n_seeds": 3
+    },
+    "id_test/relation_depth_3": {
+      "mean": 0.2429718875502008,
+      "sd": 0.010577965615313987,
+      "n_seeds": 3
+    },
+    "id_test/rule": {
+      "mean": 0.49633333333333335,
+      "sd": 0.00461880215351701,
+      "n_seeds": 3
+    },
+    "id_test/rule_depth_1": {
+      "mean": 0.49101796407185627,
+      "sd": 0.005185780860984672,
+      "n_seeds": 3
+    },
+    "id_test/rule_depth_2": {
+      "mean": 0.49001996007984033,
+      "sd": 0.00962440195707879,
+      "n_seeds": 3
+    },
+    "id_test/rule_depth_3": {
+      "mean": 0.5080321285140562,
+      "sd": 0.001739006834908533,
+      "n_seeds": 3
+    },
+    "ood_test/all": {
+      "mean": 0.37566666666666665,
+      "sd": 0.003752776749732571,
+      "n_seeds": 3
+    },
+    "ood_test/depth_4": {
+      "mean": 0.37425149700598803,
+      "sd": 0.010479041916167648,
+      "n_seeds": 3
+    },
+    "ood_test/depth_5": {
+      "mean": 0.3787425149700599,
+      "sd": 0.007921411110971806,
+      "n_seeds": 3
+    },
+    "ood_test/depth_6": {
+      "mean": 0.37399598393574296,
+      "sd": 0.0034780136698170016,
+      "n_seeds": 3
+    },
+    "ood_test/relation": {
+      "mean": 0.246,
+      "sd": 0.005567764362830027,
+      "n_seeds": 3
+    },
+    "ood_test/relation_depth_4": {
+      "mean": 0.24151696606786427,
+      "sd": 0.02325584869806595,
+      "n_seeds": 3
+    },
+    "ood_test/relation_depth_5": {
+      "mean": 0.25149700598802394,
+      "sd": 0.0059880239520958,
+      "n_seeds": 3
+    },
+    "ood_test/relation_depth_6": {
+      "mean": 0.24497991967871485,
+      "sd": 0.0034780136698170177,
+      "n_seeds": 3
+    },
+    "ood_test/rule": {
+      "mean": 0.5053333333333333,
+      "sd": 0.0061101009266077925,
+      "n_seeds": 3
+    },
+    "ood_test/rule_depth_4": {
+      "mean": 0.5069860279441117,
+      "sd": 0.003457187240656469,
+      "n_seeds": 3
+    },
+    "ood_test/rule_depth_5": {
+      "mean": 0.5059880239520957,
+      "sd": 0.015842822221943633,
+      "n_seeds": 3
+    },
+    "ood_test/rule_depth_6": {
+      "mean": 0.5030120481927711,
+      "sd": 0.00602409638554216,
+      "n_seeds": 3
+    },
+    "peak_head_gpu_gib": {
+      "mean": 0.79705810546875,
+      "sd": 0.000559396447138164,
+      "n_seeds": 3
+    },
+    "trainable_parameters": 23109633
+  },
+  "deep": {
+    "id_test/all": {
+      "mean": 0.375,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "id_test/depth_1": {
+      "mean": 0.37475049900199603,
+      "sd": 0.0008642968101641012,
+      "n_seeds": 3
+    },
+    "id_test/depth_2": {
+      "mean": 0.37524950099800397,
+      "sd": 0.0008642968101641012,
+      "n_seeds": 3
+    },
+    "id_test/depth_3": {
+      "mean": 0.375,
+      "sd": 0.001506024096385561,
+      "n_seeds": 3
+    },
+    "id_test/relation": {
+      "mean": 0.25,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "id_test/relation_depth_1": {
+      "mean": 0.249500998003992,
+      "sd": 0.0017285936203282185,
+      "n_seeds": 3
+    },
+    "id_test/relation_depth_2": {
+      "mean": 0.25049900199600794,
+      "sd": 0.0017285936203282185,
+      "n_seeds": 3
+    },
+    "id_test/relation_depth_3": {
+      "mean": 0.25,
+      "sd": 0.00301204819277108,
+      "n_seeds": 3
+    },
+    "id_test/rule": {
+      "mean": 0.5,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "id_test/rule_depth_1": {
+      "mean": 0.5,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "id_test/rule_depth_2": {
+      "mean": 0.5,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "id_test/rule_depth_3": {
+      "mean": 0.5,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "ood_test/all": {
+      "mean": 0.375,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "ood_test/depth_4": {
+      "mean": 0.37475049900199603,
+      "sd": 0.0008642968101641012,
+      "n_seeds": 3
+    },
+    "ood_test/depth_5": {
+      "mean": 0.37524950099800397,
+      "sd": 0.0008642968101641012,
+      "n_seeds": 3
+    },
+    "ood_test/depth_6": {
+      "mean": 0.375,
+      "sd": 0.001506024096385561,
+      "n_seeds": 3
+    },
+    "ood_test/relation": {
+      "mean": 0.25,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "ood_test/relation_depth_4": {
+      "mean": 0.249500998003992,
+      "sd": 0.0017285936203282185,
+      "n_seeds": 3
+    },
+    "ood_test/relation_depth_5": {
+      "mean": 0.25049900199600794,
+      "sd": 0.0017285936203282185,
+      "n_seeds": 3
+    },
+    "ood_test/relation_depth_6": {
+      "mean": 0.25,
+      "sd": 0.00301204819277108,
+      "n_seeds": 3
+    },
+    "ood_test/rule": {
+      "mean": 0.5,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "ood_test/rule_depth_4": {
+      "mean": 0.5,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "ood_test/rule_depth_5": {
+      "mean": 0.5,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "ood_test/rule_depth_6": {
+      "mean": 0.5,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "peak_head_gpu_gib": {
+      "mean": 0.7963968912760416,
+      "sd": 0.00042733691022328634,
+      "n_seeds": 3
+    },
+    "trainable_parameters": 23113729
+  },
+  "original": {
+    "id_test/all": {
+      "mean": 0.7653333333333333,
+      "sd": 0.011590225767142484,
+      "n_seeds": 3
+    },
+    "id_test/depth_1": {
+      "mean": 0.9416167664670659,
+      "sd": 0.003960705555485935,
+      "n_seeds": 3
+    },
+    "id_test/depth_2": {
+      "mean": 0.7859281437125748,
+      "sd": 0.023046114249012938,
+      "n_seeds": 3
+    },
+    "id_test/depth_3": {
+      "mean": 0.5672690763052208,
+      "sd": 0.009798805871457351,
+      "n_seeds": 3
+    },
+    "id_test/relation": {
+      "mean": 0.7323333333333333,
+      "sd": 0.015044378795195691,
+      "n_seeds": 3
+    },
+    "id_test/relation_depth_1": {
+      "mean": 0.9940119760479041,
+      "sd": 0.0,
+      "n_seeds": 3
+    },
+    "id_test/relation_depth_2": {
+      "mean": 0.8133732534930139,
+      "sd": 0.02907944567731229,
+      "n_seeds": 3
+    },
+    "id_test/relation_depth_3": {
+      "mean": 0.38755020080321284,
+      "sd": 0.01840391845363791,
+      "n_seeds": 3
+    },
+    "id_test/rule": {
+      "mean": 0.7983333333333333,
+      "sd": 0.008144527815247085,
+      "n_seeds": 3
+    },
+    "id_test/rule_depth_1": {
+      "mean": 0.8892215568862276,
+      "sd": 0.007921411110971806,
+      "n_seeds": 3
+    },
+    "id_test/rule_depth_2": {
+      "mean": 0.7584830339321357,
+      "sd": 0.01702467276370456,
+      "n_seeds": 3
+    },
+    "id_test/rule_depth_3": {
+      "mean": 0.7469879518072289,
+      "sd": 0.0030120481927710663,
+      "n_seeds": 3
+    },
+    "id_test/rule_gate_not_required": {
+      "mean": 0.6842105263157895,
+      "sd": 0.015037593984962405,
+      "n_seeds": 3
+    },
+    "id_test/rule_gate_required": {
+      "mean": 0.815840061514802,
+      "sd": 0.007679732547265761,
+      "n_seeds": 3
+    },
+    "id_test/rule_neutral_gate_world": {
+      "mean": 0.705,
+      "sd": 0.0180277563773199,
+      "n_seeds": 3
+    },
+    "id_test/rule_varied_gate_world": {
+      "mean": 0.8216666666666667,
+      "sd": 0.006291528696058993,
+      "n_seeds": 3
+    },
+    "ood_test/all": {
+      "mean": 0.411,
+      "sd": 0.0030000000000000027,
+      "n_seeds": 3
+    },
+    "ood_test/depth_4": {
+      "mean": 0.43862275449101795,
+      "sd": 0.003960705555485935,
+      "n_seeds": 3
+    },
+    "ood_test/depth_5": {
+      "mean": 0.38223552894211577,
+      "sd": 0.00962440195707881,
+      "n_seeds": 3
+    },
+    "ood_test/depth_6": {
+      "mean": 0.41214859437751006,
+      "sd": 0.00608652392217978,
+      "n_seeds": 3
+    },
+    "ood_test/relation": {
+      "mean": 0.24766666666666667,
+      "sd": 0.01386842937514316,
+      "n_seeds": 3
+    },
+    "ood_test/relation_depth_4": {
+      "mean": 0.2894211576846307,
+      "sd": 0.011335146398802936,
+      "n_seeds": 3
+    },
+    "ood_test/relation_depth_5": {
+      "mean": 0.20059880239520958,
+      "sd": 0.020958083832335325,
+      "n_seeds": 3
+    },
+    "ood_test/relation_depth_6": {
+      "mean": 0.25301204819277107,
+      "sd": 0.016770374586837413,
+      "n_seeds": 3
+    },
+    "ood_test/rule": {
+      "mean": 0.5743333333333333,
+      "sd": 0.008144527815247085,
+      "n_seeds": 3
+    },
+    "ood_test/rule_depth_4": {
+      "mean": 0.5878243512974052,
+      "sd": 0.007534764905459809,
+      "n_seeds": 3
+    },
+    "ood_test/rule_depth_5": {
+      "mean": 0.563872255489022,
+      "sd": 0.0017285936203282025,
+      "n_seeds": 3
+    },
+    "ood_test/rule_depth_6": {
+      "mean": 0.571285140562249,
+      "sd": 0.018403918453637924,
+      "n_seeds": 3
+    },
+    "ood_test/rule_gate_not_required": {
+      "mean": 0.6287878787878788,
+      "sd": 0.006560798513518469,
+      "n_seeds": 3
+    },
+    "ood_test/rule_gate_required": {
+      "mean": 0.569078947368421,
+      "sd": 0.009558988911273424,
+      "n_seeds": 3
+    },
+    "ood_test/rule_neutral_gate_world": {
+      "mean": 0.45666666666666667,
+      "sd": 0.01755942292142122,
+      "n_seeds": 3
+    },
+    "ood_test/rule_varied_gate_world": {
+      "mean": 0.60375,
+      "sd": 0.007500000000000007,
+      "n_seeds": 3
+    },
+    "peak_head_gpu_gib": {
+      "mean": 0.23422813415527344,
+      "sd": 0.01333345657235936,
+      "n_seeds": 3
+    },
+    "trainable_parameters": 524800
+  }
+}

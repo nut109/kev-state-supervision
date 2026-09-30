@@ -1,0 +1,193 @@
+{
+  "arm": "r3",
+  "seed": 11,
+  "kev_checkpoint": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+  "n_train": 5000,
+  "smoke_passed": false,
+  "batch": 8,
+  "epochs_cap": 4,
+  "learning_rates": {
+    "backbone": 2e-05,
+    "heads": 0.0003,
+    "core": 0.003
+  },
+  "trainable_parameters": 122936715,
+  "best_epoch": 1,
+  "best_metrics": {
+    "factual": {
+      "all": {
+        "answer": {
+          "value": 0.501,
+          "n": 1000
+        },
+        "answer_nll": {
+          "value": 3.992335545726557,
+          "n": 1000
+        },
+        "exact_trajectory": {
+          "value": 0.222,
+          "n": 1000
+        },
+        "initial": {
+          "value": 0.513,
+          "n": 1000
+        },
+        "operator": {
+          "value": 0.25675675675675674,
+          "n": 1998
+        },
+        "gate": {
+          "value": 0.24374374374374375,
+          "n": 1998
+        },
+        "active_gate": {
+          "value": 0.5083507306889353,
+          "n": 958
+        },
+        "exact_program": {
+          "value": 0.028,
+          "n": 1000
+        }
+      },
+      "depth_1": {
+        "answer": {
+          "value": 0.5029940119760479,
+          "n": 334
+        },
+        "answer_nll": {
+          "value": 3.976383449330586,
+          "n": 334
+        },
+        "exact_trajectory": {
+          "value": 0.3502994011976048,
+          "n": 334
+        },
+        "initial": {
+          "value": 0.5389221556886228,
+          "n": 334
+        },
+        "operator": {
+          "value": 0.23652694610778444,
+          "n": 334
+        },
+        "gate": {
+          "value": 0.24550898203592814,
+          "n": 334
+        },
+        "active_gate": {
+          "value": 0.5359477124183006,
+          "n": 153
+        },
+        "exact_program": {
+          "value": 0.0748502994011976,
+          "n": 334
+        }
+      },
+      "depth_3": {
+        "answer": {
+          "value": 0.5,
+          "n": 332
+        },
+        "answer_nll": {
+          "value": 4.000335546021233,
+          "n": 332
+        },
+        "exact_trajectory": {
+          "value": 0.12650602409638553,
+          "n": 332
+        },
+        "initial": {
+          "value": 0.48493975903614456,
+          "n": 332
+        },
+        "operator": {
+          "value": 0.2751004016064257,
+          "n": 996
+        },
+        "gate": {
+          "value": 0.25,
+          "n": 996
+        },
+        "active_gate": {
+          "value": 0.5060975609756098,
+          "n": 492
+        },
+        "exact_program": {
+          "value": 0.0,
+          "n": 332
+        }
+      },
+      "depth_2": {
+        "answer": {
+          "value": 0.5,
+          "n": 334
+        },
+        "answer_nll": {
+          "value": 4.000335546021233,
+          "n": 334
+        },
+        "exact_trajectory": {
+          "value": 0.18862275449101795,
+          "n": 334
+        },
+        "initial": {
+          "value": 0.5149700598802395,
+          "n": 334
+        },
+        "operator": {
+          "value": 0.23952095808383234,
+          "n": 668
+        },
+        "gate": {
+          "value": 0.23353293413173654,
+          "n": 668
+        },
+        "active_gate": {
+          "value": 0.4984025559105431,
+          "n": 313
+        },
+        "exact_program": {
+          "value": 0.008982035928143712,
+          "n": 334
+        }
+      }
+    },
+    "loops": {}
+  },
+  "eligible_iit": {},
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 3.9395356828795745,
+      "seconds": 86.08182440511882,
+      "val_answer": 0.501,
+      "val_nll": 3.992335545726557,
+      "val_exact_trajectory": 0.222
+    },
+    {
+      "epoch": 2,
+      "loss": 3.973135684967041,
+      "seconds": 81.56642531976104,
+      "val_answer": 0.501,
+      "val_nll": 3.992335545726557,
+      "val_exact_trajectory": 0.222
+    },
+    {
+      "epoch": 3,
+      "loss": 4.027535683933925,
+      "seconds": 82.38192391954362,
+      "val_answer": 0.501,
+      "val_nll": 3.992335545726557,
+      "val_exact_trajectory": 0.222
+    },
+    {
+      "epoch": 4,
+      "loss": 3.9523356815444304,
+      "seconds": 81.73104976303875,
+      "val_answer": 0.499,
+      "val_nll": 4.00833554631591,
+      "val_exact_trajectory": 0.133
+    }
+  ],
+  "fit_completed": true
+}

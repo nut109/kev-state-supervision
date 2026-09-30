@@ -1,0 +1,18 @@
+{
+  "train_only": true,
+  "n": 64,
+  "seed": 11,
+  "mode": "bottleneck1",
+  "history": [
+    {
+      "step": 1,
+      "loss": 1.0350300073623657,
+      "accuracy": 0.609375
+    },
+    {
+      "step": 25,
+      "loss": 7.003425253060414e-07,
+      "accuracy": 1.0
+    }
+  ]
+}

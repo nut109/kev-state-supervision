@@ -1,0 +1,35 @@
+{
+  "trials": [
+    {
+      "mode": "bottleneck1",
+      "seed": 11,
+      "best_epoch": 5,
+      "val_long_accuracy": 0.3815261044176707,
+      "trainable_parameters": 6996637,
+      "peak_head_gpu_gib": 0.5207014083862305,
+      "state_lambda": 1.0,
+      "state_interface": "full"
+    },
+    {
+      "mode": "recurrent3",
+      "seed": 11,
+      "best_epoch": 2,
+      "val_long_accuracy": 0.3825301204819277,
+      "trainable_parameters": 23796381,
+      "peak_head_gpu_gib": 0.8121590614318848,
+      "state_lambda": 1.0,
+      "state_interface": "full"
+    },
+    {
+      "mode": "deep",
+      "seed": 11,
+      "best_epoch": 4,
+      "val_long_accuracy": 0.3845381526104418,
+      "trainable_parameters": 23800477,
+      "peak_head_gpu_gib": 0.8135929107666016,
+      "state_lambda": 1.0,
+      "state_interface": "full"
+    }
+  ],
+  "rule": "best validation depth-4-to-6 accuracy per seed"
+}

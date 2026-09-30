@@ -1,0 +1,18 @@
+{
+  "train_only": true,
+  "n": 64,
+  "seed": 11,
+  "mode": "recurrent3",
+  "history": [
+    {
+      "step": 1,
+      "loss": 1.0466119050979614,
+      "accuracy": 0.75
+    },
+    {
+      "step": 25,
+      "loss": 8.009353535953778e-08,
+      "accuracy": 1.0
+    }
+  ]
+}

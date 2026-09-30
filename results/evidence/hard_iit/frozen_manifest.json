@@ -1,0 +1,17 @@
+{
+  "frozen_at_utc": "2026-09-29T09:15:23.931800+00:00",
+  "checkpoint_and_code_sha256": {
+    "kev/latent_data.py": "0ed0a66d8423ce880b2df0588a2c5b8baece2a70fa8f0c938111729825895672",
+    "kev/latent_iit.py": "9c5e86a4f385d47c453d3e185435319dd75a7f638a3bfabc65b8c2ddf3ba6b8b",
+    "kev/latent_iit_encoder.py": "2f8a815a3ca34b7a2c269c3e35e35770fe0eba9a0bc1a6fdf68dd62603dd6c8a",
+    "kev/latent_iit_run.py": "f5bf7ac12ef6d2633521608c0a3c21e1e6f096e3ce6e3afb57e3f14ba5a40f09",
+    "kev/latent_iit_trials.py": "d1834b2492b495b9826941dd8955b72cb0180ff9c585b14faa9670751d1d6724",
+    "runs/hard_iit/trial_deep_best.pt": "d9dbcb60de3d9e9124c4198fb3ec0329856307fd365ac20822107bf384407549",
+    "runs/hard_iit/trial_r3_best.pt": "c0006266a3355f6341e29ac2d09227419e68dd54c3a9fef3f9cfdbcfd11410fe",
+    "runs/hard_iit/trial_r3_state_best.pt": "a01992f7dfb9e813e7fb3540e9542bffdd69fa31804ee3d3ca6fd3702d24a750",
+    "runs/hard_iit/trial_r3_iit_best.pt": "0f15f75d001d400657fda51499c1232b511cbe62bbc6fe61002e8655a0635550",
+    "runs/hard_iit/gold_rule_best.pt": "91b59590f7378a6e9eeb11c236b3e27fb8ebeda68e6440f8c25fda7f5c335359",
+    "runs/hard_iit/onepass_rule_best.pt": "fa0fcba6edaa53610de3776842855391060481217a2f7b5446ad9374bc4d0ba6"
+  },
+  "locked_test_outputs_absent": true
+}

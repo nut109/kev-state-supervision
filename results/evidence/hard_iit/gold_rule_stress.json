@@ -1,0 +1,237 @@
+{
+  "curves": {
+    "3": {
+      "answer": {
+        "all": {
+          "accuracy": 0.5,
+          "n": 100
+        },
+        "depth_6": {
+          "accuracy": 0.5,
+          "n": 20
+        },
+        "depth_4": {
+          "accuracy": 0.65,
+          "n": 20
+        },
+        "depth_8": {
+          "accuracy": 0.25,
+          "n": 20
+        },
+        "depth_5": {
+          "accuracy": 0.55,
+          "n": 20
+        },
+        "depth_10": {
+          "accuracy": 0.55,
+          "n": 20
+        }
+      },
+      "exact_observed_trajectory": {
+        "all": {
+          "accuracy": 1.0,
+          "n": 100
+        },
+        "depth_6": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_4": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_8": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_5": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_10": {
+          "accuracy": 1.0,
+          "n": 20
+        }
+      }
+    },
+    "5": {
+      "answer": {
+        "all": {
+          "accuracy": 0.76,
+          "n": 100
+        },
+        "depth_6": {
+          "accuracy": 0.7,
+          "n": 20
+        },
+        "depth_4": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_8": {
+          "accuracy": 0.55,
+          "n": 20
+        },
+        "depth_5": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_10": {
+          "accuracy": 0.55,
+          "n": 20
+        }
+      },
+      "exact_observed_trajectory": {
+        "all": {
+          "accuracy": 1.0,
+          "n": 100
+        },
+        "depth_6": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_4": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_8": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_5": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_10": {
+          "accuracy": 1.0,
+          "n": 20
+        }
+      }
+    },
+    "8": {
+      "answer": {
+        "all": {
+          "accuracy": 0.87,
+          "n": 100
+        },
+        "depth_6": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_4": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_8": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_5": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_10": {
+          "accuracy": 0.35,
+          "n": 20
+        }
+      },
+      "exact_observed_trajectory": {
+        "all": {
+          "accuracy": 1.0,
+          "n": 100
+        },
+        "depth_6": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_4": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_8": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_5": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_10": {
+          "accuracy": 1.0,
+          "n": 20
+        }
+      }
+    },
+    "10": {
+      "answer": {
+        "all": {
+          "accuracy": 1.0,
+          "n": 100
+        },
+        "depth_6": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_4": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_8": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_5": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_10": {
+          "accuracy": 1.0,
+          "n": 20
+        }
+      },
+      "exact_observed_trajectory": {
+        "all": {
+          "accuracy": 1.0,
+          "n": 100
+        },
+        "depth_6": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_4": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_8": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_5": {
+          "accuracy": 1.0,
+          "n": 20
+        },
+        "depth_10": {
+          "accuracy": 1.0,
+          "n": 20
+        }
+      }
+    }
+  },
+  "interventions": {
+    "null": {
+      "cf_consistency": 1.0,
+      "n": 526,
+      "donor_copy_cases": 259
+    },
+    "effectful_copy": {
+      "cf_consistency": 1.0,
+      "n": 79,
+      "donor_copy_cases": 79
+    },
+    "effectful_noncopy": {
+      "cf_consistency": 1.0,
+      "n": 55,
+      "donor_copy_cases": 0
+    }
+  }
+}

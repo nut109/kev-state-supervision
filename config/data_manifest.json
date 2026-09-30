@@ -1,0 +1,146 @@
+{
+  "generator": "kev.latent_data.generate_causal_splits",
+  "generator_sha256": "0ed0a66d8423ce880b2df0588a2c5b8baece2a70fa8f0c938111729825895672",
+  "panels": {
+    "hard_iit": {
+      "data_seed": 20260929,
+      "worlds_disjoint": true,
+      "splits": {
+        "train": {
+          "rows": 10000,
+          "worlds": 5000,
+          "rule_rows": 5000,
+          "depth_counts_rule": {
+            "1": 1668,
+            "2": 1666,
+            "3": 1666
+          },
+          "jsonl_sha256": "c1067b107c0a95fceb79aa62ce505abe4a0ecef6ccae75b643f33c6632dd9b65",
+          "rule_jsonl_sha256": "3b67de7e2bc6a4740550d8c97ba570082a81a6bae063ea0f5775b69bfbcbf993"
+        },
+        "val": {
+          "rows": 2000,
+          "worlds": 1000,
+          "rule_rows": 1000,
+          "depth_counts_rule": {
+            "1": 334,
+            "2": 334,
+            "3": 332
+          },
+          "jsonl_sha256": "5fda6b385bfe2f18b04c834f989f756c1fff9b0c4a1993dda31595ee09b3a2ef",
+          "rule_jsonl_sha256": "65fecfd737c175fa77b5e53181475975dfcaecb8e19946d1652efe95eb9b8291"
+        },
+        "stress_val": {
+          "rows": 200,
+          "worlds": 100,
+          "rule_rows": 100,
+          "depth_counts_rule": {
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "8": 20,
+            "10": 20
+          },
+          "jsonl_sha256": "fad5e80b3eb626636e344fd1cb7cc3a15f3d0f69d7eff0504fd266fc3236d281",
+          "rule_jsonl_sha256": "50189204b71886e04c4c31ef340c89656a1a33eacc5310ce745b62c11af273cf"
+        },
+        "id_test": {
+          "rows": 2000,
+          "worlds": 1000,
+          "rule_rows": 1000,
+          "depth_counts_rule": {
+            "1": 334,
+            "2": 334,
+            "3": 332
+          },
+          "jsonl_sha256": "129a0fa9c1d7478ff479686f60bfda63c5e6e30d3f11b036fc55dff795765d5f",
+          "rule_jsonl_sha256": "b33cfaa6ed3c2243ae182737dffd13ea35f01be1c9f2dfb740221418d3d4a470"
+        },
+        "ood_test": {
+          "rows": 2000,
+          "worlds": 1000,
+          "rule_rows": 1000,
+          "depth_counts_rule": {
+            "4": 200,
+            "5": 200,
+            "6": 200,
+            "8": 200,
+            "10": 200
+          },
+          "jsonl_sha256": "1807f589fe4efaf1ea3fa6ce77042f5f01c993bd96567ab28308d623dfa3deba",
+          "rule_jsonl_sha256": "2fd84c8da1e0d623febda85e4800b3c14905fd43ac5c5faff5f367525569c322"
+        }
+      }
+    },
+    "state_interface": {
+      "data_seed": 20261001,
+      "worlds_disjoint": true,
+      "splits": {
+        "train": {
+          "rows": 10000,
+          "worlds": 5000,
+          "rule_rows": 5000,
+          "depth_counts_rule": {
+            "1": 1668,
+            "2": 1666,
+            "3": 1666
+          },
+          "jsonl_sha256": "c1da1de8d9b39aaf3d0bdb51a11a44d664f2789ca9e71ef1737f8185560d5ee0",
+          "rule_jsonl_sha256": "63387c73ce33a9b3d7a8930c62900ea87a8c7de8e099a91fa694a37335f4378d"
+        },
+        "val": {
+          "rows": 2000,
+          "worlds": 1000,
+          "rule_rows": 1000,
+          "depth_counts_rule": {
+            "1": 334,
+            "2": 334,
+            "3": 332
+          },
+          "jsonl_sha256": "acd4a581ffd50137c68e6596eae01221d1209915cb8577dac4733f89996b568f",
+          "rule_jsonl_sha256": "08a3ed3511a70ca05da93465df15d6d92971402994bd2b3061d71a61d1854233"
+        },
+        "stress_val": {
+          "rows": 200,
+          "worlds": 100,
+          "rule_rows": 100,
+          "depth_counts_rule": {
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "8": 20,
+            "10": 20
+          },
+          "jsonl_sha256": "1c6253141ea0c270e18db9a3b7826ebd40a1f875f7d06db094ea5a86c9c42b1a",
+          "rule_jsonl_sha256": "a75d02d307fa13bd6f3519a7c19c685cf91597026876cda5aa76fb0b37d818f8"
+        },
+        "id_test": {
+          "rows": 2000,
+          "worlds": 1000,
+          "rule_rows": 1000,
+          "depth_counts_rule": {
+            "1": 334,
+            "2": 334,
+            "3": 332
+          },
+          "jsonl_sha256": "33879af0f3d711b72637403e8bbabe7fee818d5418136b3f5996bedcf7128d7f",
+          "rule_jsonl_sha256": "7701ddfb4d9d0d44f17dc16efc97a4464c3cabc629c9ff635e74930a26466156"
+        },
+        "ood_test": {
+          "rows": 2000,
+          "worlds": 1000,
+          "rule_rows": 1000,
+          "depth_counts_rule": {
+            "4": 200,
+            "5": 200,
+            "6": 200,
+            "8": 200,
+            "10": 200
+          },
+          "jsonl_sha256": "4bd8ba13bf0bc2e7d9783dc70df5db72138e45035523cb24929d760a8aa38be4",
+          "rule_jsonl_sha256": "60d88fe2f905e68d61f6943efd5871d02d086ae7631eaeac57efce1a14d82f35"
+        }
+      }
+    }
+  }
+}

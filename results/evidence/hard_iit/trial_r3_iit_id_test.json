@@ -1,0 +1,7347 @@
+{
+  "arm": "r3_iit",
+  "split": "id_test",
+  "n": 1000,
+  "kev_checkpoint": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+  "trainable_parameters": 122936715,
+  "rows": [
+    {
+      "id": "causal-id_test-00947-a",
+      "world_id": "causal-id_test-00947",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00051-b",
+      "world_id": "causal-id_test-00051",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00961-b",
+      "world_id": "causal-id_test-00961",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00845-b",
+      "world_id": "causal-id_test-00845",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00511-b",
+      "world_id": "causal-id_test-00511",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00659-a",
+      "world_id": "causal-id_test-00659",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00677-a",
+      "world_id": "causal-id_test-00677",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00581-b",
+      "world_id": "causal-id_test-00581",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00521-b",
+      "world_id": "causal-id_test-00521",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00373-a",
+      "world_id": "causal-id_test-00373",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00549-b",
+      "world_id": "causal-id_test-00549",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00893-b",
+      "world_id": "causal-id_test-00893",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00807-b",
+      "world_id": "causal-id_test-00807",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00185-b",
+      "world_id": "causal-id_test-00185",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00197-b",
+      "world_id": "causal-id_test-00197",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00445-a",
+      "world_id": "causal-id_test-00445",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00911-a",
+      "world_id": "causal-id_test-00911",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00723-b",
+      "world_id": "causal-id_test-00723",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00579-a",
+      "world_id": "causal-id_test-00579",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00073-a",
+      "world_id": "causal-id_test-00073",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00217-b",
+      "world_id": "causal-id_test-00217",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00165-a",
+      "world_id": "causal-id_test-00165",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00491-a",
+      "world_id": "causal-id_test-00491",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00195-a",
+      "world_id": "causal-id_test-00195",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00811-b",
+      "world_id": "causal-id_test-00811",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00025-a",
+      "world_id": "causal-id_test-00025",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00563-b",
+      "world_id": "causal-id_test-00563",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00049-b",
+      "world_id": "causal-id_test-00049",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00567-a",
+      "world_id": "causal-id_test-00567",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00061-b",
+      "world_id": "causal-id_test-00061",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00315-a",
+      "world_id": "causal-id_test-00315",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00629-b",
+      "world_id": "causal-id_test-00629",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00663-b",
+      "world_id": "causal-id_test-00663",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00487-a",
+      "world_id": "causal-id_test-00487",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00333-b",
+      "world_id": "causal-id_test-00333",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00945-b",
+      "world_id": "causal-id_test-00945",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00345-a",
+      "world_id": "causal-id_test-00345",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00901-a",
+      "world_id": "causal-id_test-00901",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00199-b",
+      "world_id": "causal-id_test-00199",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00313-b",
+      "world_id": "causal-id_test-00313",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00631-a",
+      "world_id": "causal-id_test-00631",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00863-a",
+      "world_id": "causal-id_test-00863",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00683-a",
+      "world_id": "causal-id_test-00683",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00593-a",
+      "world_id": "causal-id_test-00593",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00297-a",
+      "world_id": "causal-id_test-00297",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00389-b",
+      "world_id": "causal-id_test-00389",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00029-b",
+      "world_id": "causal-id_test-00029",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00531-a",
+      "world_id": "causal-id_test-00531",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00385-a",
+      "world_id": "causal-id_test-00385",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00247-b",
+      "world_id": "causal-id_test-00247",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00397-b",
+      "world_id": "causal-id_test-00397",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00127-b",
+      "world_id": "causal-id_test-00127",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00215-b",
+      "world_id": "causal-id_test-00215",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00537-a",
+      "world_id": "causal-id_test-00537",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00405-a",
+      "world_id": "causal-id_test-00405",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00717-b",
+      "world_id": "causal-id_test-00717",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00671-a",
+      "world_id": "causal-id_test-00671",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00235-a",
+      "world_id": "causal-id_test-00235",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00211-b",
+      "world_id": "causal-id_test-00211",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00023-b",
+      "world_id": "causal-id_test-00023",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00265-b",
+      "world_id": "causal-id_test-00265",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00981-a",
+      "world_id": "causal-id_test-00981",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00391-a",
+      "world_id": "causal-id_test-00391",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00651-b",
+      "world_id": "causal-id_test-00651",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00587-b",
+      "world_id": "causal-id_test-00587",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00267-a",
+      "world_id": "causal-id_test-00267",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00701-a",
+      "world_id": "causal-id_test-00701",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00099-b",
+      "world_id": "causal-id_test-00099",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00021-b",
+      "world_id": "causal-id_test-00021",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00241-a",
+      "world_id": "causal-id_test-00241",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00049-a",
+      "world_id": "causal-id_test-00049",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00233-a",
+      "world_id": "causal-id_test-00233",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00189-a",
+      "world_id": "causal-id_test-00189",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00861-a",
+      "world_id": "causal-id_test-00861",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00227-b",
+      "world_id": "causal-id_test-00227",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00869-a",
+      "world_id": "causal-id_test-00869",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00017-a",
+      "world_id": "causal-id_test-00017",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00439-a",
+      "world_id": "causal-id_test-00439",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00181-b",
+      "world_id": "causal-id_test-00181",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00483-b",
+      "world_id": "causal-id_test-00483",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00019-b",
+      "world_id": "causal-id_test-00019",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00581-a",
+      "world_id": "causal-id_test-00581",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00803-b",
+      "world_id": "causal-id_test-00803",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00191-b",
+      "world_id": "causal-id_test-00191",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00611-a",
+      "world_id": "causal-id_test-00611",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00799-b",
+      "world_id": "causal-id_test-00799",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00117-b",
+      "world_id": "causal-id_test-00117",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00095-a",
+      "world_id": "causal-id_test-00095",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00113-a",
+      "world_id": "causal-id_test-00113",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00017-b",
+      "world_id": "causal-id_test-00017",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00437-a",
+      "world_id": "causal-id_test-00437",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00677-b",
+      "world_id": "causal-id_test-00677",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00375-b",
+      "world_id": "causal-id_test-00375",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00853-b",
+      "world_id": "causal-id_test-00853",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00311-b",
+      "world_id": "causal-id_test-00311",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00291-b",
+      "world_id": "causal-id_test-00291",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00793-a",
+      "world_id": "causal-id_test-00793",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00243-b",
+      "world_id": "causal-id_test-00243",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00769-a",
+      "world_id": "causal-id_test-00769",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00823-b",
+      "world_id": "causal-id_test-00823",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00703-a",
+      "world_id": "causal-id_test-00703",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00833-b",
+      "world_id": "causal-id_test-00833",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00223-b",
+      "world_id": "causal-id_test-00223",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00675-b",
+      "world_id": "causal-id_test-00675",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00283-a",
+      "world_id": "causal-id_test-00283",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00359-a",
+      "world_id": "causal-id_test-00359",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00719-b",
+      "world_id": "causal-id_test-00719",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00593-b",
+      "world_id": "causal-id_test-00593",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00331-a",
+      "world_id": "causal-id_test-00331",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00927-b",
+      "world_id": "causal-id_test-00927",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00871-b",
+      "world_id": "causal-id_test-00871",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00493-b",
+      "world_id": "causal-id_test-00493",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00265-a",
+      "world_id": "causal-id_test-00265",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00747-b",
+      "world_id": "causal-id_test-00747",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00903-b",
+      "world_id": "causal-id_test-00903",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00583-b",
+      "world_id": "causal-id_test-00583",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00329-b",
+      "world_id": "causal-id_test-00329",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00237-a",
+      "world_id": "causal-id_test-00237",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00563-a",
+      "world_id": "causal-id_test-00563",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00079-a",
+      "world_id": "causal-id_test-00079",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00991-a",
+      "world_id": "causal-id_test-00991",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00845-a",
+      "world_id": "causal-id_test-00845",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00601-a",
+      "world_id": "causal-id_test-00601",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00171-b",
+      "world_id": "causal-id_test-00171",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00513-a",
+      "world_id": "causal-id_test-00513",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00401-a",
+      "world_id": "causal-id_test-00401",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00707-a",
+      "world_id": "causal-id_test-00707",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00663-a",
+      "world_id": "causal-id_test-00663",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00665-b",
+      "world_id": "causal-id_test-00665",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00155-b",
+      "world_id": "causal-id_test-00155",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00777-b",
+      "world_id": "causal-id_test-00777",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00619-b",
+      "world_id": "causal-id_test-00619",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00599-b",
+      "world_id": "causal-id_test-00599",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00167-a",
+      "world_id": "causal-id_test-00167",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00309-a",
+      "world_id": "causal-id_test-00309",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00221-b",
+      "world_id": "causal-id_test-00221",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00215-a",
+      "world_id": "causal-id_test-00215",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00013-a",
+      "world_id": "causal-id_test-00013",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00589-b",
+      "world_id": "causal-id_test-00589",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00447-b",
+      "world_id": "causal-id_test-00447",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00431-a",
+      "world_id": "causal-id_test-00431",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00463-a",
+      "world_id": "causal-id_test-00463",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00225-b",
+      "world_id": "causal-id_test-00225",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00561-a",
+      "world_id": "causal-id_test-00561",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00999-b",
+      "world_id": "causal-id_test-00999",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00301-a",
+      "world_id": "causal-id_test-00301",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00295-b",
+      "world_id": "causal-id_test-00295",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00913-b",
+      "world_id": "causal-id_test-00913",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00537-b",
+      "world_id": "causal-id_test-00537",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00779-a",
+      "world_id": "causal-id_test-00779",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00117-a",
+      "world_id": "causal-id_test-00117",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00315-b",
+      "world_id": "causal-id_test-00315",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00773-a",
+      "world_id": "causal-id_test-00773",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00187-a",
+      "world_id": "causal-id_test-00187",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00175-b",
+      "world_id": "causal-id_test-00175",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00787-b",
+      "world_id": "causal-id_test-00787",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00815-b",
+      "world_id": "causal-id_test-00815",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00765-b",
+      "world_id": "causal-id_test-00765",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00295-a",
+      "world_id": "causal-id_test-00295",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00059-a",
+      "world_id": "causal-id_test-00059",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00637-b",
+      "world_id": "causal-id_test-00637",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00831-a",
+      "world_id": "causal-id_test-00831",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00379-b",
+      "world_id": "causal-id_test-00379",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00965-b",
+      "world_id": "causal-id_test-00965",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00061-a",
+      "world_id": "causal-id_test-00061",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00411-a",
+      "world_id": "causal-id_test-00411",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00645-b",
+      "world_id": "causal-id_test-00645",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00553-a",
+      "world_id": "causal-id_test-00553",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00093-b",
+      "world_id": "causal-id_test-00093",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00087-b",
+      "world_id": "causal-id_test-00087",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00877-a",
+      "world_id": "causal-id_test-00877",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00995-b",
+      "world_id": "causal-id_test-00995",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00151-a",
+      "world_id": "causal-id_test-00151",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00851-a",
+      "world_id": "causal-id_test-00851",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00643-a",
+      "world_id": "causal-id_test-00643",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00805-a",
+      "world_id": "causal-id_test-00805",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00657-b",
+      "world_id": "causal-id_test-00657",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00697-b",
+      "world_id": "causal-id_test-00697",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00973-a",
+      "world_id": "causal-id_test-00973",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00565-a",
+      "world_id": "causal-id_test-00565",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00135-a",
+      "world_id": "causal-id_test-00135",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00261-b",
+      "world_id": "causal-id_test-00261",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00957-a",
+      "world_id": "causal-id_test-00957",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00443-a",
+      "world_id": "causal-id_test-00443",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00493-a",
+      "world_id": "causal-id_test-00493",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00589-a",
+      "world_id": "causal-id_test-00589",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00311-a",
+      "world_id": "causal-id_test-00311",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00849-a",
+      "world_id": "causal-id_test-00849",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00925-a",
+      "world_id": "causal-id_test-00925",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00847-b",
+      "world_id": "causal-id_test-00847",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00755-a",
+      "world_id": "causal-id_test-00755",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00745-a",
+      "world_id": "causal-id_test-00745",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00897-a",
+      "world_id": "causal-id_test-00897",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00091-b",
+      "world_id": "causal-id_test-00091",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00603-a",
+      "world_id": "causal-id_test-00603",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00531-b",
+      "world_id": "causal-id_test-00531",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00733-a",
+      "world_id": "causal-id_test-00733",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00893-a",
+      "world_id": "causal-id_test-00893",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00869-b",
+      "world_id": "causal-id_test-00869",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00259-b",
+      "world_id": "causal-id_test-00259",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00929-b",
+      "world_id": "causal-id_test-00929",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00087-a",
+      "world_id": "causal-id_test-00087",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00441-b",
+      "world_id": "causal-id_test-00441",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00717-a",
+      "world_id": "causal-id_test-00717",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00177-b",
+      "world_id": "causal-id_test-00177",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00635-a",
+      "world_id": "causal-id_test-00635",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00699-a",
+      "world_id": "causal-id_test-00699",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00519-b",
+      "world_id": "causal-id_test-00519",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00771-b",
+      "world_id": "causal-id_test-00771",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00497-b",
+      "world_id": "causal-id_test-00497",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00605-a",
+      "world_id": "causal-id_test-00605",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00847-a",
+      "world_id": "causal-id_test-00847",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00585-b",
+      "world_id": "causal-id_test-00585",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00827-b",
+      "world_id": "causal-id_test-00827",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00135-b",
+      "world_id": "causal-id_test-00135",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00673-b",
+      "world_id": "causal-id_test-00673",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00475-a",
+      "world_id": "causal-id_test-00475",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00735-a",
+      "world_id": "causal-id_test-00735",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00655-a",
+      "world_id": "causal-id_test-00655",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00679-a",
+      "world_id": "causal-id_test-00679",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00077-b",
+      "world_id": "causal-id_test-00077",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00569-b",
+      "world_id": "causal-id_test-00569",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00527-b",
+      "world_id": "causal-id_test-00527",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00405-b",
+      "world_id": "causal-id_test-00405",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00889-b",
+      "world_id": "causal-id_test-00889",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00299-a",
+      "world_id": "causal-id_test-00299",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00141-a",
+      "world_id": "causal-id_test-00141",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00421-a",
+      "world_id": "causal-id_test-00421",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00713-a",
+      "world_id": "causal-id_test-00713",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00123-b",
+      "world_id": "causal-id_test-00123",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00625-a",
+      "world_id": "causal-id_test-00625",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00939-b",
+      "world_id": "causal-id_test-00939",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00921-b",
+      "world_id": "causal-id_test-00921",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00747-a",
+      "world_id": "causal-id_test-00747",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00767-a",
+      "world_id": "causal-id_test-00767",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00453-a",
+      "world_id": "causal-id_test-00453",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00423-a",
+      "world_id": "causal-id_test-00423",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00993-a",
+      "world_id": "causal-id_test-00993",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00875-b",
+      "world_id": "causal-id_test-00875",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00913-a",
+      "world_id": "causal-id_test-00913",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00445-b",
+      "world_id": "causal-id_test-00445",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00915-b",
+      "world_id": "causal-id_test-00915",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00255-a",
+      "world_id": "causal-id_test-00255",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00741-a",
+      "world_id": "causal-id_test-00741",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00635-b",
+      "world_id": "causal-id_test-00635",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00739-b",
+      "world_id": "causal-id_test-00739",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00761-a",
+      "world_id": "causal-id_test-00761",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00897-b",
+      "world_id": "causal-id_test-00897",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00795-b",
+      "world_id": "causal-id_test-00795",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00325-a",
+      "world_id": "causal-id_test-00325",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00997-a",
+      "world_id": "causal-id_test-00997",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00409-a",
+      "world_id": "causal-id_test-00409",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00241-b",
+      "world_id": "causal-id_test-00241",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00007-b",
+      "world_id": "causal-id_test-00007",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00233-b",
+      "world_id": "causal-id_test-00233",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00825-b",
+      "world_id": "causal-id_test-00825",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00401-b",
+      "world_id": "causal-id_test-00401",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00179-a",
+      "world_id": "causal-id_test-00179",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00447-a",
+      "world_id": "causal-id_test-00447",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00835-b",
+      "world_id": "causal-id_test-00835",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00307-b",
+      "world_id": "causal-id_test-00307",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00057-a",
+      "world_id": "causal-id_test-00057",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00413-a",
+      "world_id": "causal-id_test-00413",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00615-a",
+      "world_id": "causal-id_test-00615",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00969-a",
+      "world_id": "causal-id_test-00969",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00325-b",
+      "world_id": "causal-id_test-00325",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00985-b",
+      "world_id": "causal-id_test-00985",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00035-b",
+      "world_id": "causal-id_test-00035",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00031-a",
+      "world_id": "causal-id_test-00031",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00201-a",
+      "world_id": "causal-id_test-00201",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00969-b",
+      "world_id": "causal-id_test-00969",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00339-b",
+      "world_id": "causal-id_test-00339",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00615-b",
+      "world_id": "causal-id_test-00615",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00917-b",
+      "world_id": "causal-id_test-00917",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00569-a",
+      "world_id": "causal-id_test-00569",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00359-b",
+      "world_id": "causal-id_test-00359",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00273-a",
+      "world_id": "causal-id_test-00273",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00425-a",
+      "world_id": "causal-id_test-00425",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00625-b",
+      "world_id": "causal-id_test-00625",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00141-b",
+      "world_id": "causal-id_test-00141",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00895-b",
+      "world_id": "causal-id_test-00895",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00161-b",
+      "world_id": "causal-id_test-00161",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00251-b",
+      "world_id": "causal-id_test-00251",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00237-b",
+      "world_id": "causal-id_test-00237",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00911-b",
+      "world_id": "causal-id_test-00911",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00803-a",
+      "world_id": "causal-id_test-00803",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00605-b",
+      "world_id": "causal-id_test-00605",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00693-b",
+      "world_id": "causal-id_test-00693",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00451-a",
+      "world_id": "causal-id_test-00451",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00373-b",
+      "world_id": "causal-id_test-00373",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00133-a",
+      "world_id": "causal-id_test-00133",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00121-b",
+      "world_id": "causal-id_test-00121",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00227-a",
+      "world_id": "causal-id_test-00227",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00175-a",
+      "world_id": "causal-id_test-00175",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00901-b",
+      "world_id": "causal-id_test-00901",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00351-b",
+      "world_id": "causal-id_test-00351",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00091-a",
+      "world_id": "causal-id_test-00091",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00347-b",
+      "world_id": "causal-id_test-00347",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00513-b",
+      "world_id": "causal-id_test-00513",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00715-b",
+      "world_id": "causal-id_test-00715",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00839-b",
+      "world_id": "causal-id_test-00839",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00001-b",
+      "world_id": "causal-id_test-00001",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00925-b",
+      "world_id": "causal-id_test-00925",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00027-b",
+      "world_id": "causal-id_test-00027",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00343-a",
+      "world_id": "causal-id_test-00343",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00055-a",
+      "world_id": "causal-id_test-00055",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00675-a",
+      "world_id": "causal-id_test-00675",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00287-a",
+      "world_id": "causal-id_test-00287",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00727-b",
+      "world_id": "causal-id_test-00727",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00787-a",
+      "world_id": "causal-id_test-00787",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00209-a",
+      "world_id": "causal-id_test-00209",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00085-a",
+      "world_id": "causal-id_test-00085",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00975-a",
+      "world_id": "causal-id_test-00975",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00745-b",
+      "world_id": "causal-id_test-00745",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00423-b",
+      "world_id": "causal-id_test-00423",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00759-b",
+      "world_id": "causal-id_test-00759",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00765-a",
+      "world_id": "causal-id_test-00765",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00005-a",
+      "world_id": "causal-id_test-00005",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00153-b",
+      "world_id": "causal-id_test-00153",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00451-b",
+      "world_id": "causal-id_test-00451",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00909-b",
+      "world_id": "causal-id_test-00909",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00791-b",
+      "world_id": "causal-id_test-00791",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00299-b",
+      "world_id": "causal-id_test-00299",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00327-a",
+      "world_id": "causal-id_test-00327",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00479-b",
+      "world_id": "causal-id_test-00479",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00535-b",
+      "world_id": "causal-id_test-00535",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00245-a",
+      "world_id": "causal-id_test-00245",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00133-b",
+      "world_id": "causal-id_test-00133",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00335-b",
+      "world_id": "causal-id_test-00335",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00607-a",
+      "world_id": "causal-id_test-00607",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00549-a",
+      "world_id": "causal-id_test-00549",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00003-a",
+      "world_id": "causal-id_test-00003",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00529-b",
+      "world_id": "causal-id_test-00529",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00899-b",
+      "world_id": "causal-id_test-00899",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00065-b",
+      "world_id": "causal-id_test-00065",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00541-a",
+      "world_id": "causal-id_test-00541",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00379-a",
+      "world_id": "causal-id_test-00379",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00009-a",
+      "world_id": "causal-id_test-00009",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00541-b",
+      "world_id": "causal-id_test-00541",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00653-a",
+      "world_id": "causal-id_test-00653",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00083-a",
+      "world_id": "causal-id_test-00083",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00145-b",
+      "world_id": "causal-id_test-00145",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00543-a",
+      "world_id": "causal-id_test-00543",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00967-a",
+      "world_id": "causal-id_test-00967",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00597-b",
+      "world_id": "causal-id_test-00597",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00973-b",
+      "world_id": "causal-id_test-00973",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00881-b",
+      "world_id": "causal-id_test-00881",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00335-a",
+      "world_id": "causal-id_test-00335",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00303-a",
+      "world_id": "causal-id_test-00303",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00547-b",
+      "world_id": "causal-id_test-00547",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00937-b",
+      "world_id": "causal-id_test-00937",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00699-b",
+      "world_id": "causal-id_test-00699",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00775-a",
+      "world_id": "causal-id_test-00775",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00247-a",
+      "world_id": "causal-id_test-00247",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00709-b",
+      "world_id": "causal-id_test-00709",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00621-b",
+      "world_id": "causal-id_test-00621",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00757-a",
+      "world_id": "causal-id_test-00757",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00557-a",
+      "world_id": "causal-id_test-00557",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00697-a",
+      "world_id": "causal-id_test-00697",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00785-b",
+      "world_id": "causal-id_test-00785",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00363-b",
+      "world_id": "causal-id_test-00363",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00193-a",
+      "world_id": "causal-id_test-00193",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00067-a",
+      "world_id": "causal-id_test-00067",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00319-a",
+      "world_id": "causal-id_test-00319",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00469-b",
+      "world_id": "causal-id_test-00469",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00109-b",
+      "world_id": "causal-id_test-00109",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00553-b",
+      "world_id": "causal-id_test-00553",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00795-a",
+      "world_id": "causal-id_test-00795",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00115-a",
+      "world_id": "causal-id_test-00115",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00713-b",
+      "world_id": "causal-id_test-00713",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00383-a",
+      "world_id": "causal-id_test-00383",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00083-b",
+      "world_id": "causal-id_test-00083",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00583-a",
+      "world_id": "causal-id_test-00583",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00533-b",
+      "world_id": "causal-id_test-00533",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00031-b",
+      "world_id": "causal-id_test-00031",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00157-b",
+      "world_id": "causal-id_test-00157",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00459-a",
+      "world_id": "causal-id_test-00459",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00777-a",
+      "world_id": "causal-id_test-00777",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00959-a",
+      "world_id": "causal-id_test-00959",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00063-a",
+      "world_id": "causal-id_test-00063",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00147-b",
+      "world_id": "causal-id_test-00147",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00257-b",
+      "world_id": "causal-id_test-00257",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00201-b",
+      "world_id": "causal-id_test-00201",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00243-a",
+      "world_id": "causal-id_test-00243",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00417-b",
+      "world_id": "causal-id_test-00417",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00183-b",
+      "world_id": "causal-id_test-00183",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00879-a",
+      "world_id": "causal-id_test-00879",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00575-b",
+      "world_id": "causal-id_test-00575",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00523-a",
+      "world_id": "causal-id_test-00523",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00169-a",
+      "world_id": "causal-id_test-00169",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00425-b",
+      "world_id": "causal-id_test-00425",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00075-b",
+      "world_id": "causal-id_test-00075",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00539-b",
+      "world_id": "causal-id_test-00539",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00801-b",
+      "world_id": "causal-id_test-00801",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00859-b",
+      "world_id": "causal-id_test-00859",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00235-b",
+      "world_id": "causal-id_test-00235",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00989-b",
+      "world_id": "causal-id_test-00989",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00951-b",
+      "world_id": "causal-id_test-00951",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00027-a",
+      "world_id": "causal-id_test-00027",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00213-a",
+      "world_id": "causal-id_test-00213",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00785-a",
+      "world_id": "causal-id_test-00785",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00965-a",
+      "world_id": "causal-id_test-00965",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00309-b",
+      "world_id": "causal-id_test-00309",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00123-a",
+      "world_id": "causal-id_test-00123",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00193-b",
+      "world_id": "causal-id_test-00193",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00505-b",
+      "world_id": "causal-id_test-00505",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00783-b",
+      "world_id": "causal-id_test-00783",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00431-b",
+      "world_id": "causal-id_test-00431",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00741-b",
+      "world_id": "causal-id_test-00741",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00039-a",
+      "world_id": "causal-id_test-00039",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00967-b",
+      "world_id": "causal-id_test-00967",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00199-a",
+      "world_id": "causal-id_test-00199",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00703-b",
+      "world_id": "causal-id_test-00703",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00101-a",
+      "world_id": "causal-id_test-00101",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00833-a",
+      "world_id": "causal-id_test-00833",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00825-a",
+      "world_id": "causal-id_test-00825",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00933-a",
+      "world_id": "causal-id_test-00933",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00055-b",
+      "world_id": "causal-id_test-00055",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00429-b",
+      "world_id": "causal-id_test-00429",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00053-b",
+      "world_id": "causal-id_test-00053",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00711-a",
+      "world_id": "causal-id_test-00711",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00321-b",
+      "world_id": "causal-id_test-00321",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00465-b",
+      "world_id": "causal-id_test-00465",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00725-b",
+      "world_id": "causal-id_test-00725",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00945-a",
+      "world_id": "causal-id_test-00945",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00601-b",
+      "world_id": "causal-id_test-00601",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00427-b",
+      "world_id": "causal-id_test-00427",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00267-b",
+      "world_id": "causal-id_test-00267",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00775-b",
+      "world_id": "causal-id_test-00775",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00465-a",
+      "world_id": "causal-id_test-00465",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00369-b",
+      "world_id": "causal-id_test-00369",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00571-a",
+      "world_id": "causal-id_test-00571",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00819-b",
+      "world_id": "causal-id_test-00819",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00119-b",
+      "world_id": "causal-id_test-00119",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00857-a",
+      "world_id": "causal-id_test-00857",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00317-a",
+      "world_id": "causal-id_test-00317",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00603-b",
+      "world_id": "causal-id_test-00603",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00949-a",
+      "world_id": "causal-id_test-00949",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00085-b",
+      "world_id": "causal-id_test-00085",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00841-b",
+      "world_id": "causal-id_test-00841",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00823-a",
+      "world_id": "causal-id_test-00823",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00263-a",
+      "world_id": "causal-id_test-00263",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00657-a",
+      "world_id": "causal-id_test-00657",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00219-a",
+      "world_id": "causal-id_test-00219",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00961-a",
+      "world_id": "causal-id_test-00961",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00045-b",
+      "world_id": "causal-id_test-00045",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00843-a",
+      "world_id": "causal-id_test-00843",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00271-b",
+      "world_id": "causal-id_test-00271",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00345-b",
+      "world_id": "causal-id_test-00345",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00323-a",
+      "world_id": "causal-id_test-00323",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00367-a",
+      "world_id": "causal-id_test-00367",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00505-a",
+      "world_id": "causal-id_test-00505",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00573-b",
+      "world_id": "causal-id_test-00573",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00477-a",
+      "world_id": "causal-id_test-00477",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00743-b",
+      "world_id": "causal-id_test-00743",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00039-b",
+      "world_id": "causal-id_test-00039",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00525-b",
+      "world_id": "causal-id_test-00525",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00793-b",
+      "world_id": "causal-id_test-00793",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00801-a",
+      "world_id": "causal-id_test-00801",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00023-a",
+      "world_id": "causal-id_test-00023",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00439-b",
+      "world_id": "causal-id_test-00439",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00829-a",
+      "world_id": "causal-id_test-00829",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00907-a",
+      "world_id": "causal-id_test-00907",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00639-a",
+      "world_id": "causal-id_test-00639",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00753-a",
+      "world_id": "causal-id_test-00753",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00443-b",
+      "world_id": "causal-id_test-00443",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00999-a",
+      "world_id": "causal-id_test-00999",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00115-b",
+      "world_id": "causal-id_test-00115",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00045-a",
+      "world_id": "causal-id_test-00045",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00755-b",
+      "world_id": "causal-id_test-00755",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00731-a",
+      "world_id": "causal-id_test-00731",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00719-a",
+      "world_id": "causal-id_test-00719",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00985-a",
+      "world_id": "causal-id_test-00985",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00933-b",
+      "world_id": "causal-id_test-00933",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00503-b",
+      "world_id": "causal-id_test-00503",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00979-a",
+      "world_id": "causal-id_test-00979",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00409-b",
+      "world_id": "causal-id_test-00409",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00681-b",
+      "world_id": "causal-id_test-00681",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00519-a",
+      "world_id": "causal-id_test-00519",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00975-b",
+      "world_id": "causal-id_test-00975",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00971-b",
+      "world_id": "causal-id_test-00971",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00731-b",
+      "world_id": "causal-id_test-00731",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00253-a",
+      "world_id": "causal-id_test-00253",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00499-b",
+      "world_id": "causal-id_test-00499",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00469-a",
+      "world_id": "causal-id_test-00469",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00053-a",
+      "world_id": "causal-id_test-00053",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00689-a",
+      "world_id": "causal-id_test-00689",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00113-b",
+      "world_id": "causal-id_test-00113",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00863-b",
+      "world_id": "causal-id_test-00863",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00557-b",
+      "world_id": "causal-id_test-00557",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00879-b",
+      "world_id": "causal-id_test-00879",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00839-a",
+      "world_id": "causal-id_test-00839",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00875-a",
+      "world_id": "causal-id_test-00875",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00759-a",
+      "world_id": "causal-id_test-00759",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00881-a",
+      "world_id": "causal-id_test-00881",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00751-a",
+      "world_id": "causal-id_test-00751",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00641-b",
+      "world_id": "causal-id_test-00641",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00591-a",
+      "world_id": "causal-id_test-00591",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00081-a",
+      "world_id": "causal-id_test-00081",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00813-a",
+      "world_id": "causal-id_test-00813",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00377-a",
+      "world_id": "causal-id_test-00377",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00029-a",
+      "world_id": "causal-id_test-00029",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00919-a",
+      "world_id": "causal-id_test-00919",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00471-b",
+      "world_id": "causal-id_test-00471",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00637-a",
+      "world_id": "causal-id_test-00637",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00203-b",
+      "world_id": "causal-id_test-00203",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00305-b",
+      "world_id": "causal-id_test-00305",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00381-b",
+      "world_id": "causal-id_test-00381",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00343-b",
+      "world_id": "causal-id_test-00343",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00333-a",
+      "world_id": "causal-id_test-00333",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00805-b",
+      "world_id": "causal-id_test-00805",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00125-a",
+      "world_id": "causal-id_test-00125",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00377-b",
+      "world_id": "causal-id_test-00377",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00435-a",
+      "world_id": "causal-id_test-00435",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00831-b",
+      "world_id": "causal-id_test-00831",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00171-a",
+      "world_id": "causal-id_test-00171",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00733-b",
+      "world_id": "causal-id_test-00733",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00885-b",
+      "world_id": "causal-id_test-00885",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00317-b",
+      "world_id": "causal-id_test-00317",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00471-a",
+      "world_id": "causal-id_test-00471",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00407-a",
+      "world_id": "causal-id_test-00407",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00767-b",
+      "world_id": "causal-id_test-00767",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00239-a",
+      "world_id": "causal-id_test-00239",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00547-a",
+      "world_id": "causal-id_test-00547",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00813-b",
+      "world_id": "causal-id_test-00813",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00259-a",
+      "world_id": "causal-id_test-00259",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00453-b",
+      "world_id": "causal-id_test-00453",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00843-b",
+      "world_id": "causal-id_test-00843",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00245-b",
+      "world_id": "causal-id_test-00245",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00835-a",
+      "world_id": "causal-id_test-00835",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00947-b",
+      "world_id": "causal-id_test-00947",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00941-b",
+      "world_id": "causal-id_test-00941",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00449-a",
+      "world_id": "causal-id_test-00449",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00545-b",
+      "world_id": "causal-id_test-00545",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00129-a",
+      "world_id": "causal-id_test-00129",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00073-b",
+      "world_id": "causal-id_test-00073",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00639-b",
+      "world_id": "causal-id_test-00639",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00155-a",
+      "world_id": "causal-id_test-00155",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00709-a",
+      "world_id": "causal-id_test-00709",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00983-a",
+      "world_id": "causal-id_test-00983",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00285-a",
+      "world_id": "causal-id_test-00285",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00855-a",
+      "world_id": "causal-id_test-00855",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00353-b",
+      "world_id": "causal-id_test-00353",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00763-a",
+      "world_id": "causal-id_test-00763",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00511-a",
+      "world_id": "causal-id_test-00511",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00395-b",
+      "world_id": "causal-id_test-00395",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00957-b",
+      "world_id": "causal-id_test-00957",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00415-a",
+      "world_id": "causal-id_test-00415",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00907-b",
+      "world_id": "causal-id_test-00907",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00977-a",
+      "world_id": "causal-id_test-00977",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00673-a",
+      "world_id": "causal-id_test-00673",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00173-b",
+      "world_id": "causal-id_test-00173",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00339-a",
+      "world_id": "causal-id_test-00339",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00457-b",
+      "world_id": "causal-id_test-00457",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00433-b",
+      "world_id": "causal-id_test-00433",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00571-b",
+      "world_id": "causal-id_test-00571",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00071-b",
+      "world_id": "causal-id_test-00071",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00229-b",
+      "world_id": "causal-id_test-00229",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00249-b",
+      "world_id": "causal-id_test-00249",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00837-a",
+      "world_id": "causal-id_test-00837",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00797-b",
+      "world_id": "causal-id_test-00797",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00475-b",
+      "world_id": "causal-id_test-00475",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00485-a",
+      "world_id": "causal-id_test-00485",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00329-a",
+      "world_id": "causal-id_test-00329",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00077-a",
+      "world_id": "causal-id_test-00077",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00613-b",
+      "world_id": "causal-id_test-00613",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00279-b",
+      "world_id": "causal-id_test-00279",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00013-b",
+      "world_id": "causal-id_test-00013",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00937-a",
+      "world_id": "causal-id_test-00937",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00821-b",
+      "world_id": "causal-id_test-00821",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00357-a",
+      "world_id": "causal-id_test-00357",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00427-a",
+      "world_id": "causal-id_test-00427",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00341-a",
+      "world_id": "causal-id_test-00341",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00205-b",
+      "world_id": "causal-id_test-00205",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00209-b",
+      "world_id": "causal-id_test-00209",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00195-b",
+      "world_id": "causal-id_test-00195",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00865-a",
+      "world_id": "causal-id_test-00865",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00189-b",
+      "world_id": "causal-id_test-00189",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00371-a",
+      "world_id": "causal-id_test-00371",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00575-a",
+      "world_id": "causal-id_test-00575",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00483-a",
+      "world_id": "causal-id_test-00483",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00417-a",
+      "world_id": "causal-id_test-00417",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00695-a",
+      "world_id": "causal-id_test-00695",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00977-b",
+      "world_id": "causal-id_test-00977",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00687-a",
+      "world_id": "causal-id_test-00687",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00685-a",
+      "world_id": "causal-id_test-00685",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00461-b",
+      "world_id": "causal-id_test-00461",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00093-a",
+      "world_id": "causal-id_test-00093",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00179-b",
+      "world_id": "causal-id_test-00179",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00105-a",
+      "world_id": "causal-id_test-00105",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00041-b",
+      "world_id": "causal-id_test-00041",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00809-a",
+      "world_id": "causal-id_test-00809",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00293-b",
+      "world_id": "causal-id_test-00293",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00037-b",
+      "world_id": "causal-id_test-00037",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00737-a",
+      "world_id": "causal-id_test-00737",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00853-a",
+      "world_id": "causal-id_test-00853",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00669-b",
+      "world_id": "causal-id_test-00669",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00829-b",
+      "world_id": "causal-id_test-00829",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00591-b",
+      "world_id": "causal-id_test-00591",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00301-b",
+      "world_id": "causal-id_test-00301",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00595-b",
+      "world_id": "causal-id_test-00595",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00229-a",
+      "world_id": "causal-id_test-00229",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00555-a",
+      "world_id": "causal-id_test-00555",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00277-b",
+      "world_id": "causal-id_test-00277",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00827-a",
+      "world_id": "causal-id_test-00827",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00721-a",
+      "world_id": "causal-id_test-00721",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00219-b",
+      "world_id": "causal-id_test-00219",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00289-b",
+      "world_id": "causal-id_test-00289",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00595-a",
+      "world_id": "causal-id_test-00595",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00161-a",
+      "world_id": "causal-id_test-00161",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00111-b",
+      "world_id": "causal-id_test-00111",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00187-b",
+      "world_id": "causal-id_test-00187",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00487-b",
+      "world_id": "causal-id_test-00487",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00753-b",
+      "world_id": "causal-id_test-00753",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00003-b",
+      "world_id": "causal-id_test-00003",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00609-b",
+      "world_id": "causal-id_test-00609",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00041-a",
+      "world_id": "causal-id_test-00041",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00251-a",
+      "world_id": "causal-id_test-00251",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00183-a",
+      "world_id": "causal-id_test-00183",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00749-a",
+      "world_id": "causal-id_test-00749",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00459-b",
+      "world_id": "causal-id_test-00459",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00921-a",
+      "world_id": "causal-id_test-00921",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00097-a",
+      "world_id": "causal-id_test-00097",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00403-b",
+      "world_id": "causal-id_test-00403",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00623-b",
+      "world_id": "causal-id_test-00623",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00561-b",
+      "world_id": "causal-id_test-00561",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00585-a",
+      "world_id": "causal-id_test-00585",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00391-b",
+      "world_id": "causal-id_test-00391",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00535-a",
+      "world_id": "causal-id_test-00535",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00099-a",
+      "world_id": "causal-id_test-00099",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00253-b",
+      "world_id": "causal-id_test-00253",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00899-a",
+      "world_id": "causal-id_test-00899",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00163-b",
+      "world_id": "causal-id_test-00163",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00127-a",
+      "world_id": "causal-id_test-00127",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00433-a",
+      "world_id": "causal-id_test-00433",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00089-b",
+      "world_id": "causal-id_test-00089",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00509-a",
+      "world_id": "causal-id_test-00509",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00849-b",
+      "world_id": "causal-id_test-00849",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00963-a",
+      "world_id": "causal-id_test-00963",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00297-b",
+      "world_id": "causal-id_test-00297",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00685-b",
+      "world_id": "causal-id_test-00685",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00207-a",
+      "world_id": "causal-id_test-00207",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00341-b",
+      "world_id": "causal-id_test-00341",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00939-a",
+      "world_id": "causal-id_test-00939",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00551-b",
+      "world_id": "causal-id_test-00551",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00365-a",
+      "world_id": "causal-id_test-00365",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00609-a",
+      "world_id": "causal-id_test-00609",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00559-a",
+      "world_id": "causal-id_test-00559",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00397-a",
+      "world_id": "causal-id_test-00397",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00043-a",
+      "world_id": "causal-id_test-00043",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00151-b",
+      "world_id": "causal-id_test-00151",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00771-a",
+      "world_id": "causal-id_test-00771",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00841-a",
+      "world_id": "causal-id_test-00841",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00185-a",
+      "world_id": "causal-id_test-00185",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00279-a",
+      "world_id": "causal-id_test-00279",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00855-b",
+      "world_id": "causal-id_test-00855",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00305-a",
+      "world_id": "causal-id_test-00305",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00641-a",
+      "world_id": "causal-id_test-00641",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00025-b",
+      "world_id": "causal-id_test-00025",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00231-a",
+      "world_id": "causal-id_test-00231",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00121-a",
+      "world_id": "causal-id_test-00121",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00363-a",
+      "world_id": "causal-id_test-00363",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00489-a",
+      "world_id": "causal-id_test-00489",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00239-b",
+      "world_id": "causal-id_test-00239",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00737-b",
+      "world_id": "causal-id_test-00737",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00293-a",
+      "world_id": "causal-id_test-00293",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00213-b",
+      "world_id": "causal-id_test-00213",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00665-a",
+      "world_id": "causal-id_test-00665",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00095-b",
+      "world_id": "causal-id_test-00095",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00385-b",
+      "world_id": "causal-id_test-00385",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00821-a",
+      "world_id": "causal-id_test-00821",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00411-b",
+      "world_id": "causal-id_test-00411",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00987-b",
+      "world_id": "causal-id_test-00987",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00671-b",
+      "world_id": "causal-id_test-00671",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00877-b",
+      "world_id": "causal-id_test-00877",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00761-b",
+      "world_id": "causal-id_test-00761",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00037-a",
+      "world_id": "causal-id_test-00037",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00143-b",
+      "world_id": "causal-id_test-00143",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00729-a",
+      "world_id": "causal-id_test-00729",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00075-a",
+      "world_id": "causal-id_test-00075",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00507-a",
+      "world_id": "causal-id_test-00507",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00281-b",
+      "world_id": "causal-id_test-00281",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00627-b",
+      "world_id": "causal-id_test-00627",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00865-b",
+      "world_id": "causal-id_test-00865",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00103-b",
+      "world_id": "causal-id_test-00103",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00559-b",
+      "world_id": "causal-id_test-00559",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00191-a",
+      "world_id": "causal-id_test-00191",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00169-b",
+      "world_id": "causal-id_test-00169",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00629-a",
+      "world_id": "causal-id_test-00629",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00993-b",
+      "world_id": "causal-id_test-00993",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00883-b",
+      "world_id": "causal-id_test-00883",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00355-a",
+      "world_id": "causal-id_test-00355",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00815-a",
+      "world_id": "causal-id_test-00815",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00659-b",
+      "world_id": "causal-id_test-00659",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00457-a",
+      "world_id": "causal-id_test-00457",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00001-a",
+      "world_id": "causal-id_test-00001",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00695-b",
+      "world_id": "causal-id_test-00695",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00743-a",
+      "world_id": "causal-id_test-00743",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00399-a",
+      "world_id": "causal-id_test-00399",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00667-b",
+      "world_id": "causal-id_test-00667",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00781-b",
+      "world_id": "causal-id_test-00781",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00163-a",
+      "world_id": "causal-id_test-00163",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00885-a",
+      "world_id": "causal-id_test-00885",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00263-b",
+      "world_id": "causal-id_test-00263",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00387-a",
+      "world_id": "causal-id_test-00387",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00917-a",
+      "world_id": "causal-id_test-00917",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00067-b",
+      "world_id": "causal-id_test-00067",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00883-a",
+      "world_id": "causal-id_test-00883",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00165-b",
+      "world_id": "causal-id_test-00165",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00727-a",
+      "world_id": "causal-id_test-00727",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00149-b",
+      "world_id": "causal-id_test-00149",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00271-a",
+      "world_id": "causal-id_test-00271",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00153-a",
+      "world_id": "causal-id_test-00153",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00649-b",
+      "world_id": "causal-id_test-00649",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00011-a",
+      "world_id": "causal-id_test-00011",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00649-a",
+      "world_id": "causal-id_test-00649",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00205-a",
+      "world_id": "causal-id_test-00205",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00203-a",
+      "world_id": "causal-id_test-00203",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00905-b",
+      "world_id": "causal-id_test-00905",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00421-b",
+      "world_id": "causal-id_test-00421",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00351-a",
+      "world_id": "causal-id_test-00351",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00139-a",
+      "world_id": "causal-id_test-00139",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00043-b",
+      "world_id": "causal-id_test-00043",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00521-a",
+      "world_id": "causal-id_test-00521",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00955-b",
+      "world_id": "causal-id_test-00955",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00481-b",
+      "world_id": "causal-id_test-00481",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00361-b",
+      "world_id": "causal-id_test-00361",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00059-b",
+      "world_id": "causal-id_test-00059",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00069-b",
+      "world_id": "causal-id_test-00069",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00809-b",
+      "world_id": "causal-id_test-00809",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00337-a",
+      "world_id": "causal-id_test-00337",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00149-a",
+      "world_id": "causal-id_test-00149",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00963-b",
+      "world_id": "causal-id_test-00963",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00905-a",
+      "world_id": "causal-id_test-00905",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00005-b",
+      "world_id": "causal-id_test-00005",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00497-a",
+      "world_id": "causal-id_test-00497",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00015-b",
+      "world_id": "causal-id_test-00015",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00751-b",
+      "world_id": "causal-id_test-00751",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00693-a",
+      "world_id": "causal-id_test-00693",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00669-a",
+      "world_id": "causal-id_test-00669",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00943-a",
+      "world_id": "causal-id_test-00943",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00951-a",
+      "world_id": "causal-id_test-00951",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00749-b",
+      "world_id": "causal-id_test-00749",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00143-a",
+      "world_id": "causal-id_test-00143",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00539-a",
+      "world_id": "causal-id_test-00539",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00159-a",
+      "world_id": "causal-id_test-00159",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00275-a",
+      "world_id": "causal-id_test-00275",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00647-a",
+      "world_id": "causal-id_test-00647",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00455-a",
+      "world_id": "causal-id_test-00455",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00021-a",
+      "world_id": "causal-id_test-00021",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00523-b",
+      "world_id": "causal-id_test-00523",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00071-a",
+      "world_id": "causal-id_test-00071",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00313-a",
+      "world_id": "causal-id_test-00313",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00111-a",
+      "world_id": "causal-id_test-00111",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00941-a",
+      "world_id": "causal-id_test-00941",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00503-a",
+      "world_id": "causal-id_test-00503",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00623-a",
+      "world_id": "causal-id_test-00623",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00449-b",
+      "world_id": "causal-id_test-00449",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00255-b",
+      "world_id": "causal-id_test-00255",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00131-a",
+      "world_id": "causal-id_test-00131",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00633-a",
+      "world_id": "causal-id_test-00633",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00981-b",
+      "world_id": "causal-id_test-00981",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00735-b",
+      "world_id": "causal-id_test-00735",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00303-b",
+      "world_id": "causal-id_test-00303",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00517-b",
+      "world_id": "causal-id_test-00517",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00577-a",
+      "world_id": "causal-id_test-00577",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00147-a",
+      "world_id": "causal-id_test-00147",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00887-a",
+      "world_id": "causal-id_test-00887",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00781-a",
+      "world_id": "causal-id_test-00781",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00529-a",
+      "world_id": "causal-id_test-00529",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00597-a",
+      "world_id": "causal-id_test-00597",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00119-a",
+      "world_id": "causal-id_test-00119",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00633-b",
+      "world_id": "causal-id_test-00633",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00533-a",
+      "world_id": "causal-id_test-00533",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00461-a",
+      "world_id": "causal-id_test-00461",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00275-b",
+      "world_id": "causal-id_test-00275",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00651-a",
+      "world_id": "causal-id_test-00651",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00779-b",
+      "world_id": "causal-id_test-00779",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00683-b",
+      "world_id": "causal-id_test-00683",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00435-b",
+      "world_id": "causal-id_test-00435",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00613-a",
+      "world_id": "causal-id_test-00613",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00415-b",
+      "world_id": "causal-id_test-00415",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00291-a",
+      "world_id": "causal-id_test-00291",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00889-a",
+      "world_id": "causal-id_test-00889",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00403-a",
+      "world_id": "causal-id_test-00403",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00367-b",
+      "world_id": "causal-id_test-00367",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00929-a",
+      "world_id": "causal-id_test-00929",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00173-a",
+      "world_id": "causal-id_test-00173",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00281-a",
+      "world_id": "causal-id_test-00281",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00997-b",
+      "world_id": "causal-id_test-00997",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00579-b",
+      "world_id": "causal-id_test-00579",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00501-b",
+      "world_id": "causal-id_test-00501",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00107-b",
+      "world_id": "causal-id_test-00107",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00257-a",
+      "world_id": "causal-id_test-00257",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00473-a",
+      "world_id": "causal-id_test-00473",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00327-b",
+      "world_id": "causal-id_test-00327",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00197-a",
+      "world_id": "causal-id_test-00197",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00393-b",
+      "world_id": "causal-id_test-00393",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00887-b",
+      "world_id": "causal-id_test-00887",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00509-b",
+      "world_id": "causal-id_test-00509",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00689-b",
+      "world_id": "causal-id_test-00689",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00047-b",
+      "world_id": "causal-id_test-00047",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00517-a",
+      "world_id": "causal-id_test-00517",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00995-a",
+      "world_id": "causal-id_test-00995",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00413-b",
+      "world_id": "causal-id_test-00413",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00321-a",
+      "world_id": "causal-id_test-00321",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00407-b",
+      "world_id": "causal-id_test-00407",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00817-a",
+      "world_id": "causal-id_test-00817",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00157-a",
+      "world_id": "causal-id_test-00157",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00361-a",
+      "world_id": "causal-id_test-00361",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00089-a",
+      "world_id": "causal-id_test-00089",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00667-a",
+      "world_id": "causal-id_test-00667",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00441-a",
+      "world_id": "causal-id_test-00441",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00915-a",
+      "world_id": "causal-id_test-00915",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00545-a",
+      "world_id": "causal-id_test-00545",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00375-a",
+      "world_id": "causal-id_test-00375",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00711-b",
+      "world_id": "causal-id_test-00711",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00269-a",
+      "world_id": "causal-id_test-00269",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00607-b",
+      "world_id": "causal-id_test-00607",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00507-b",
+      "world_id": "causal-id_test-00507",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00349-b",
+      "world_id": "causal-id_test-00349",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00819-a",
+      "world_id": "causal-id_test-00819",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00617-b",
+      "world_id": "causal-id_test-00617",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00273-b",
+      "world_id": "causal-id_test-00273",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00931-a",
+      "world_id": "causal-id_test-00931",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00319-b",
+      "world_id": "causal-id_test-00319",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00783-a",
+      "world_id": "causal-id_test-00783",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00953-b",
+      "world_id": "causal-id_test-00953",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00891-a",
+      "world_id": "causal-id_test-00891",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00611-b",
+      "world_id": "causal-id_test-00611",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00429-a",
+      "world_id": "causal-id_test-00429",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00365-b",
+      "world_id": "causal-id_test-00365",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00467-a",
+      "world_id": "causal-id_test-00467",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00701-b",
+      "world_id": "causal-id_test-00701",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00551-a",
+      "world_id": "causal-id_test-00551",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00991-b",
+      "world_id": "causal-id_test-00991",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00063-b",
+      "world_id": "causal-id_test-00063",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00971-a",
+      "world_id": "causal-id_test-00971",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00705-a",
+      "world_id": "causal-id_test-00705",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00661-b",
+      "world_id": "causal-id_test-00661",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00851-b",
+      "world_id": "causal-id_test-00851",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00181-a",
+      "world_id": "causal-id_test-00181",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00289-a",
+      "world_id": "causal-id_test-00289",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00919-b",
+      "world_id": "causal-id_test-00919",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00691-b",
+      "world_id": "causal-id_test-00691",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00573-a",
+      "world_id": "causal-id_test-00573",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00859-a",
+      "world_id": "causal-id_test-00859",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00873-b",
+      "world_id": "causal-id_test-00873",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00789-b",
+      "world_id": "causal-id_test-00789",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00811-a",
+      "world_id": "causal-id_test-00811",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00105-b",
+      "world_id": "causal-id_test-00105",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00371-b",
+      "world_id": "causal-id_test-00371",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00159-b",
+      "world_id": "causal-id_test-00159",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00927-a",
+      "world_id": "causal-id_test-00927",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00463-b",
+      "world_id": "causal-id_test-00463",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00949-b",
+      "world_id": "causal-id_test-00949",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00715-a",
+      "world_id": "causal-id_test-00715",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00987-a",
+      "world_id": "causal-id_test-00987",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00389-a",
+      "world_id": "causal-id_test-00389",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00923-a",
+      "world_id": "causal-id_test-00923",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00489-b",
+      "world_id": "causal-id_test-00489",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00107-a",
+      "world_id": "causal-id_test-00107",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00395-a",
+      "world_id": "causal-id_test-00395",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00769-b",
+      "world_id": "causal-id_test-00769",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00791-a",
+      "world_id": "causal-id_test-00791",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00587-a",
+      "world_id": "causal-id_test-00587",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00757-b",
+      "world_id": "causal-id_test-00757",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00621-a",
+      "world_id": "causal-id_test-00621",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00627-a",
+      "world_id": "causal-id_test-00627",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00647-b",
+      "world_id": "causal-id_test-00647",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00599-a",
+      "world_id": "causal-id_test-00599",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00381-a",
+      "world_id": "causal-id_test-00381",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00079-b",
+      "world_id": "causal-id_test-00079",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00807-a",
+      "world_id": "causal-id_test-00807",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00129-b",
+      "world_id": "causal-id_test-00129",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00211-a",
+      "world_id": "causal-id_test-00211",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00903-a",
+      "world_id": "causal-id_test-00903",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00137-a",
+      "world_id": "causal-id_test-00137",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00357-b",
+      "world_id": "causal-id_test-00357",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00773-b",
+      "world_id": "causal-id_test-00773",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00097-b",
+      "world_id": "causal-id_test-00097",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00525-a",
+      "world_id": "causal-id_test-00525",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00797-a",
+      "world_id": "causal-id_test-00797",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00931-b",
+      "world_id": "causal-id_test-00931",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00277-a",
+      "world_id": "causal-id_test-00277",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00011-b",
+      "world_id": "causal-id_test-00011",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00515-a",
+      "world_id": "causal-id_test-00515",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00035-a",
+      "world_id": "causal-id_test-00035",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00109-a",
+      "world_id": "causal-id_test-00109",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00567-b",
+      "world_id": "causal-id_test-00567",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00499-a",
+      "world_id": "causal-id_test-00499",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00799-a",
+      "world_id": "causal-id_test-00799",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00935-a",
+      "world_id": "causal-id_test-00935",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00477-b",
+      "world_id": "causal-id_test-00477",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00231-b",
+      "world_id": "causal-id_test-00231",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00337-b",
+      "world_id": "causal-id_test-00337",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00923-b",
+      "world_id": "causal-id_test-00923",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00495-b",
+      "world_id": "causal-id_test-00495",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00261-a",
+      "world_id": "causal-id_test-00261",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00103-a",
+      "world_id": "causal-id_test-00103",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00347-a",
+      "world_id": "causal-id_test-00347",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00221-a",
+      "world_id": "causal-id_test-00221",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00495-a",
+      "world_id": "causal-id_test-00495",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00577-b",
+      "world_id": "causal-id_test-00577",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00681-a",
+      "world_id": "causal-id_test-00681",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00935-b",
+      "world_id": "causal-id_test-00935",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00645-a",
+      "world_id": "causal-id_test-00645",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00269-b",
+      "world_id": "causal-id_test-00269",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00687-b",
+      "world_id": "causal-id_test-00687",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00867-b",
+      "world_id": "causal-id_test-00867",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00353-a",
+      "world_id": "causal-id_test-00353",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00707-b",
+      "world_id": "causal-id_test-00707",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00543-b",
+      "world_id": "causal-id_test-00543",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00081-b",
+      "world_id": "causal-id_test-00081",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00225-a",
+      "world_id": "causal-id_test-00225",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00895-a",
+      "world_id": "causal-id_test-00895",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00007-a",
+      "world_id": "causal-id_test-00007",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00817-b",
+      "world_id": "causal-id_test-00817",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00015-a",
+      "world_id": "causal-id_test-00015",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00729-b",
+      "world_id": "causal-id_test-00729",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00867-a",
+      "world_id": "causal-id_test-00867",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00891-b",
+      "world_id": "causal-id_test-00891",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00393-a",
+      "world_id": "causal-id_test-00393",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00419-b",
+      "world_id": "causal-id_test-00419",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00033-b",
+      "world_id": "causal-id_test-00033",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00861-b",
+      "world_id": "causal-id_test-00861",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00501-a",
+      "world_id": "causal-id_test-00501",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00959-b",
+      "world_id": "causal-id_test-00959",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00653-b",
+      "world_id": "causal-id_test-00653",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00349-a",
+      "world_id": "causal-id_test-00349",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00555-b",
+      "world_id": "causal-id_test-00555",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00955-a",
+      "world_id": "causal-id_test-00955",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00871-a",
+      "world_id": "causal-id_test-00871",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00057-b",
+      "world_id": "causal-id_test-00057",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00009-b",
+      "world_id": "causal-id_test-00009",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00369-a",
+      "world_id": "causal-id_test-00369",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00979-b",
+      "world_id": "causal-id_test-00979",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00789-a",
+      "world_id": "causal-id_test-00789",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00065-a",
+      "world_id": "causal-id_test-00065",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00631-b",
+      "world_id": "causal-id_test-00631",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00387-b",
+      "world_id": "causal-id_test-00387",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00207-b",
+      "world_id": "causal-id_test-00207",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00643-b",
+      "world_id": "causal-id_test-00643",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00217-a",
+      "world_id": "causal-id_test-00217",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00131-b",
+      "world_id": "causal-id_test-00131",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00437-b",
+      "world_id": "causal-id_test-00437",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00473-b",
+      "world_id": "causal-id_test-00473",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00137-b",
+      "world_id": "causal-id_test-00137",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00249-a",
+      "world_id": "causal-id_test-00249",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00069-a",
+      "world_id": "causal-id_test-00069",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00705-b",
+      "world_id": "causal-id_test-00705",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00565-b",
+      "world_id": "causal-id_test-00565",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00989-a",
+      "world_id": "causal-id_test-00989",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00167-b",
+      "world_id": "causal-id_test-00167",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00515-b",
+      "world_id": "causal-id_test-00515",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00723-a",
+      "world_id": "causal-id_test-00723",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00331-b",
+      "world_id": "causal-id_test-00331",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00691-a",
+      "world_id": "causal-id_test-00691",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00481-a",
+      "world_id": "causal-id_test-00481",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00485-b",
+      "world_id": "causal-id_test-00485",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00617-a",
+      "world_id": "causal-id_test-00617",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00619-a",
+      "world_id": "causal-id_test-00619",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00491-b",
+      "world_id": "causal-id_test-00491",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00763-b",
+      "world_id": "causal-id_test-00763",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00285-b",
+      "world_id": "causal-id_test-00285",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00323-b",
+      "world_id": "causal-id_test-00323",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00909-a",
+      "world_id": "causal-id_test-00909",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00837-b",
+      "world_id": "causal-id_test-00837",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00739-a",
+      "world_id": "causal-id_test-00739",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00399-b",
+      "world_id": "causal-id_test-00399",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00223-a",
+      "world_id": "causal-id_test-00223",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00527-a",
+      "world_id": "causal-id_test-00527",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00047-a",
+      "world_id": "causal-id_test-00047",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00455-b",
+      "world_id": "causal-id_test-00455",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00283-b",
+      "world_id": "causal-id_test-00283",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00383-b",
+      "world_id": "causal-id_test-00383",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00307-a",
+      "world_id": "causal-id_test-00307",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00661-a",
+      "world_id": "causal-id_test-00661",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00101-b",
+      "world_id": "causal-id_test-00101",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00943-b",
+      "world_id": "causal-id_test-00943",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00287-b",
+      "world_id": "causal-id_test-00287",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00721-b",
+      "world_id": "causal-id_test-00721",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00139-b",
+      "world_id": "causal-id_test-00139",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00419-a",
+      "world_id": "causal-id_test-00419",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00857-b",
+      "world_id": "causal-id_test-00857",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00983-b",
+      "world_id": "causal-id_test-00983",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00019-a",
+      "world_id": "causal-id_test-00019",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00953-a",
+      "world_id": "causal-id_test-00953",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00479-a",
+      "world_id": "causal-id_test-00479",
+      "depth": 3,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00873-a",
+      "world_id": "causal-id_test-00873",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00355-b",
+      "world_id": "causal-id_test-00355",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00145-a",
+      "world_id": "causal-id_test-00145",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00679-b",
+      "world_id": "causal-id_test-00679",
+      "depth": 1,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00177-a",
+      "world_id": "causal-id_test-00177",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00725-a",
+      "world_id": "causal-id_test-00725",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00655-b",
+      "world_id": "causal-id_test-00655",
+      "depth": 1,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00051-a",
+      "world_id": "causal-id_test-00051",
+      "depth": 2,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00033-a",
+      "world_id": "causal-id_test-00033",
+      "depth": 2,
+      "label": 1,
+      "prediction": 1
+    },
+    {
+      "id": "causal-id_test-00467-b",
+      "world_id": "causal-id_test-00467",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    },
+    {
+      "id": "causal-id_test-00125-b",
+      "world_id": "causal-id_test-00125",
+      "depth": 3,
+      "label": 0,
+      "prediction": 0
+    }
+  ],
+  "factual": {
+    "all": {
+      "answer": {
+        "value": 1.0,
+        "n": 1000
+      },
+      "answer_nll": {
+        "value": 0.00033539868309162557,
+        "n": 1000
+      },
+      "exact_trajectory": {
+        "value": 1.0,
+        "n": 1000
+      },
+      "initial": {
+        "value": 1.0,
+        "n": 1000
+      },
+      "operator": {
+        "value": 1.0,
+        "n": 1998
+      },
+      "gate": {
+        "value": 1.0,
+        "n": 1998
+      },
+      "active_gate": {
+        "value": 1.0,
+        "n": 1017
+      },
+      "exact_program": {
+        "value": 1.0,
+        "n": 1000
+      }
+    },
+    "depth_3": {
+      "answer": {
+        "value": 1.0,
+        "n": 332
+      },
+      "answer_nll": {
+        "value": 0.00033539868309162557,
+        "n": 332
+      },
+      "exact_trajectory": {
+        "value": 1.0,
+        "n": 332
+      },
+      "initial": {
+        "value": 1.0,
+        "n": 332
+      },
+      "operator": {
+        "value": 1.0,
+        "n": 996
+      },
+      "gate": {
+        "value": 1.0,
+        "n": 996
+      },
+      "active_gate": {
+        "value": 1.0,
+        "n": 496
+      },
+      "exact_program": {
+        "value": 1.0,
+        "n": 332
+      }
+    },
+    "depth_2": {
+      "answer": {
+        "value": 1.0,
+        "n": 334
+      },
+      "answer_nll": {
+        "value": 0.00033539868309162557,
+        "n": 334
+      },
+      "exact_trajectory": {
+        "value": 1.0,
+        "n": 334
+      },
+      "initial": {
+        "value": 1.0,
+        "n": 334
+      },
+      "operator": {
+        "value": 1.0,
+        "n": 668
+      },
+      "gate": {
+        "value": 1.0,
+        "n": 668
+      },
+      "active_gate": {
+        "value": 1.0,
+        "n": 340
+      },
+      "exact_program": {
+        "value": 1.0,
+        "n": 334
+      }
+    },
+    "depth_1": {
+      "answer": {
+        "value": 1.0,
+        "n": 334
+      },
+      "answer_nll": {
+        "value": 0.00033539868309162557,
+        "n": 334
+      },
+      "exact_trajectory": {
+        "value": 1.0,
+        "n": 334
+      },
+      "initial": {
+        "value": 1.0,
+        "n": 334
+      },
+      "operator": {
+        "value": 1.0,
+        "n": 334
+      },
+      "gate": {
+        "value": 1.0,
+        "n": 334
+      },
+      "active_gate": {
+        "value": 1.0,
+        "n": 181
+      },
+      "exact_program": {
+        "value": 1.0,
+        "n": 334
+      }
+    }
+  },
+  "loops": {
+    "3": {
+      "depth_3": {
+        "accuracy": 1.0,
+        "n": 332
+      },
+      "depth_2": {
+        "accuracy": 1.0,
+        "n": 334
+      },
+      "depth_1": {
+        "accuracy": 1.0,
+        "n": 334
+      }
+    },
+    "5": {
+      "depth_3": {
+        "accuracy": 1.0,
+        "n": 332
+      },
+      "depth_2": {
+        "accuracy": 1.0,
+        "n": 334
+      },
+      "depth_1": {
+        "accuracy": 1.0,
+        "n": 334
+      }
+    },
+    "8": {
+      "depth_3": {
+        "accuracy": 1.0,
+        "n": 332
+      },
+      "depth_2": {
+        "accuracy": 1.0,
+        "n": 334
+      },
+      "depth_1": {
+        "accuracy": 1.0,
+        "n": 334
+      }
+    },
+    "10": {
+      "depth_3": {
+        "accuracy": 1.0,
+        "n": 332
+      },
+      "depth_2": {
+        "accuracy": 1.0,
+        "n": 334
+      },
+      "depth_1": {
+        "accuracy": 1.0,
+        "n": 334
+      }
+    }
+  },
+  "counterfactual": {
+    "all": {
+      "null": {
+        "cf_consistency": 1.0,
+        "flip_rate": 0.0,
+        "factual_accuracy": 1.0,
+        "n": 1344
+      },
+      "effectful_noncopy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 296
+      },
+      "effectful_copy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 358
+      }
+    },
+    "depth_3": {
+      "null": {
+        "cf_consistency": 1.0,
+        "flip_rate": 0.0,
+        "factual_accuracy": 1.0,
+        "n": 712
+      },
+      "effectful_noncopy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 142
+      },
+      "effectful_copy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 142
+      }
+    },
+    "step_0": {
+      "null": {
+        "cf_consistency": 1.0,
+        "flip_rate": 0.0,
+        "factual_accuracy": 1.0,
+        "n": 706
+      },
+      "effectful_copy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 167
+      },
+      "effectful_noncopy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 127
+      }
+    },
+    "step_1": {
+      "effectful_noncopy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 105
+      },
+      "null": {
+        "cf_consistency": 1.0,
+        "flip_rate": 0.0,
+        "factual_accuracy": 1.0,
+        "n": 436
+      },
+      "effectful_copy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 125
+      }
+    },
+    "step_2": {
+      "effectful_noncopy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 64
+      },
+      "null": {
+        "cf_consistency": 1.0,
+        "flip_rate": 0.0,
+        "factual_accuracy": 1.0,
+        "n": 202
+      },
+      "effectful_copy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 66
+      }
+    },
+    "depth_2": {
+      "null": {
+        "cf_consistency": 1.0,
+        "flip_rate": 0.0,
+        "factual_accuracy": 1.0,
+        "n": 416
+      },
+      "effectful_noncopy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 106
+      },
+      "effectful_copy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 146
+      }
+    },
+    "depth_1": {
+      "null": {
+        "cf_consistency": 1.0,
+        "flip_rate": 0.0,
+        "factual_accuracy": 1.0,
+        "n": 216
+      },
+      "effectful_copy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 70
+      },
+      "effectful_noncopy": {
+        "cf_consistency": 1.0,
+        "flip_rate": 1.0,
+        "factual_accuracy": 1.0,
+        "n": 48
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "seed": 29,
+  "readout_mode": "one_pass",
+  "n_train": 5000,
+  "n_selection": 1000,
+  "selection_split": "val",
+  "batch": 16,
+  "epochs_cap": 4,
+  "unfreeze_last": 6,
+  "lr_backbone": 2e-05,
+  "lr_head": 0.0003,
+  "best_epoch": 1,
+  "best_metrics": {
+    "all": {
+      "initial": {
+        "accuracy": 1.0,
+        "n": 1000
+      },
+      "operator": {
+        "accuracy": 1.0,
+        "n": 1998
+      },
+      "gate": {
+        "accuracy": 0.9934934934934935,
+        "n": 1998
+      },
+      "active_gate": {
+        "accuracy": 0.9864300626304802,
+        "n": 958
+      },
+      "exact_program": {
+        "accuracy": 0.987,
+        "n": 1000
+      }
+    },
+    "depth_1": {
+      "initial": {
+        "accuracy": 1.0,
+        "n": 334
+      },
+      "operator": {
+        "accuracy": 1.0,
+        "n": 334
+      },
+      "gate": {
+        "accuracy": 1.0,
+        "n": 334
+      },
+      "active_gate": {
+        "accuracy": 1.0,
+        "n": 153
+      },
+      "exact_program": {
+        "accuracy": 1.0,
+        "n": 334
+      }
+    },
+    "depth_3": {
+      "initial": {
+        "accuracy": 1.0,
+        "n": 332
+      },
+      "operator": {
+        "accuracy": 1.0,
+        "n": 996
+      },
+      "gate": {
+        "accuracy": 0.9909638554216867,
+        "n": 996
+      },
+      "active_gate": {
+        "accuracy": 0.9817073170731707,
+        "n": 492
+      },
+      "exact_program": {
+        "accuracy": 0.9728915662650602,
+        "n": 332
+      }
+    },
+    "depth_2": {
+      "initial": {
+        "accuracy": 1.0,
+        "n": 334
+      },
+      "operator": {
+        "accuracy": 1.0,
+        "n": 668
+      },
+      "gate": {
+        "accuracy": 0.9940119760479041,
+        "n": 668
+      },
+      "active_gate": {
+        "accuracy": 0.987220447284345,
+        "n": 313
+      },
+      "exact_program": {
+        "accuracy": 0.9880239520958084,
+        "n": 334
+      }
+    }
+  },
+  "passed": true,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.7848672861292578,
+      "seconds": 68.64068831689656,
+      "selection_metrics": {
+        "initial": {
+          "accuracy": 1.0,
+          "n": 1000
+        },
+        "operator": {
+          "accuracy": 1.0,
+          "n": 1998
+        },
+        "gate": {
+          "accuracy": 0.9934934934934935,
+          "n": 1998
+        },
+        "active_gate": {
+          "accuracy": 0.9864300626304802,
+          "n": 958
+        },
+        "exact_program": {
+          "accuracy": 0.987,
+          "n": 1000
+        }
+      }
+    }
+  ]
+}

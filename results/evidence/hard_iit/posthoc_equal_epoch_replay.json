@@ -1,0 +1,33 @@
+{
+  "scope": "posthoc replay after locked test; no training choices changed",
+  "val_history": [
+    {
+      "epoch": 1,
+      "val_answer": 0.999,
+      "val_exact_trajectory": 0.999,
+      "seconds": 81.98694920539856
+    },
+    {
+      "epoch": 2,
+      "val_answer": 1.0,
+      "val_exact_trajectory": 1.0,
+      "seconds": 80.99561190605164
+    },
+    {
+      "epoch": 3,
+      "val_answer": 1.0,
+      "val_exact_trajectory": 1.0,
+      "seconds": 80.25574970245361
+    },
+    {
+      "epoch": 4,
+      "val_answer": 0.998,
+      "val_exact_trajectory": 0.998,
+      "seconds": 80.03844594955444
+    }
+  ],
+  "depth_10_n": 200,
+  "answer_correct": 199,
+  "exact_trajectory_correct": 196,
+  "exact_program_correct": 189
+}

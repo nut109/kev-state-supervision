@@ -1,0 +1,27 @@
+{
+  "checkpoint": "jaredpalmer/kev-0.8b",
+  "data_seed": 20260929,
+  "sizes": {
+    "train": 10000,
+    "val": 2000,
+    "id_test": 2000,
+    "ood_test": 2000
+  },
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "epochs": 3,
+  "batch_size": 64,
+  "learning_rate": 0.0005,
+  "scratch_dim": 256,
+  "slots": 4,
+  "iterations": 4,
+  "lambda_grid": [
+    0.1,
+    0.3,
+    1.0
+  ],
+  "test_policy": "evaluate only after validation model selection"
+}

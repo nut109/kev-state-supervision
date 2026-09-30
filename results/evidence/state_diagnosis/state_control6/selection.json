@@ -1,0 +1,29 @@
+{
+  "trials": [
+    {
+      "mode": "bottleneck1",
+      "seed": 11,
+      "best_epoch": 6,
+      "val_long_accuracy": 0.3845381526104418,
+      "trainable_parameters": 6309889,
+      "peak_head_gpu_gib": 0.5082354545593262
+    },
+    {
+      "mode": "recurrent3",
+      "seed": 11,
+      "best_epoch": 3,
+      "val_long_accuracy": 0.3815261044176707,
+      "trainable_parameters": 23109633,
+      "peak_head_gpu_gib": 0.79705810546875
+    },
+    {
+      "mode": "deep",
+      "seed": 11,
+      "best_epoch": 6,
+      "val_long_accuracy": 0.37751004016064255,
+      "trainable_parameters": 23113729,
+      "peak_head_gpu_gib": 0.7976226806640625
+    }
+  ],
+  "rule": "best validation depth-4-to-6 accuracy per seed"
+}

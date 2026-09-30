@@ -1,0 +1,1160 @@
+{
+  "design": {
+    "states": 16,
+    "rules": 8,
+    "hole_fraction": 0.296875,
+    "data_seed": 20260929,
+    "train_seeds": [
+      11
+    ],
+    "hidden": 128,
+    "warm_lr": 0.005,
+    "main_lr": 0.001,
+    "factual_weight": 1,
+    "counterfactual_weight": 1,
+    "warm_step_cap": 1200,
+    "main_steps": 20,
+    "batch_size": 128,
+    "factual_loss": "gold-current-state local transition CE",
+    "iit_loss": "gold donor state, recipient suffix final raw-logit CE",
+    "cf_aug_loss": "same intervention tuple, local transition raw-logit CE",
+    "selection": "fixed main steps; warm stop from seen-pair accuracy/loss only"
+  },
+  "support": {
+    "table": [
+      [
+        1,
+        4,
+        8,
+        12,
+        1,
+        1,
+        14,
+        11
+      ],
+      [
+        14,
+        2,
+        1,
+        8,
+        13,
+        0,
+        3,
+        13
+      ],
+      [
+        5,
+        3,
+        12,
+        13,
+        5,
+        6,
+        10,
+        5
+      ],
+      [
+        0,
+        11,
+        11,
+        1,
+        12,
+        8,
+        15,
+        9
+      ],
+      [
+        13,
+        0,
+        3,
+        4,
+        4,
+        7,
+        5,
+        6
+      ],
+      [
+        9,
+        1,
+        6,
+        2,
+        6,
+        11,
+        12,
+        10
+      ],
+      [
+        15,
+        5,
+        13,
+        11,
+        14,
+        13,
+        13,
+        2
+      ],
+      [
+        3,
+        12,
+        9,
+        15,
+        8,
+        14,
+        7,
+        14
+      ],
+      [
+        6,
+        14,
+        0,
+        5,
+        9,
+        9,
+        8,
+        7
+      ],
+      [
+        2,
+        10,
+        14,
+        0,
+        10,
+        2,
+        4,
+        1
+      ],
+      [
+        7,
+        7,
+        7,
+        10,
+        2,
+        12,
+        2,
+        3
+      ],
+      [
+        10,
+        6,
+        5,
+        14,
+        0,
+        10,
+        6,
+        8
+      ],
+      [
+        4,
+        13,
+        10,
+        7,
+        3,
+        3,
+        9,
+        15
+      ],
+      [
+        11,
+        15,
+        15,
+        6,
+        7,
+        15,
+        11,
+        0
+      ],
+      [
+        8,
+        8,
+        2,
+        3,
+        11,
+        4,
+        1,
+        12
+      ],
+      [
+        12,
+        9,
+        4,
+        9,
+        15,
+        5,
+        0,
+        4
+      ]
+    ],
+    "holes": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        11,
+        7
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        12,
+        4
+      ],
+      [
+        12,
+        7
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        13,
+        3
+      ],
+      [
+        13,
+        5
+      ],
+      [
+        14,
+        2
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        14,
+        5
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        15,
+        4
+      ],
+      [
+        15,
+        5
+      ],
+      [
+        15,
+        6
+      ]
+    ],
+    "n_seen_pairs": 90,
+    "n_train_programs": 2753,
+    "n_validation_programs": 689,
+    "train_program_depth_counts": {
+      "1": 67,
+      "2": 419,
+      "3": 2267
+    },
+    "factual_step_count": 7706,
+    "factual_pair_frequency_min": 60,
+    "factual_pair_frequency_max": 122,
+    "intervention_count": 152,
+    "intervention_tuple_sha256": "6e0e64b7b84d9a936ec6753e8c116af8f11ba5bd6ec5ef663971e90a56778dd9",
+    "iit_cf_aug_same_tuples": true,
+    "pool_hole_count_min": 4,
+    "pool_hole_count_max": 4,
+    "pool_position_counts": {
+      "1:0": 1,
+      "2:0": 8,
+      "2:1": 13,
+      "3:0": 30,
+      "3:1": 43,
+      "3:2": 57
+    }
+  },
+  "results": {
+    "11": {
+      "warm": {
+        "steps": 125,
+        "seen_pair_accuracy": 1.0,
+        "validation": {
+          "depth_1": {
+            "correct": 23,
+            "n": 23,
+            "accuracy": 1.0,
+            "exact_trajectory_correct": 23,
+            "exact_trajectory_accuracy": 1.0
+          },
+          "depth_2": {
+            "correct": 89,
+            "n": 89,
+            "accuracy": 1.0,
+            "exact_trajectory_correct": 89,
+            "exact_trajectory_accuracy": 1.0
+          },
+          "depth_3": {
+            "correct": 577,
+            "n": 577,
+            "accuracy": 1.0,
+            "exact_trajectory_correct": 577,
+            "exact_trajectory_accuracy": 1.0
+          }
+        }
+      },
+      "intervention_exposure": {
+        "order_sha256": "5833df25da0bce95a38b50282eaa9bccdbdca0adaa74b5a72dad62f5009145d5",
+        "actual_hole_min": 66,
+        "actual_hole_max": 68,
+        "actual_hole_counts": {
+          "0:2": 68,
+          "0:3": 67,
+          "0:7": 68,
+          "10:1": 68,
+          "11:7": 68,
+          "12:3": 68,
+          "12:4": 67,
+          "12:7": 67,
+          "13:0": 68,
+          "13:2": 68,
+          "13:3": 68,
+          "13:5": 66,
+          "14:2": 67,
+          "14:4": 68,
+          "14:5": 68,
+          "15:2": 68,
+          "15:4": 68,
+          "15:5": 67,
+          "15:6": 68,
+          "1:0": 68,
+          "1:1": 67,
+          "1:2": 66,
+          "1:3": 68,
+          "2:2": 67,
+          "2:3": 68,
+          "2:4": 67,
+          "3:2": 68,
+          "3:7": 66,
+          "4:4": 66,
+          "4:6": 66,
+          "5:1": 68,
+          "5:4": 68,
+          "6:5": 66,
+          "6:6": 68,
+          "7:5": 67,
+          "8:4": 67,
+          "8:6": 67,
+          "9:1": 67
+        },
+        "actual_position_counts": {
+          "1:0": 17,
+          "2:0": 133,
+          "2:1": 220,
+          "3:0": 508,
+          "3:1": 723,
+          "3:2": 959
+        }
+      },
+      "arms": {
+        "State": {
+          "pairs": {
+            "seen": {
+              "correct": 90,
+              "n": 90,
+              "accuracy": 1.0
+            },
+            "holes": {
+              "correct": 0,
+              "n": 38,
+              "accuracy": 0.0
+            },
+            "hole_predictions": {
+              "0:2": 14,
+              "0:3": 1,
+              "0:7": 1,
+              "1:0": 13,
+              "1:1": 13,
+              "1:2": 13,
+              "1:3": 13,
+              "2:2": 5,
+              "2:3": 5,
+              "2:4": 10,
+              "3:2": 0,
+              "3:7": 1,
+              "4:4": 7,
+              "4:6": 7,
+              "5:1": 6,
+              "5:4": 12,
+              "6:5": 11,
+              "6:6": 11,
+              "7:5": 8,
+              "8:4": 7,
+              "8:6": 7,
+              "9:1": 4,
+              "10:1": 12,
+              "11:7": 10,
+              "12:3": 4,
+              "12:4": 10,
+              "12:7": 10,
+              "13:0": 15,
+              "13:2": 7,
+              "13:3": 15,
+              "13:5": 11,
+              "14:2": 8,
+              "14:4": 8,
+              "14:5": 8,
+              "15:2": 9,
+              "15:4": 9,
+              "15:5": 9,
+              "15:6": 9
+            }
+          },
+          "shallow_validation": {
+            "depth_1": {
+              "correct": 23,
+              "n": 23,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 23,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_2": {
+              "correct": 89,
+              "n": 89,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 89,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_3": {
+              "correct": 577,
+              "n": 577,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 577,
+              "exact_trajectory_accuracy": 1.0
+            }
+          },
+          "long_programs": {
+            "depth_4_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_4_holes_1": {
+              "correct": 0,
+              "n": 24,
+              "accuracy": 0.0,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_5_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_5_holes_1": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_6_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_6_holes_1": {
+              "correct": 0,
+              "n": 24,
+              "accuracy": 0.0,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_8_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_8_holes_1": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_10_holes_1": {
+              "correct": 2,
+              "n": 24,
+              "accuracy": 0.08333333333333333,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_2": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_3": {
+              "correct": 2,
+              "n": 24,
+              "accuracy": 0.08333333333333333,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_4": {
+              "correct": 2,
+              "n": 24,
+              "accuracy": 0.08333333333333333,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_5": {
+              "correct": 0,
+              "n": 24,
+              "accuracy": 0.0,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            }
+          }
+        },
+        "State+IIT": {
+          "pairs": {
+            "seen": {
+              "correct": 90,
+              "n": 90,
+              "accuracy": 1.0
+            },
+            "holes": {
+              "correct": 0,
+              "n": 38,
+              "accuracy": 0.0
+            },
+            "hole_predictions": {
+              "0:2": 14,
+              "0:3": 1,
+              "0:7": 1,
+              "1:0": 13,
+              "1:1": 13,
+              "1:2": 13,
+              "1:3": 13,
+              "2:2": 5,
+              "2:3": 5,
+              "2:4": 3,
+              "3:2": 0,
+              "3:7": 0,
+              "4:4": 7,
+              "4:6": 6,
+              "5:1": 6,
+              "5:4": 12,
+              "6:5": 11,
+              "6:6": 2,
+              "7:5": 8,
+              "8:4": 7,
+              "8:6": 7,
+              "9:1": 4,
+              "10:1": 12,
+              "11:7": 5,
+              "12:3": 10,
+              "12:4": 10,
+              "12:7": 10,
+              "13:0": 15,
+              "13:2": 7,
+              "13:3": 15,
+              "13:5": 11,
+              "14:2": 3,
+              "14:4": 8,
+              "14:5": 8,
+              "15:2": 9,
+              "15:4": 9,
+              "15:5": 12,
+              "15:6": 9
+            }
+          },
+          "shallow_validation": {
+            "depth_1": {
+              "correct": 23,
+              "n": 23,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 23,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_2": {
+              "correct": 89,
+              "n": 89,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 89,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_3": {
+              "correct": 577,
+              "n": 577,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 577,
+              "exact_trajectory_accuracy": 1.0
+            }
+          },
+          "long_programs": {
+            "depth_4_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_4_holes_1": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_5_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_5_holes_1": {
+              "correct": 0,
+              "n": 24,
+              "accuracy": 0.0,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_6_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_6_holes_1": {
+              "correct": 0,
+              "n": 24,
+              "accuracy": 0.0,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_8_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_8_holes_1": {
+              "correct": 2,
+              "n": 24,
+              "accuracy": 0.08333333333333333,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_10_holes_1": {
+              "correct": 2,
+              "n": 24,
+              "accuracy": 0.08333333333333333,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_2": {
+              "correct": 0,
+              "n": 24,
+              "accuracy": 0.0,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_3": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_4": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_5": {
+              "correct": 0,
+              "n": 24,
+              "accuracy": 0.0,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            }
+          }
+        },
+        "State+CF-Aug": {
+          "pairs": {
+            "seen": {
+              "correct": 90,
+              "n": 90,
+              "accuracy": 1.0
+            },
+            "holes": {
+              "correct": 1,
+              "n": 38,
+              "accuracy": 0.02631578947368421
+            },
+            "hole_predictions": {
+              "0:2": 14,
+              "0:3": 1,
+              "0:7": 1,
+              "1:0": 13,
+              "1:1": 13,
+              "1:2": 13,
+              "1:3": 13,
+              "2:2": 5,
+              "2:3": 5,
+              "2:4": 10,
+              "3:2": 0,
+              "3:7": 1,
+              "4:4": 7,
+              "4:6": 4,
+              "5:1": 6,
+              "5:4": 2,
+              "6:5": 11,
+              "6:6": 15,
+              "7:5": 8,
+              "8:4": 14,
+              "8:6": 7,
+              "9:1": 4,
+              "10:1": 7,
+              "11:7": 10,
+              "12:3": 4,
+              "12:4": 13,
+              "12:7": 4,
+              "13:0": 15,
+              "13:2": 7,
+              "13:3": 15,
+              "13:5": 11,
+              "14:2": 8,
+              "14:4": 8,
+              "14:5": 8,
+              "15:2": 9,
+              "15:4": 9,
+              "15:5": 12,
+              "15:6": 9
+            }
+          },
+          "shallow_validation": {
+            "depth_1": {
+              "correct": 23,
+              "n": 23,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 23,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_2": {
+              "correct": 89,
+              "n": 89,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 89,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_3": {
+              "correct": 577,
+              "n": 577,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 577,
+              "exact_trajectory_accuracy": 1.0
+            }
+          },
+          "long_programs": {
+            "depth_4_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_4_holes_1": {
+              "correct": 0,
+              "n": 24,
+              "accuracy": 0.0,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_5_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_5_holes_1": {
+              "correct": 2,
+              "n": 24,
+              "accuracy": 0.08333333333333333,
+              "exact_trajectory_correct": 1,
+              "exact_trajectory_accuracy": 0.041666666666666664
+            },
+            "depth_6_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_6_holes_1": {
+              "correct": 2,
+              "n": 24,
+              "accuracy": 0.08333333333333333,
+              "exact_trajectory_correct": 1,
+              "exact_trajectory_accuracy": 0.041666666666666664
+            },
+            "depth_8_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_8_holes_1": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_10_holes_1": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_2": {
+              "correct": 2,
+              "n": 24,
+              "accuracy": 0.08333333333333333,
+              "exact_trajectory_correct": 1,
+              "exact_trajectory_accuracy": 0.041666666666666664
+            },
+            "depth_10_holes_3": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_4": {
+              "correct": 2,
+              "n": 24,
+              "accuracy": 0.08333333333333333,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_5": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            }
+          }
+        },
+        "State+IIT-seen": {
+          "pairs": {
+            "seen": {
+              "correct": 90,
+              "n": 90,
+              "accuracy": 1.0
+            },
+            "holes": {
+              "correct": 0,
+              "n": 38,
+              "accuracy": 0.0
+            },
+            "hole_predictions": {
+              "0:2": 14,
+              "0:3": 1,
+              "0:7": 1,
+              "1:0": 13,
+              "1:1": 13,
+              "1:2": 13,
+              "1:3": 13,
+              "2:2": 5,
+              "2:3": 5,
+              "2:4": 10,
+              "3:2": 0,
+              "3:7": 1,
+              "4:4": 7,
+              "4:6": 7,
+              "5:1": 6,
+              "5:4": 12,
+              "6:5": 11,
+              "6:6": 11,
+              "7:5": 8,
+              "8:4": 7,
+              "8:6": 7,
+              "9:1": 4,
+              "10:1": 12,
+              "11:7": 10,
+              "12:3": 4,
+              "12:4": 10,
+              "12:7": 10,
+              "13:0": 15,
+              "13:2": 7,
+              "13:3": 15,
+              "13:5": 11,
+              "14:2": 8,
+              "14:4": 8,
+              "14:5": 8,
+              "15:2": 9,
+              "15:4": 9,
+              "15:5": 9,
+              "15:6": 9
+            }
+          },
+          "shallow_validation": {
+            "depth_1": {
+              "correct": 23,
+              "n": 23,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 23,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_2": {
+              "correct": 89,
+              "n": 89,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 89,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_3": {
+              "correct": 577,
+              "n": 577,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 577,
+              "exact_trajectory_accuracy": 1.0
+            }
+          },
+          "long_programs": {
+            "depth_4_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_4_holes_1": {
+              "correct": 0,
+              "n": 24,
+              "accuracy": 0.0,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_5_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_5_holes_1": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_6_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_6_holes_1": {
+              "correct": 0,
+              "n": 24,
+              "accuracy": 0.0,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_8_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_8_holes_1": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_0": {
+              "correct": 24,
+              "n": 24,
+              "accuracy": 1.0,
+              "exact_trajectory_correct": 24,
+              "exact_trajectory_accuracy": 1.0
+            },
+            "depth_10_holes_1": {
+              "correct": 2,
+              "n": 24,
+              "accuracy": 0.08333333333333333,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_2": {
+              "correct": 1,
+              "n": 24,
+              "accuracy": 0.041666666666666664,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_3": {
+              "correct": 2,
+              "n": 24,
+              "accuracy": 0.08333333333333333,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_4": {
+              "correct": 2,
+              "n": 24,
+              "accuracy": 0.08333333333333333,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            },
+            "depth_10_holes_5": {
+              "correct": 0,
+              "n": 24,
+              "accuracy": 0.0,
+              "exact_trajectory_correct": 0,
+              "exact_trajectory_accuracy": 0.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "seconds": 1.410164874047041
+}

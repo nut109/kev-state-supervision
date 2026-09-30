@@ -1,0 +1,30 @@
+{
+  "source_run": "runs/latent_scratchpad",
+  "input": "gold_z1_rule_program",
+  "dimension": 1024,
+  "one_hot_scale": 16.0,
+  "n_train_rules": 5000,
+  "n_val_rules": 1000,
+  "program": "queried initial bit and ordered operator/gate primitives only",
+  "option_conditioning": "Yes +program; No -program; unscored slots zero",
+  "modes": [
+    "bottleneck1",
+    "recurrent3",
+    "deep"
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "max_epochs": 15,
+  "patience": 4,
+  "batch_size": 64,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.01,
+  "loss": "final answer cross entropy only",
+  "selection": "best rule validation depth-4-to-6 accuracy",
+  "screen": "64-train-row overfit and one-seed validation; no test reads",
+  "test_policy": "evaluate only after all nine validation-selected checkpoints",
+  "status": "exploratory: OOD was opened in preceding studies"
+}

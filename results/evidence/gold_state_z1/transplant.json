@@ -1,0 +1,131 @@
+{
+  "protocol": "Full Z1 donor substitution is exactly donor inference because resume_from has no other source input; related is paired same-world opposite-answer row; unrelated is another same-depth world with identical option order and same answer; deterministic first eligible donor.",
+  "by_trial": {
+    "bottleneck1/11/id_test": {
+      "n": 1000,
+      "related_flip": 0.978,
+      "unrelated_same_answer_flip": 0.201,
+      "base_accuracy": 0.909,
+      "related_donor_accuracy": 0.909
+    },
+    "bottleneck1/11/ood_test": {
+      "n": 1000,
+      "related_flip": 0.666,
+      "unrelated_same_answer_flip": 0.455,
+      "base_accuracy": 0.595,
+      "related_donor_accuracy": 0.595
+    },
+    "bottleneck1/23/id_test": {
+      "n": 1000,
+      "related_flip": 0.978,
+      "unrelated_same_answer_flip": 0.201,
+      "base_accuracy": 0.909,
+      "related_donor_accuracy": 0.909
+    },
+    "bottleneck1/23/ood_test": {
+      "n": 1000,
+      "related_flip": 0.668,
+      "unrelated_same_answer_flip": 0.425,
+      "base_accuracy": 0.608,
+      "related_donor_accuracy": 0.608
+    },
+    "bottleneck1/37/id_test": {
+      "n": 1000,
+      "related_flip": 0.988,
+      "unrelated_same_answer_flip": 0.149,
+      "base_accuracy": 0.914,
+      "related_donor_accuracy": 0.914
+    },
+    "bottleneck1/37/ood_test": {
+      "n": 1000,
+      "related_flip": 0.682,
+      "unrelated_same_answer_flip": 0.448,
+      "base_accuracy": 0.605,
+      "related_donor_accuracy": 0.605
+    },
+    "deep/11/id_test": {
+      "n": 1000,
+      "related_flip": 0.998,
+      "unrelated_same_answer_flip": 0.001,
+      "base_accuracy": 0.999,
+      "related_donor_accuracy": 0.999
+    },
+    "deep/11/ood_test": {
+      "n": 1000,
+      "related_flip": 0.674,
+      "unrelated_same_answer_flip": 0.489,
+      "base_accuracy": 0.719,
+      "related_donor_accuracy": 0.719
+    },
+    "deep/23/id_test": {
+      "n": 1000,
+      "related_flip": 0.996,
+      "unrelated_same_answer_flip": 0.002,
+      "base_accuracy": 0.998,
+      "related_donor_accuracy": 0.998
+    },
+    "deep/23/ood_test": {
+      "n": 1000,
+      "related_flip": 0.648,
+      "unrelated_same_answer_flip": 0.383,
+      "base_accuracy": 0.716,
+      "related_donor_accuracy": 0.716
+    },
+    "deep/37/id_test": {
+      "n": 1000,
+      "related_flip": 1.0,
+      "unrelated_same_answer_flip": 0.0,
+      "base_accuracy": 1.0,
+      "related_donor_accuracy": 1.0
+    },
+    "deep/37/ood_test": {
+      "n": 1000,
+      "related_flip": 0.72,
+      "unrelated_same_answer_flip": 0.36,
+      "base_accuracy": 0.738,
+      "related_donor_accuracy": 0.738
+    },
+    "recurrent3/11/id_test": {
+      "n": 1000,
+      "related_flip": 1.0,
+      "unrelated_same_answer_flip": 0.0,
+      "base_accuracy": 1.0,
+      "related_donor_accuracy": 1.0
+    },
+    "recurrent3/11/ood_test": {
+      "n": 1000,
+      "related_flip": 0.548,
+      "unrelated_same_answer_flip": 0.382,
+      "base_accuracy": 0.684,
+      "related_donor_accuracy": 0.684
+    },
+    "recurrent3/23/id_test": {
+      "n": 1000,
+      "related_flip": 0.994,
+      "unrelated_same_answer_flip": 0.003,
+      "base_accuracy": 0.997,
+      "related_donor_accuracy": 0.997
+    },
+    "recurrent3/23/ood_test": {
+      "n": 1000,
+      "related_flip": 0.574,
+      "unrelated_same_answer_flip": 0.419,
+      "base_accuracy": 0.697,
+      "related_donor_accuracy": 0.697
+    },
+    "recurrent3/37/id_test": {
+      "n": 1000,
+      "related_flip": 0.998,
+      "unrelated_same_answer_flip": 0.001,
+      "base_accuracy": 0.999,
+      "related_donor_accuracy": 0.999
+    },
+    "recurrent3/37/ood_test": {
+      "n": 1000,
+      "related_flip": 0.488,
+      "unrelated_same_answer_flip": 0.455,
+      "base_accuracy": 0.658,
+      "related_donor_accuracy": 0.658
+    }
+  }
+}

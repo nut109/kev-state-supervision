@@ -1,0 +1,56 @@
+{
+  "data_seed": 20261001,
+  "sizes_all_families": {
+    "train": 10000,
+    "val": 2000,
+    "stress_val": 200,
+    "id_test": 2000,
+    "ood_test": 2000
+  },
+  "rule_rows": {
+    "train": 5000,
+    "val": 1000,
+    "stress_val": 100,
+    "id_test": 1000,
+    "ood_test": 1000
+  },
+  "kev_checkpoint": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+  "parser_checkpoint": "runs/hard_iit/onepass_rule_best.pt",
+  "parser_sha256": "fa0fcba6edaa53610de3776842855391060481217a2f7b5446ad9374bc4d0ba6",
+  "arms": [
+    "continuous",
+    "soft",
+    "hard"
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "train_depths": [
+    1,
+    2,
+    3
+  ],
+  "ood_depths": [
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "batch": 128,
+  "epochs": 30,
+  "core_lr": 0.003,
+  "state_loss_weight": 0.25,
+  "selection": "val answer accuracy, then val pre-feedback step CE, then answer NLL; stress is diagnostic only",
+  "short_gate": "each seed/arm val answer >= 0.95 and per-seed arm spread <= 0.03, separately at depths 1/2/3",
+  "long_decision": {
+    "continue_interface": "B or C minus A >= 0.05 on depths 6/8/10 with paired world CI excluding zero, after the short gate; step errors and correct-direction counterfactuals must agree",
+    "drop_hardness": "C minus B paired world CI wholly within [-0.02, 0.02] on depths 6/8/10",
+    "stop_interface": "B minus A and C minus A paired world CIs wholly within [-0.02, 0.02] on depths 6/8/10"
+  },
+  "locked_test_policy": "freeze all nine selected checkpoints and code before reading either test",
+  "single_repair": "After the 12-epoch development gate failed for soft feedback at depth 3, rerun all arms/seeds from the same initialization for 30 epochs; no other change and no locked test read.",
+  "publication_note": "Portable path substituted in this evidence copy; historical original hash is recorded in frozen_manifest_portable.json."
+}

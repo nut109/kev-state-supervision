@@ -1,0 +1,11 @@
+Kev-derived source in kev/model.py and kev/checkpoint.py originates from
+Jared Palmer's Kev repository (https://github.com/jaredpalmer/kev),
+Apache License 2.0, source commit 557598fced1dada75dfbf36ed144dce309ac6ceb.
+
+The latent experiment modules were extracted from the local Kev research
+workspace. In this export, latent_iit_run.py, latent_iit_trials.py, and
+latent_interface_run.py import release_utils.py instead of the unrelated
+scratchpad runner; release_utils.py extracts three helpers from that runner.
+latent_interface_run.py hashes the renamed helper in its source manifest.
+See provenance.json for per-file source hashes and changes. No pretrained
+weights or training data are redistributed here.

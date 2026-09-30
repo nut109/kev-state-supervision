@@ -1,0 +1,192 @@
+{
+  "arm": "deep",
+  "seed": 11,
+  "kev_checkpoint": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+  "n_train": 5000,
+  "batch": 8,
+  "epochs_cap": 4,
+  "learning_rates": {
+    "backbone": 2e-05,
+    "heads": 0.0003,
+    "core": 0.003
+  },
+  "trainable_parameters": 122943645,
+  "best_epoch": 1,
+  "best_metrics": {
+    "factual": {
+      "all": {
+        "answer": {
+          "value": 1.0,
+          "n": 1000
+        },
+        "answer_nll": {
+          "value": 0.00033539868309162557,
+          "n": 1000
+        },
+        "exact_trajectory": {
+          "value": 1.0,
+          "n": 1000
+        },
+        "initial": {
+          "value": 1.0,
+          "n": 1000
+        },
+        "operator": {
+          "value": 1.0,
+          "n": 1998
+        },
+        "gate": {
+          "value": 1.0,
+          "n": 1998
+        },
+        "active_gate": {
+          "value": 1.0,
+          "n": 958
+        },
+        "exact_program": {
+          "value": 1.0,
+          "n": 1000
+        }
+      },
+      "depth_1": {
+        "answer": {
+          "value": 1.0,
+          "n": 334
+        },
+        "answer_nll": {
+          "value": 0.00033539868309162557,
+          "n": 334
+        },
+        "exact_trajectory": {
+          "value": 1.0,
+          "n": 334
+        },
+        "initial": {
+          "value": 1.0,
+          "n": 334
+        },
+        "operator": {
+          "value": 1.0,
+          "n": 334
+        },
+        "gate": {
+          "value": 1.0,
+          "n": 334
+        },
+        "active_gate": {
+          "value": 1.0,
+          "n": 153
+        },
+        "exact_program": {
+          "value": 1.0,
+          "n": 334
+        }
+      },
+      "depth_3": {
+        "answer": {
+          "value": 1.0,
+          "n": 332
+        },
+        "answer_nll": {
+          "value": 0.00033539868309162557,
+          "n": 332
+        },
+        "exact_trajectory": {
+          "value": 1.0,
+          "n": 332
+        },
+        "initial": {
+          "value": 1.0,
+          "n": 332
+        },
+        "operator": {
+          "value": 1.0,
+          "n": 996
+        },
+        "gate": {
+          "value": 1.0,
+          "n": 996
+        },
+        "active_gate": {
+          "value": 1.0,
+          "n": 492
+        },
+        "exact_program": {
+          "value": 1.0,
+          "n": 332
+        }
+      },
+      "depth_2": {
+        "answer": {
+          "value": 1.0,
+          "n": 334
+        },
+        "answer_nll": {
+          "value": 0.00033539868309162557,
+          "n": 334
+        },
+        "exact_trajectory": {
+          "value": 1.0,
+          "n": 334
+        },
+        "initial": {
+          "value": 1.0,
+          "n": 334
+        },
+        "operator": {
+          "value": 1.0,
+          "n": 668
+        },
+        "gate": {
+          "value": 1.0,
+          "n": 668
+        },
+        "active_gate": {
+          "value": 1.0,
+          "n": 313
+        },
+        "exact_program": {
+          "value": 1.0,
+          "n": 334
+        }
+      }
+    },
+    "loops": {}
+  },
+  "eligible_iit": {},
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.929880095461011,
+      "seconds": 86.23842147737741,
+      "val_answer": 1.0,
+      "val_nll": 0.00033539868309162557,
+      "val_exact_trajectory": 1.0
+    },
+    {
+      "epoch": 2,
+      "loss": 0.052289337543398144,
+      "seconds": 80.69427248463035,
+      "val_answer": 1.0,
+      "val_nll": 0.00033539868309162557,
+      "val_exact_trajectory": 1.0
+    },
+    {
+      "epoch": 3,
+      "loss": 0.01516332988627255,
+      "seconds": 80.6606328189373,
+      "val_answer": 0.999,
+      "val_nll": 0.008335398977767909,
+      "val_exact_trajectory": 0.999
+    },
+    {
+      "epoch": 4,
+      "loss": 0.03602230563033372,
+      "seconds": 80.52317234128714,
+      "val_answer": 1.0,
+      "val_nll": 0.00033539868309162557,
+      "val_exact_trajectory": 1.0
+    }
+  ],
+  "fit_completed": true
+}

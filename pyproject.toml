@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kev-state-supervision"
+version = "0.1.0"
+description = "Reproducible Kev-derived supervised state transition experiments"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+dependencies = [
+  "accelerate>=1.15.0",
+  "huggingface-hub>=0.30",
+  "numpy>=2.5",
+  "peft>=0.21,<0.22",
+  "torch>=2.6,<2.9",
+  "transformers>=5.17,<6",
+]
+
+[dependency-groups]
+dev = ["pytest>=9.1"]
+
+[tool.setuptools]
+packages = ["kev"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

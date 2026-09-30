@@ -1,0 +1,553 @@
+{
+  "source_repository": "https://github.com/jaredpalmer/kev",
+  "source_commit": "557598fced1dada75dfbf36ed144dce309ac6ceb",
+  "source_worktree_note": "Experimental latent modules and their focused tests were untracked at export; kev/train.py had an unrelated tracked modification and was excluded.",
+  "exported_code": {
+    "kev/__init__.py": {
+      "original_path": "kev/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_git_status": "tracked clean",
+      "export_change": "Copied without changes from current source worktree."
+    },
+    "kev/checkpoint.py": {
+      "original_path": "kev/checkpoint.py",
+      "original_sha256": "9f1dbc5d3d7d3050aca4ee34e0578c9ad76b7a2a7467dfc7a4ad65e3c471db59",
+      "export_sha256": "7fdad65572e8c43ba3f290a44d360b41c8688ef9382102e0b2d63350383801b7",
+      "source_git_status": "tracked clean",
+      "export_change": "Torch-only checkpoint loader extracted from upstream; unused MLX, serving, warm-start, and suite paths removed; research load semantics retained."
+    },
+    "kev/latent_data.py": {
+      "original_path": "kev/latent_data.py",
+      "original_sha256": "0ed0a66d8423ce880b2df0588a2c5b8baece2a70fa8f0c938111729825895672",
+      "export_sha256": "0ed0a66d8423ce880b2df0588a2c5b8baece2a70fa8f0c938111729825895672",
+      "source_git_status": "??",
+      "export_change": "Copied without changes from current source worktree."
+    },
+    "kev/latent_iit.py": {
+      "original_path": "kev/latent_iit.py",
+      "original_sha256": "d5ff2b8ce1683b143121825216ab36dd4e40cf57c86e4b83ea03cbd1fcafd413",
+      "export_sha256": "d5ff2b8ce1683b143121825216ab36dd4e40cf57c86e4b83ea03cbd1fcafd413",
+      "source_git_status": "??",
+      "export_change": "Copied without changes from current source worktree."
+    },
+    "kev/latent_iit_encoder.py": {
+      "original_path": "kev/latent_iit_encoder.py",
+      "original_sha256": "2f8a815a3ca34b7a2c269c3e35e35770fe0eba9a0bc1a6fdf68dd62603dd6c8a",
+      "export_sha256": "2f8a815a3ca34b7a2c269c3e35e35770fe0eba9a0bc1a6fdf68dd62603dd6c8a",
+      "source_git_status": "??",
+      "export_change": "Copied without changes from current source worktree."
+    },
+    "kev/latent_iit_run.py": {
+      "original_path": "kev/latent_iit_run.py",
+      "original_sha256": "f5bf7ac12ef6d2633521608c0a3c21e1e6f096e3ce6e3afb57e3f14ba5a40f09",
+      "export_sha256": "5e264bb45c4b66f9b28b322b35f0c45ff710b8719febb60896677a3522600ef7",
+      "source_git_status": "??",
+      "export_change": "Imports switched from latent_run to release_utils; source hash list updated."
+    },
+    "kev/latent_iit_trials.py": {
+      "original_path": "kev/latent_iit_trials.py",
+      "original_sha256": "d1834b2492b495b9826941dd8955b72cb0180ff9c585b14faa9670751d1d6724",
+      "export_sha256": "ee24a099c0b7b8f498b127b1725ec50e8b9dc57722d791a453a06a113605cff3",
+      "source_git_status": "??",
+      "export_change": "Imports switched from latent_run to release_utils; source hash list updated."
+    },
+    "kev/latent_interface_run.py": {
+      "original_path": "kev/latent_interface_run.py",
+      "original_sha256": "7e6e764c755767432569b85a8e0791b8eac77bc88d6396635bd2a27aa1b0d61c",
+      "export_sha256": "468f39e30908288fbafd759dc3fbf1678e79dc0edc3405c857366702c1c94138",
+      "source_git_status": "??",
+      "export_change": "Imports switched from latent_run to release_utils, source hash list updated, and final post-development 30-epoch cap recorded in prepare config."
+    },
+    "kev/latent_support_hole.py": {
+      "original_path": "kev/latent_support_hole.py",
+      "original_sha256": "f48b8c0d091c6d5817d293dd6f58544fd546bd62b1cf95fe42721c550f4faff2",
+      "export_sha256": "f48b8c0d091c6d5817d293dd6f58544fd546bd62b1cf95fe42721c550f4faff2",
+      "source_git_status": "??",
+      "export_change": "Copied without changes from current source worktree."
+    },
+    "kev/model.py": {
+      "original_path": "kev/model.py",
+      "original_sha256": "2260e2fab077a2a53b9e0d265fde2b7d021acd924dfbcdc668962df124426d5d",
+      "export_sha256": "2260e2fab077a2a53b9e0d265fde2b7d021acd924dfbcdc668962df124426d5d",
+      "source_git_status": "tracked clean",
+      "export_change": "Copied without changes from current source worktree."
+    },
+    "kev/release_utils.py": {
+      "original_path": "kev/latent_run.py",
+      "original_sha256": "c3119ad175d8cb6a983b5c03c09d8edeb4f3c478b01d8397862c89aa9435bfa1",
+      "export_sha256": "180d05c8c558154911fb44a37830a1747583229429caa0d37db3b3a98b95acc2",
+      "source_git_status": "??",
+      "export_change": "Three helper functions extracted; unrelated scratchpad runner omitted."
+    }
+  },
+  "evidence": {
+    "results/evidence/gold_state/aggregate.json": {
+      "source_path": "runs/gold_state/aggregate.json",
+      "source_sha256": "4bdc161b47d8a32745a16048e276c73af7e81466377796f9344128f34893845b",
+      "export_sha256": "4bdc161b47d8a32745a16048e276c73af7e81466377796f9344128f34893845b",
+      "transformation": "exact copy"
+    },
+    "results/evidence/gold_state/config.json": {
+      "source_path": "runs/gold_state/config.json",
+      "source_sha256": "eac690fcf7f5d1572c235c805174e2c9505c9256970bb4b615d5631b73c77ef0",
+      "export_sha256": "eac690fcf7f5d1572c235c805174e2c9505c9256970bb4b615d5631b73c77ef0",
+      "transformation": "exact copy"
+    },
+    "results/evidence/gold_state/metrics.json": {
+      "source_path": "runs/gold_state/metrics.json",
+      "source_sha256": "d0dad49437727c0bc6e1fd3dde7f0c17a25b89a90aa7ea1d2fa04e84aaac0e78",
+      "export_sha256": "d0dad49437727c0bc6e1fd3dde7f0c17a25b89a90aa7ea1d2fa04e84aaac0e78",
+      "transformation": "exact copy"
+    },
+    "results/evidence/gold_state/paired_intervals.json": {
+      "source_path": "runs/gold_state/paired_intervals.json",
+      "source_sha256": "86da074cf29634aa7757f6f0960a3cf292dbe47e1548324d43922d5d8bd577d5",
+      "export_sha256": "86da074cf29634aa7757f6f0960a3cf292dbe47e1548324d43922d5d8bd577d5",
+      "transformation": "exact copy"
+    },
+    "results/evidence/gold_state_z1/aggregate.json": {
+      "source_path": "runs/gold_state_z1/aggregate.json",
+      "source_sha256": "6c3e1a4cea39df22f4da8da4763d55bc7ec6f3782451c98b749b2a0f1bfba33f",
+      "export_sha256": "6c3e1a4cea39df22f4da8da4763d55bc7ec6f3782451c98b749b2a0f1bfba33f",
+      "transformation": "exact copy"
+    },
+    "results/evidence/gold_state_z1/config.json": {
+      "source_path": "runs/gold_state_z1/config.json",
+      "source_sha256": "59f50ae1aef3abf6e69ee6d5f7ea3e43cb278acf17afb41d1ffc4dda64aa301e",
+      "export_sha256": "59f50ae1aef3abf6e69ee6d5f7ea3e43cb278acf17afb41d1ffc4dda64aa301e",
+      "transformation": "exact copy"
+    },
+    "results/evidence/gold_state_z1/paired_intervals.json": {
+      "source_path": "runs/gold_state_z1/paired_intervals.json",
+      "source_sha256": "c5c8c1fd68677b6406066b0b972062006400decb4395365e5fc0fc5e254e0297",
+      "export_sha256": "c5c8c1fd68677b6406066b0b972062006400decb4395365e5fc0fc5e254e0297",
+      "transformation": "exact copy"
+    },
+    "results/evidence/gold_state_z1/transplant.json": {
+      "source_path": "runs/gold_state_z1/transplant.json",
+      "source_sha256": "961ffe6d21457f5979cd285d6a104814fdc126ada684d352b8fd3e9e8c53220b",
+      "export_sha256": "961ffe6d21457f5979cd285d6a104814fdc126ada684d352b8fd3e9e8c53220b",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/config.json": {
+      "source_path": "runs/hard_iit/config.json",
+      "source_sha256": "6e93cbca64d2a719fe332a21e5dd258bd763da5af50068f23f9e7f83deb9870a",
+      "export_sha256": "6e93cbca64d2a719fe332a21e5dd258bd763da5af50068f23f9e7f83deb9870a",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/frozen_manifest.json": {
+      "source_path": "runs/hard_iit/frozen_manifest.json",
+      "source_sha256": "470e95d2aef4a55d5058334cf39f93435336470290468afd267e2e5ca4754c8b",
+      "export_sha256": "470e95d2aef4a55d5058334cf39f93435336470290468afd267e2e5ca4754c8b",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/gold_rule_selection.json": {
+      "source_path": "runs/hard_iit/gold_rule_selection.json",
+      "source_sha256": "3186af4245e55c2f70783c156d4dc1785996729a512ecc8a3c6b35bde5442f0e",
+      "export_sha256": "3186af4245e55c2f70783c156d4dc1785996729a512ecc8a3c6b35bde5442f0e",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/gold_rule_stress.json": {
+      "source_path": "runs/hard_iit/gold_rule_stress.json",
+      "source_sha256": "3a2cd81dddba95d7f0376f334c2291f57f3b7a8930e7cde89754d317282264e4",
+      "export_sha256": "3a2cd81dddba95d7f0376f334c2291f57f3b7a8930e7cde89754d317282264e4",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/onepass_rule_selection.json": {
+      "source_path": "runs/hard_iit/onepass_rule_selection.json",
+      "source_sha256": "d574978246a5d0587fb6ae8a9129c4e5d3f0174cc9c1097b485141a065905d0e",
+      "export_sha256": "d574978246a5d0587fb6ae8a9129c4e5d3f0174cc9c1097b485141a065905d0e",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/onepass_rule_stress.json": {
+      "source_path": "runs/hard_iit/onepass_rule_stress.json",
+      "source_sha256": "370d8a0d66655c4644c75f858fcde362ebdf86f07ce2151ff02d92ffaad006e6",
+      "export_sha256": "370d8a0d66655c4644c75f858fcde362ebdf86f07ce2151ff02d92ffaad006e6",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/posthoc_cross_composition_d10.json": {
+      "source_path": "runs/hard_iit/posthoc_cross_composition_d10.json",
+      "source_sha256": "ce395ca5227ca2649edf005904628f74437948c9ba766bcc6b56eb0b5b73859c",
+      "export_sha256": "ce395ca5227ca2649edf005904628f74437948c9ba766bcc6b56eb0b5b73859c",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/posthoc_equal_epoch_replay.json": {
+      "source_path": "runs/hard_iit/posthoc_equal_epoch_replay.json",
+      "source_sha256": "ab7368f7b96c22f9bac6ffada93e56002a1c46b75e97ab9f93b17dceca073685",
+      "export_sha256": "ab7368f7b96c22f9bac6ffada93e56002a1c46b75e97ab9f93b17dceca073685",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_deep_id_test.json": {
+      "source_path": "runs/hard_iit/trial_deep_id_test.json",
+      "source_sha256": "ae4882540853cd4f92702da739140f08756d5c538c30bd99d407515ab20d9677",
+      "export_sha256": "ae4882540853cd4f92702da739140f08756d5c538c30bd99d407515ab20d9677",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_deep_ood_test.json": {
+      "source_path": "runs/hard_iit/trial_deep_ood_test.json",
+      "source_sha256": "15cea2f0e9aa4d0742c55534e2efb04730045dc0a37cf484b7211257a35613c7",
+      "export_sha256": "15cea2f0e9aa4d0742c55534e2efb04730045dc0a37cf484b7211257a35613c7",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_deep_selection.json": {
+      "source_path": "runs/hard_iit/trial_deep_selection.json",
+      "source_sha256": "4f4d5e9c30bdd7f0884c99f6b6c0eeaf15bf084912dda385ecdb755b1c03aed6",
+      "export_sha256": "4f4d5e9c30bdd7f0884c99f6b6c0eeaf15bf084912dda385ecdb755b1c03aed6",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_gold_id_test.json": {
+      "source_path": "runs/hard_iit/trial_gold_id_test.json",
+      "source_sha256": "d78d11e757f707486c0c18ebd4f13d30f628d4e3c3947e9c981f8e76461986a6",
+      "export_sha256": "d78d11e757f707486c0c18ebd4f13d30f628d4e3c3947e9c981f8e76461986a6",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_gold_ood_test.json": {
+      "source_path": "runs/hard_iit/trial_gold_ood_test.json",
+      "source_sha256": "bf47d2f237bd71bbff8f8a2ac1dd7f9f70a4d52fb31a46c942d4322bc98b96ce",
+      "export_sha256": "bf47d2f237bd71bbff8f8a2ac1dd7f9f70a4d52fb31a46c942d4322bc98b96ce",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_r3_id_test.json": {
+      "source_path": "runs/hard_iit/trial_r3_id_test.json",
+      "source_sha256": "802a52b5894b8562114ed6ad52ea300601b894f2ac4597a6c7a74d70cdb0d0ff",
+      "export_sha256": "802a52b5894b8562114ed6ad52ea300601b894f2ac4597a6c7a74d70cdb0d0ff",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_r3_iit_id_test.json": {
+      "source_path": "runs/hard_iit/trial_r3_iit_id_test.json",
+      "source_sha256": "a4bc824b70005335e93ea4290ce2d337e4fae51cf74ac317d2153c026e864186",
+      "export_sha256": "a4bc824b70005335e93ea4290ce2d337e4fae51cf74ac317d2153c026e864186",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_r3_iit_ood_test.json": {
+      "source_path": "runs/hard_iit/trial_r3_iit_ood_test.json",
+      "source_sha256": "59a5f364f52aa8bdfcd23f245be34c7c03d4c8542ba54c2859281d45c30e3b1d",
+      "export_sha256": "59a5f364f52aa8bdfcd23f245be34c7c03d4c8542ba54c2859281d45c30e3b1d",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_r3_iit_selection.json": {
+      "source_path": "runs/hard_iit/trial_r3_iit_selection.json",
+      "source_sha256": "52c19cb7bfe8ac08c00b1dca7541503d4a42365738c2f0cc6d2a84dfd4670c41",
+      "export_sha256": "52c19cb7bfe8ac08c00b1dca7541503d4a42365738c2f0cc6d2a84dfd4670c41",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_r3_ood_test.json": {
+      "source_path": "runs/hard_iit/trial_r3_ood_test.json",
+      "source_sha256": "7de5dcd62285e21078e9f97d7a6f15a79871e12159bec796c816ff07e14d652a",
+      "export_sha256": "7de5dcd62285e21078e9f97d7a6f15a79871e12159bec796c816ff07e14d652a",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_r3_selection.json": {
+      "source_path": "runs/hard_iit/trial_r3_selection.json",
+      "source_sha256": "f1b815d13102f3383ca4f89048ce80e47172893e676a6489c73bbfbf7f4e3058",
+      "export_sha256": "f1b815d13102f3383ca4f89048ce80e47172893e676a6489c73bbfbf7f4e3058",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_r3_smoke.json": {
+      "source_path": "runs/hard_iit/trial_r3_smoke.json",
+      "source_sha256": "81a644398aca02b4378e78979659b86839abeb79c3400f4239263f1da72b9928",
+      "export_sha256": "81a644398aca02b4378e78979659b86839abeb79c3400f4239263f1da72b9928",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_r3_state_id_test.json": {
+      "source_path": "runs/hard_iit/trial_r3_state_id_test.json",
+      "source_sha256": "abf3e0717a5cc398ed85745dada8de097a4c1a6a150e43110ec5816b2928d11b",
+      "export_sha256": "abf3e0717a5cc398ed85745dada8de097a4c1a6a150e43110ec5816b2928d11b",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_r3_state_ood_test.json": {
+      "source_path": "runs/hard_iit/trial_r3_state_ood_test.json",
+      "source_sha256": "89dce99909e69dca644760583ebaa623a986dee3fad37778f1fd6d388d5c416d",
+      "export_sha256": "89dce99909e69dca644760583ebaa623a986dee3fad37778f1fd6d388d5c416d",
+      "transformation": "exact copy"
+    },
+    "results/evidence/hard_iit/trial_r3_state_selection.json": {
+      "source_path": "runs/hard_iit/trial_r3_state_selection.json",
+      "source_sha256": "1aa23260d2cd2616a65ce728114e95089265f8e3e184ee80e2515d36bcbce93d",
+      "export_sha256": "1aa23260d2cd2616a65ce728114e95089265f8e3e184ee80e2515d36bcbce93d",
+      "transformation": "exact copy"
+    },
+    "results/evidence/latent_scratchpad/aggregate.json": {
+      "source_path": "runs/latent_scratchpad/aggregate.json",
+      "source_sha256": "ddaf3e808eea65d520838169965777f40863f7772f5add2d2672bcdd9aa378ba",
+      "export_sha256": "ddaf3e808eea65d520838169965777f40863f7772f5add2d2672bcdd9aa378ba",
+      "transformation": "exact copy"
+    },
+    "results/evidence/latent_scratchpad/config.json": {
+      "source_path": "runs/latent_scratchpad/config.json",
+      "source_sha256": "7d084968203894c8ed9f15c658249be65ea0b4e1c56c9c4c258fd94c7d1e9148",
+      "export_sha256": "7d084968203894c8ed9f15c658249be65ea0b4e1c56c9c4c258fd94c7d1e9148",
+      "transformation": "exact copy"
+    },
+    "results/evidence/latent_scratchpad/failure_analysis.json": {
+      "source_path": "runs/latent_scratchpad/failure_analysis.json",
+      "source_sha256": "0917fffa281f05d9244561f2751e61588af731839209b7d2ae8d41e542645372",
+      "export_sha256": "0917fffa281f05d9244561f2751e61588af731839209b7d2ae8d41e542645372",
+      "transformation": "exact copy"
+    },
+    "results/evidence/latent_scratchpad/intervention_results.json": {
+      "source_path": "runs/latent_scratchpad/intervention_results.json",
+      "source_sha256": "f875b8c061452fb0148e9ec0aad20ff7a9e9ad7e23f20c00a7ecc20be597f2e6",
+      "export_sha256": "f875b8c061452fb0148e9ec0aad20ff7a9e9ad7e23f20c00a7ecc20be597f2e6",
+      "transformation": "exact copy"
+    },
+    "results/evidence/latent_scratchpad/metrics.json": {
+      "source_path": "runs/latent_scratchpad/metrics.json",
+      "source_sha256": "b7a69412548e76f7c2e8a7105ed57252e24118ead40cec9034ec2d882b91fb2b",
+      "export_sha256": "b7a69412548e76f7c2e8a7105ed57252e24118ead40cec9034ec2d882b91fb2b",
+      "transformation": "exact copy"
+    },
+    "results/evidence/latent_scratchpad/paired_intervals.json": {
+      "source_path": "runs/latent_scratchpad/paired_intervals.json",
+      "source_sha256": "88f04dca715d6d79af75deebb4d9160ee808dfcda408f687b03c44998f34f8b4",
+      "export_sha256": "88f04dca715d6d79af75deebb4d9160ee808dfcda408f687b03c44998f34f8b4",
+      "transformation": "exact copy"
+    },
+    "results/evidence/latent_scratchpad/per_depth_results.json": {
+      "source_path": "runs/latent_scratchpad/per_depth_results.json",
+      "source_sha256": "804a228c63809258343d60d2809f18cb94c1954bc9d7a30fa288bdabfa15fe77",
+      "export_sha256": "804a228c63809258343d60d2809f18cb94c1954bc9d7a30fa288bdabfa15fe77",
+      "transformation": "exact copy"
+    },
+    "results/evidence/read_once/aggregate.json": {
+      "source_path": "runs/read_once/aggregate.json",
+      "source_sha256": "1eea95e09f2a68e98771e02b12ed0e26d104e7aae93b15d10de8756e17bc3be1",
+      "export_sha256": "1eea95e09f2a68e98771e02b12ed0e26d104e7aae93b15d10de8756e17bc3be1",
+      "transformation": "exact copy"
+    },
+    "results/evidence/read_once/config.json": {
+      "source_path": "runs/read_once/config.json",
+      "source_sha256": "17d09961e362d2d20bc65fc84292dbbdc74edce076db2ccbeffbd82f8fd18689",
+      "export_sha256": "17d09961e362d2d20bc65fc84292dbbdc74edce076db2ccbeffbd82f8fd18689",
+      "transformation": "exact copy"
+    },
+    "results/evidence/read_once/metrics.json": {
+      "source_path": "runs/read_once/metrics.json",
+      "source_sha256": "336914114bf074c43eecef81f5459da77b8fa7f0943ae42a8cb18bb6b0cdd48f",
+      "export_sha256": "336914114bf074c43eecef81f5459da77b8fa7f0943ae42a8cb18bb6b0cdd48f",
+      "transformation": "exact copy"
+    },
+    "results/evidence/read_once/paired_intervals.json": {
+      "source_path": "runs/read_once/paired_intervals.json",
+      "source_sha256": "e4e6a2391d694a97052aa65168512413e06c26831e35fcd3e598a0d5d6c82151",
+      "export_sha256": "e4e6a2391d694a97052aa65168512413e06c26831e35fcd3e598a0d5d6c82151",
+      "transformation": "exact copy"
+    },
+    "results/evidence/read_once/transplant_results_fp32.json": {
+      "source_path": "runs/read_once/transplant_results_fp32.json",
+      "source_sha256": "241ba5c383924e64b7cce5c8f1b1dd2bc8d613af7c697a8bd1373f7dc336dd0c",
+      "export_sha256": "241ba5c383924e64b7cce5c8f1b1dd2bc8d613af7c697a8bd1373f7dc336dd0c",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_diagnosis/probe_controls15/probe_metrics.json": {
+      "source_path": "runs/state_diagnosis/probe_controls15/probe_metrics.json",
+      "source_sha256": "710e9f5b5340c2f46e5cc0f83a2951b2e7a1a8b7e6809e5b3239d5c07b21855c",
+      "export_sha256": "710e9f5b5340c2f46e5cc0f83a2951b2e7a1a8b7e6809e5b3239d5c07b21855c",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_diagnosis/probe_keyvalue_seed11/probe_keyvalue_metrics.json": {
+      "source_path": "runs/state_diagnosis/probe_keyvalue_seed11/probe_keyvalue_metrics.json",
+      "source_sha256": "04bd2d38380af886ea00dde3430192dddef2eef4ee46e48871d2cd7ee4d1e0f7",
+      "export_sha256": "04bd2d38380af886ea00dde3430192dddef2eef4ee46e48871d2cd7ee4d1e0f7",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_diagnosis/probe_primary15/probe_metrics.json": {
+      "source_path": "runs/state_diagnosis/probe_primary15/probe_metrics.json",
+      "source_sha256": "ae42a1dfb9ca8f5f080806601487f9fcfcd92f8e50d9d4fb393c682ca8368920",
+      "export_sha256": "ae42a1dfb9ca8f5f080806601487f9fcfcd92f8e50d9d4fb393c682ca8368920",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_diagnosis/state_supervised_full/config.json": {
+      "source_path": "runs/state_diagnosis/state_supervised_full/config.json",
+      "source_sha256": "0bd929e295a1096ca3fcf4115f4ff6101657e50fc1921f2a13069ab77ff7b6d1",
+      "export_sha256": "0bd929e295a1096ca3fcf4115f4ff6101657e50fc1921f2a13069ab77ff7b6d1",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_diagnosis/state_supervised_full/selection.json": {
+      "source_path": "runs/state_diagnosis/state_supervised_full/selection.json",
+      "source_sha256": "be97d13bf4bef1c92edc280ea5ceb23bf923a864aeadd9b5079717e923c78a88",
+      "export_sha256": "be97d13bf4bef1c92edc280ea5ceb23bf923a864aeadd9b5079717e923c78a88",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_diagnosis/state_supervised_full/transplant_results_fp32.json": {
+      "source_path": "runs/state_diagnosis/state_supervised_full/transplant_results_fp32.json",
+      "source_sha256": "ef15119fadee185bcee47752093ffda6bbe5ae0d581e69563376bbc44e66994b",
+      "export_sha256": "ef15119fadee185bcee47752093ffda6bbe5ae0d581e69563376bbc44e66994b",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_interface/config_portable.json": {
+      "source_path": "runs/state_interface/config.json",
+      "source_sha256": "9592b1ef7a6209aad5601ca899b42b8c1f2d16a75682d92d67fbf3c65b3b5add",
+      "export_sha256": "7d7594296b3651bb1c55cb2a711bec7d77cd392b38ed92f7cc87d6877f6befb6",
+      "transformation": "portable path redaction"
+    },
+    "results/evidence/state_interface/frozen_manifest_portable.json": {
+      "source_path": "runs/state_interface/frozen_manifest.json",
+      "source_sha256": "91046dc639a2bbc5b8d16389f058c550b6c34fd3e11609654dc01b63508a3030",
+      "export_sha256": "f3e32ab95ba2780bf301fbbf9b2bc9b6931b385f29de237ca96326c825efcc52",
+      "transformation": "portable path redaction"
+    },
+    "results/evidence/state_interface/locked_cache_manifest.json": {
+      "source_path": "runs/state_interface/locked_cache_manifest.json",
+      "source_sha256": "58baaf04b02380454f8896125a6b985b0508570c8aa9ff755e1ce27cd0cfa1c8",
+      "export_sha256": "58baaf04b02380454f8896125a6b985b0508570c8aa9ff755e1ce27cd0cfa1c8",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_interface/locked_results.json": {
+      "source_path": "runs/state_interface/locked_results.json",
+      "source_sha256": "898768ad9ece23262576d1591d64f7caf155b1c1a18df3c2ee03da9ce23bbbd2",
+      "export_sha256": "898768ad9ece23262576d1591d64f7caf155b1c1a18df3c2ee03da9ce23bbbd2",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_interface/selection_continuous_11.json": {
+      "source_path": "runs/state_interface/selection_continuous_11.json",
+      "source_sha256": "e0eed0787bfa706cd95f42fa170d9925d3daf2b9adca3bf032afb6bec2993257",
+      "export_sha256": "e0eed0787bfa706cd95f42fa170d9925d3daf2b9adca3bf032afb6bec2993257",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_interface/selection_continuous_23.json": {
+      "source_path": "runs/state_interface/selection_continuous_23.json",
+      "source_sha256": "8b39ae43b62a1b72a3aac90a5d22004dec2c764aac3d4db7532d818027955f96",
+      "export_sha256": "8b39ae43b62a1b72a3aac90a5d22004dec2c764aac3d4db7532d818027955f96",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_interface/selection_continuous_37.json": {
+      "source_path": "runs/state_interface/selection_continuous_37.json",
+      "source_sha256": "96b6e74dc88b918eb3475705ae8aff96ab163ceb5b81a870adc00ba076d663f8",
+      "export_sha256": "96b6e74dc88b918eb3475705ae8aff96ab163ceb5b81a870adc00ba076d663f8",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_interface/selection_hard_11.json": {
+      "source_path": "runs/state_interface/selection_hard_11.json",
+      "source_sha256": "8260e18f8176a507e60af1400a0fed6795a4e5fbfd578aed23e484c44ab35f23",
+      "export_sha256": "8260e18f8176a507e60af1400a0fed6795a4e5fbfd578aed23e484c44ab35f23",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_interface/selection_hard_23.json": {
+      "source_path": "runs/state_interface/selection_hard_23.json",
+      "source_sha256": "f1852715781eb61415c809feb1853c755d2f08e95ef0850ad123a69ce30c2c45",
+      "export_sha256": "f1852715781eb61415c809feb1853c755d2f08e95ef0850ad123a69ce30c2c45",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_interface/selection_hard_37.json": {
+      "source_path": "runs/state_interface/selection_hard_37.json",
+      "source_sha256": "9bdc6f007185166d20006a5957c00b1f1adbee96397de76cb170def10dc31c93",
+      "export_sha256": "9bdc6f007185166d20006a5957c00b1f1adbee96397de76cb170def10dc31c93",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_interface/selection_soft_11.json": {
+      "source_path": "runs/state_interface/selection_soft_11.json",
+      "source_sha256": "50be01128ecdec1ff10c0d5dec17eae92379085a4f975abbafbb8af0868f727e",
+      "export_sha256": "50be01128ecdec1ff10c0d5dec17eae92379085a4f975abbafbb8af0868f727e",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_interface/selection_soft_23.json": {
+      "source_path": "runs/state_interface/selection_soft_23.json",
+      "source_sha256": "d6f5127d4be8ffd11012e777f74c6a7150664a726b956ba710721e4f038ca951",
+      "export_sha256": "d6f5127d4be8ffd11012e777f74c6a7150664a726b956ba710721e4f038ca951",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_interface/selection_soft_37.json": {
+      "source_path": "runs/state_interface/selection_soft_37.json",
+      "source_sha256": "1c6c343595ac24f289255053147571924d26a732180c512b8f59461f97c1a393",
+      "export_sha256": "1c6c343595ac24f289255053147571924d26a732180c512b8f59461f97c1a393",
+      "transformation": "exact copy"
+    },
+    "results/evidence/support_hole/results.json": {
+      "source_path": "runs/support_hole/results.json",
+      "source_sha256": "044986eaaaff206e689c6250d8e4ae0799cdcc42d1af762d1ac29afdde2a7615",
+      "export_sha256": "044986eaaaff206e689c6250d8e4ae0799cdcc42d1af762d1ac29afdde2a7615",
+      "transformation": "exact copy"
+    },
+    "results/evidence/support_hole/smoke.json": {
+      "source_path": "runs/support_hole/smoke.json",
+      "source_sha256": "cfbf5652ce28d3d850a73765d29eeddcbf63a2c6f61627563f194b800d8d061d",
+      "export_sha256": "cfbf5652ce28d3d850a73765d29eeddcbf63a2c6f61627563f194b800d8d061d",
+      "transformation": "exact copy"
+    },
+    "results/evidence/gold_state/smoke_bottleneck1_seed11.json": {
+      "source_path": "runs/gold_state/smoke_bottleneck1_seed11.json",
+      "source_sha256": "061868221d81e60b822695e962c544544feaef3281fe52f4948bf474ff12f3a5",
+      "export_sha256": "061868221d81e60b822695e962c544544feaef3281fe52f4948bf474ff12f3a5",
+      "transformation": "exact copy"
+    },
+    "results/evidence/gold_state/smoke_recurrent3_seed11.json": {
+      "source_path": "runs/gold_state/smoke_recurrent3_seed11.json",
+      "source_sha256": "118120a62e334b0ea625c7263601db2e652478ee4c27323ece97a3b1934783b0",
+      "export_sha256": "118120a62e334b0ea625c7263601db2e652478ee4c27323ece97a3b1934783b0",
+      "transformation": "exact copy"
+    },
+    "results/evidence/gold_state_z1/selection.json": {
+      "source_path": "runs/gold_state_z1/selection.json",
+      "source_sha256": "36c9b5e95d15a4d4f31eb2bd955f5dc169be22d38f35155181209a861d189656",
+      "export_sha256": "36c9b5e95d15a4d4f31eb2bd955f5dc169be22d38f35155181209a861d189656",
+      "transformation": "exact copy"
+    },
+    "results/evidence/gold_state_z1/smoke_recurrent3_seed11.json": {
+      "source_path": "runs/gold_state_z1/smoke_recurrent3_seed11.json",
+      "source_sha256": "94c5ae2bd90c83b848f1a248fe1a94f309dcf9f6e0e5638c18415f6e0d677bb9",
+      "export_sha256": "94c5ae2bd90c83b848f1a248fe1a94f309dcf9f6e0e5638c18415f6e0d677bb9",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_diagnosis/state_control6/selection.json": {
+      "source_path": "runs/state_diagnosis/state_control6/selection.json",
+      "source_sha256": "f0e54bbbc678bdedcbe2e33e49ee462f8d1f869a7cb7e103c46aab757ea8d063",
+      "export_sha256": "f0e54bbbc678bdedcbe2e33e49ee462f8d1f869a7cb7e103c46aab757ea8d063",
+      "transformation": "exact copy"
+    },
+    "results/evidence/state_diagnosis/state_supervised_full/train_log.jsonl": {
+      "source_path": "runs/state_diagnosis/state_supervised_full/train_log.jsonl",
+      "source_sha256": "8e8ae35f05d607b333ffbfee7d2da29e1c819944e75e7a967c4a95aa10d7e810",
+      "export_sha256": "8e8ae35f05d607b333ffbfee7d2da29e1c819944e75e7a967c4a95aa10d7e810",
+      "transformation": "exact copy"
+    }
+  },
+  "historical_main_frozen_latent_iit_sha256": "9c5e86a4f385d47c453d3e185435319dd75a7f638a3bfabc65b8c2ddf3ba6b8b",
+  "historical_main_source_difference": "The current/exported latent_iit.py includes later continuous/soft feedback support. Its default hard path is retained, but byte-identical replay of the earlier frozen source is unavailable.",
+  "excluded": [
+    "base model and Kev LoRA weights",
+    "trained experiment checkpoints",
+    "large cached representations",
+    "full generated datasets",
+    "virtual environments",
+    "original Git history",
+    "unrelated SQL/RAG/MoE/unlearning project files"
+  ],
+  "publication_redactions": {
+    "results/evidence/state_interface/config_portable.json": "Replaced a private compute-host absolute parser checkpoint path with runs/hard_iit/onepass_rule_best.pt and added a publication note.",
+    "results/evidence/state_interface/frozen_manifest_portable.json": "Normalized absolute compute-host path keys to paths relative to its work directory; digest values are unchanged."
+  },
+  "publication_files_sha256": {
+    ".gitignore": "e089011a1c27b260783f786940a652064aa1f6ffcc4cc749f740a6369646f1e4",
+    "LICENSE": "6b08bb37982c233aa12bcbdf19106da12f3f4fcf800773ea42e28ebeddd34fb8",
+    "NOTICE": "c1231ee14eefcf060cc72510b81584df46e9dcadb5af6f64db7986fc6480972e",
+    "README.md": "cfe90b9816f26b4b12e3ac4837656c890f47186b9497ff1c44abca86eaa86f10",
+    "config/data_manifest.json": "09c33648e9566bde4bd7cfcdf26149b0b7d3e6ab07811073442c1d93ad0f7210",
+    "config/main.json": "ecc4caa40ab762600983251390f1dab139f9f3a6c63cccc1a627758a63d55334",
+    "config/support_hole.json": "6740e884dfa39559b8697c4210fb36a47d3b9ee737d9625105ec5da7318bf95a",
+    "docs/EXPERIMENTS.md": "3f7db367685fef13fcb8ed32f3ae9d4af3abd7665707d209d4a546f3f2b5c87f",
+    "docs/METHOD.md": "f47ae71edc47bc558b6f98ae61033a0b6d0b96fd3f8117fe1704a06dfede1ad7",
+    "pyproject.toml": "aaa104ca90862a187376fc8f27c19cc26e7e6d4a3058baae27ac741c5a2f73bb",
+    "results/summary.csv": "ac415852aee94e7fe5b5b39a2d1255a1e4906017dd4c5de79399d11940ca9d6e",
+    "results/summary.json": "8f739facd5b7836f1f479e535e229136a76d807de16fbcad78df2ca728fdd1aa",
+    "scripts/evaluate_main.sh": "9d285fb1e1155d0366c337e0ff4c6a2292794cfcb49e508a5b0e9191a84a0873",
+    "scripts/reproduce_interface.sh": "e9c685f9ae8d2ffc0c4602450ac46108a695eb2c50fe0e0f1ff7f395d54f9d03",
+    "scripts/reproduce_main.sh": "c55bf0406e8af07bbc410b36c5904e438944322b03bd314d76d970b37a879b97",
+    "scripts/reproduce_support_hole.sh": "9351db3a318d0704e8afb77ac3f51b393e8b02e37e5c53d57415f2af02ccf723",
+    "scripts/smoke_test.sh": "3392ecad7567992899e496197b74601159b95bc89dec5446b64cd1a2f960998b",
+    "tests/test_latent_data.py": "ce8bbf75739c7d8b1d2942f5c9a1a60368ea483c5dc31de9e8e69343cfb1e2ab",
+    "tests/test_latent_iit.py": "0cf696e7bffdbb97993f97f8936fbc8bda40d636320acf9e4f2af50ac83297e2",
+    "tests/test_latent_iit_encoder.py": "9287cc198d6b59323b30b61b5cd4a000f72224ec9bbd3228773feb4bc31ff928",
+    "tests/test_latent_iit_trials.py": "2597ec0b2c4ffb42ce6bc52fbbaad54a01221599499b184c948e7d6372c3635a",
+    "tests/test_release.py": "6ab96f1bebf22c685acded52db65a18be36620a885bbf839868f739beda2fd1e",
+    "uv.lock": "265f5310ce375edf5f26b007e4ff7c8f7078f5a306f74de599c338e9b9f88cfd"
+  },
+  "validation": {
+    "independent_uv_sync": "completed without downloading model weights",
+    "smoke_tests": "30 passed",
+    "support_hole_cpu_smoke": "passed, 1 seed tiny run only",
+    "data_manifest": "state_interface generated split hashes match frozen manifest; hard_iit generator source hash matches historical freeze",
+    "full_training": "not run for publication"
+  }
+}

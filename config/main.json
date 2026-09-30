@@ -1,0 +1,52 @@
+{
+  "provenance": "Equivalent publication config assembled from hard_iit/config.json and trial_*_selection.json; original records in results/evidence/hard_iit/",
+  "experiment_id": "hard_iit",
+  "data_seed": 20260929,
+  "data": "synthetic causal Boolean rules, generated with kev.latent_data.generate_causal_splits; rule family only",
+  "rows": {
+    "train": 5000,
+    "val": 1000,
+    "stress_val": 100,
+    "id_test": 1000,
+    "ood_test": 1000
+  },
+  "train_depths": [
+    1,
+    2,
+    3
+  ],
+  "ood_depths": [
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "kev_checkpoint": "jaredpalmer/kev-0.8b@9a45d25eb2ab761841196625383fa1dff0e56c1e",
+  "base_revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+  "load": "merge Kev LoRA into the base; discard original pointer head; train last six text blocks and three typed parser heads",
+  "seed": 11,
+  "batch": 8,
+  "epochs_cap": 4,
+  "optimizer": "AdamW",
+  "weight_decay": 0.01,
+  "learning_rates": {
+    "backbone": 2e-05,
+    "parser_heads": 0.0003,
+    "transition": 0.003
+  },
+  "transition": {
+    "mode": "recurrent",
+    "hidden": 64,
+    "max_depth": 10,
+    "trainable_parameters": 770
+  },
+  "losses": {
+    "r3": "answer_ce",
+    "r3_state": "answer_ce + mean(initial_ce,operator_ce,gate_ce,next_state_ce)",
+    "r3_iit": "r3_state + effectful_noncopy_counterfactual_answer_ce",
+    "deep": "same as r3_state; independent absolute-step transitions"
+  },
+  "selection": "validation answer accuracy, then answer NLL",
+  "locked_test": "score only after positive controls and all four learned-input arms selected"
+}

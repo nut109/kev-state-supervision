@@ -1,0 +1,33 @@
+{
+  "source_run": "runs/latent_scratchpad",
+  "checkpoint": "jaredpalmer/kev-0.8b",
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "modes": [
+    "bottleneck1",
+    "recurrent3",
+    "deep"
+  ],
+  "sizes": {
+    "train": 10000,
+    "val": 2000,
+    "id_test": 2000,
+    "ood_test": 2000
+  },
+  "epochs": 3,
+  "batch_size": 64,
+  "learning_rate": 0.0005,
+  "slots": 4,
+  "hidden_dim": 1024,
+  "latent_steps": [
+    1,
+    3
+  ],
+  "loss": "final choice cross entropy only",
+  "selection": "best validation depth-4-to-6 accuracy per seed",
+  "status": "exploratory: OOD reused from preceding experiment",
+  "continue_gate": "recurrent3 minus bottleneck1 OOD >= 0.03, paired world CI above zero, positive gap in both families and increasing with depth; relevant edit sensitivity exceeds irrelevant edit sensitivity; deep does not match"
+}
