@@ -1,6 +1,6 @@
-# 状态监督的迭代规则执行：实际实现
+# 状态与指令监督的迭代规则执行
 
-本文对应原项目的 **R3-State**，即在一次文本读取之后，用受监督的二值状态反复执行布尔规则。主实验是自建合成规则任务，不是真实检索问答。跨实验结果见[实验总表](EXPERIMENTS.md)，主实验逐题记录见 [OOD 结果](../results/evidence/hard_iit/trial_r3_state_ood_test.json)；发布代码中的对应入口是 [`kev/latent_iit_trials.py`](../kev/latent_iit_trials.py)、[`kev/latent_iit_encoder.py`](../kev/latent_iit_encoder.py)、[`kev/latent_iit.py`](../kev/latent_iit.py)及 [`kev/latent_data.py`](../kev/latent_data.py)。
+本文对应原项目的 **R3-State**。它将文本解析为可验证的初值和有序指令，再通过同一个小模块执行状态转移。训练的直接标签覆盖解析与逐步执行两部分，“状态与指令监督”在本文指这套完整流程。主实验是自建单比特布尔规则任务。跨实验结果见[实验总表](EXPERIMENTS.md)，主实验逐题记录见 [OOD 结果](../results/evidence/hard_iit/trial_r3_state_ood_test.json)；发布代码中的对应入口是 [`kev/latent_iit_trials.py`](../kev/latent_iit_trials.py)、[`kev/latent_iit_encoder.py`](../kev/latent_iit_encoder.py)、[`kev/latent_iit.py`](../kev/latent_iit.py)及 [`kev/latent_data.py`](../kev/latent_data.py)。
 
 ## 输入、状态与一次读取
 
@@ -12,28 +12,31 @@
 
 ## 一个实际生成样本
 
-下面是固定数据种子 `20260929`、训练划分中的 `causal-train-03281-b`，深度 3。原样本还含同一世界中 Person37 的事实和规则，供模型在完整文本中辨别被问对象；此处展示与问题直接相关的原文行：
+下面是固定数据种子 `20260929`、训练划分中的 `causal-train-03119-a`，深度 3。原样本还包含另一主体的事实和规则；此处展示与被问主体有关的原文行：
 
 ```text
-Question: Is Person52 ready after applying the rules for Person52?
+Question: Is Person49 bright after applying the rules for Person49?
 Options: No | Yes
 Facts:
-Person52 has marker yellow.
-Person52 is not verified.
-Person52 is not bright.
-Person52 is not available.
-Person52 is not clear.
+Person49 is local.
+Person49 is not available.
+Person49 is active.
+Person49 has marker purple.
 Rules:
-For Person52: that subject is safe exactly when that subject is bright and is available.
-For Person52: that subject is calm exactly when that subject is safe and is verified.
-For Person52: that subject is ready exactly when that subject is calm or is clear.
+For Person49: that subject is warm exactly when that subject is active.
+For Person49: that subject is brave exactly when that subject is warm and is available.
+For Person49: that subject is bright exactly when that subject is brave or is local.
 ```
 
-生成器由原始事实得到 \(z_0=\text{false}\)，三步为 `and(false)`、`and(false)`、`or(false)`，所以轨迹是 `false → false → false → false`，答案为选项 `No`（索引 0）。`marker yellow` 不决定答案。轨迹、算子 ID 和门值 ID 是监督标签；在实际 R3-State 前向中，这些都由文本头预测，**不是** gold 注入。正对照 **Gold-State R3** 才把生成器的初始状态和指令作为输入，因此它不使用 Kev。
+正确初值是 `active=true`，指令依次为 `copy`、`and(false)`、`or(true)`。执行轨迹为 `true → true → false → true`，答案是 `Yes`（索引 1）；marker 不影响执行。模型从文本预测初值与指令，逐步状态由转移模块计算。生成器保存的正确值仅作训练标签与评价真值。
+
+这道题也说明终点标签与轨迹标签提供的信息不同。最后的 `or(true)` 总会得到 true，即使前面的初值或状态错误，模型仍可能答对。逐步状态标签还要求 `warm=true`、`brave=false`，并给这些执行位置直接提供损失；指令标签则分别教会解析头读出 copy、and、or 与门值。这是额外监督的具体内容，尚不能据此认定它解释了主实验的全部提升。
 
 ## 监督、训练与测试
 
-生成器 [`solve_rules`](../kev/latent_data.py) 根据初始真假、四种算子及门值确定每步 gold 状态；[`pack_rules`](../kev/latent_iit_run.py)把这些原始字段转换成标签。R3-State 的答案损失是 \(A=\operatorname{CE}(\hat y,y)\)。状态损失 \(S\) 是以下四项交叉熵的等权平均：初始真假、实际步位的算子、实际步位的门值、以及**硬化前**下一状态 logits 对 gold 轨迹的预测。因此主实验使用 \(L=A+S\)；padding 步不计入过程损失。训练过程中，下一步始终接收本模型上一步预测的状态，没有用 gold 状态作 teacher forcing。R3 answer-only 使用同一可见输入、同一硬状态机器及初始化，只训练 \(L=A\)。Deep 也训练 \(A+S\)，但使用十个不同的绝对步位转移块。
+生成器 [`solve_rules`](../kev/latent_data.py) 根据初始真假、四种算子及门值确定每步 gold 状态；[`pack_rules`](../kev/latent_iit_run.py)把这些原始字段转换成标签。R3-State 的答案损失是 \(A=\operatorname{CE}(\hat y,y)\)。代码中的 `state_loss` 名称涵盖四项交叉熵的等权平均：初始真假、实际步位的算子、实际步位的门值、以及**硬化前**下一状态 logits 对 gold 轨迹的预测。因此主实验使用 \(L=A+S\)；padding 步不计入过程损失。训练过程中，下一步始终接收本模型上一步预测的状态，没有用 gold 状态作 teacher forcing。R3 answer-only 使用同一可见输入、同一硬状态机器及初始化，只训练 \(L=A\)。Deep 也训练 \(A+S\)，但使用十个不同的绝对步位转移块。
+
+这不是仅给累积状态加一个辅助头的比较：初值与指令标签也直接监督 Kev 的解析输出。Gold-State R3 则绕过 Kev，注入 gold 初值与指令；其 `fit_gold` 仅优化最终答案 CE，没有逐步状态 CE。它在第 3 epoch 达到验证满分，OOD 也为 100%。因此当前证据尚未分离解析标签和累积状态标签的收益，也没有证明后者对这个 gold 输入的小执行器必需。[gold 训练入口](../kev/latent_iit_run.py) · [gold 选择记录](../results/evidence/hard_iit/gold_rule_selection.json)
 
 主实验来自数据种子 `20260929` 的世界不交叠划分：规则题训练 5,000、验证 1,000、长深度 stress 100、ID 1,000、OOD 1,000；每个世界提供两道题。训练和 ID 深度为 1–3；OOD 深度为 4、5、6、8、10，各 200 题。四个文本输入组共用 seed 11 的新 Kev／头／转移初始化、相同事实样本顺序、batch 8 和四轮训练上限。AdamW 权重衰减 0.01；主干、三个头、转移模块的学习率分别为 `2e-5`、`3e-4`、`3e-3`。按验证集答案准确率、再按答案 NLL 选择检查点；R3-State 入选 epoch 1。主实验 R3-State 检查点约有 122,936,715 个可训练参数，含主干可训练块；770 只是循环模块的参数数。
 
@@ -44,6 +47,14 @@ For Person52: that subject is ready exactly when that subject is calm or is clea
 ## 同监督接口对照
 
 后续对照使用新的数据种子 `20261001`，冻结先前训练的单次读取 Kev 解析器，把**同一批预测的**初始状态、算子和门 logits 缓存给三个 770 参数转移模型。A 在步间传递二维原始状态 logits，B 传递二维 softmax，C 传递 straight-through 硬 one-hot；三组答案读出都看硬化的终态。三组均用答案 CE 加 `0.25 ×` 每步硬化前状态 CE，无 IIT、无 teacher forcing；seed 为 11、23、37。短深度验证过门后，锁定 OOD 的 B/C 比 A 在深度 6/8/10 仅高 **0.167 个百分点**，配对区间为 `[0, 0.389]` 个百分点，B 与 C 的逐题答案相同。冻结解析器的完整程序预测只有 890/1,000 精确，但这些预测交给符号执行器后答案为 982/1,000；B/C 每题都匹配后者，说明该面板的最终答案已受解析误差限制。因此该任务上没有识别出硬反馈独有收益。A 只是**二维连续 logits**，不是任意宽的隐状态或可绕开状态解码的网络。[接口对照逐题及区间](../results/evidence/state_interface/locked_results.json)
+
+## 单比特任务的长度外推含义
+
+四种算子与合法门值构成 12 种局部输入：两个当前真假值分别配上 copy、invert、and(false)、and(true)、or(false)、or(true)。主训练集的 9,998 次转移已经覆盖全部 12 类，最少的一类出现 603 次。OOD 的 6,600 次转移仍来自相同局部输入集合。因此这里测的是新世界上的已见局部转移重复执行，动态状态大小始终为一位，静态程序存储则随深度增长。
+
+其中 copy、and(true)、or(false) 保持状态，invert 否定状态，and(false) 与 or(true) 将状态重置为常量。没有重置的程序可归约为初值与 invert 次数奇偶性的 XOR；完整任务还包含常量重置。对固定 OOD 面板的事后数据审计中，深度 10 有 187/200 题包含重置，116/200 题由最后重置起的至多三条规则即可确定答案。无重置的 13 题中，现有 R3-State 答案正确 12 题；该子集较小，且历史逐题文件没有保存可供重新分组的状态轨迹。审计通过固定生成器重建，并逐一匹配原 manifest 的十个数据哈希，没有执行新训练。[任务审计](../config/data_manifest.json) · [逐题答案](../results/evidence/hard_iit/trial_r3_state_ood_test.json)
+
+99.4% 答案、99.1% 完整轨迹和有效状态干预共同说明这套监督流程学会了所定义的执行语义。它们提供了可运行的状态接口基线；从这一位状态、全局部支持覆盖的任务推广到更复杂的状态获取与长期依赖，仍需要独立证据。
 
 ## 历史实现与发布代码的边界
 

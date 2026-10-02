@@ -522,12 +522,12 @@
     ".gitignore": "e089011a1c27b260783f786940a652064aa1f6ffcc4cc749f740a6369646f1e4",
     "LICENSE": "6b08bb37982c233aa12bcbdf19106da12f3f4fcf800773ea42e28ebeddd34fb8",
     "NOTICE": "c1231ee14eefcf060cc72510b81584df46e9dcadb5af6f64db7986fc6480972e",
-    "README.md": "cfe90b9816f26b4b12e3ac4837656c890f47186b9497ff1c44abca86eaa86f10",
-    "config/data_manifest.json": "09c33648e9566bde4bd7cfcdf26149b0b7d3e6ab07811073442c1d93ad0f7210",
-    "config/main.json": "ecc4caa40ab762600983251390f1dab139f9f3a6c63cccc1a627758a63d55334",
+    "README.md": "d4636ce9cf06d5c44fd0026dc700ff0c820563640685ac2c77a737966a6d0a50",
+    "config/data_manifest.json": "f05d451c23dcf84b301f50fbdb66c03b19e28d8c9fb0ef28e42f867004d98fa5",
+    "config/main.json": "19b0148d29688ec02020443df1de53524830beb49c6ef355f153fc41b71f5994",
     "config/support_hole.json": "6740e884dfa39559b8697c4210fb36a47d3b9ee737d9625105ec5da7318bf95a",
-    "docs/EXPERIMENTS.md": "3f7db367685fef13fcb8ed32f3ae9d4af3abd7665707d209d4a546f3f2b5c87f",
-    "docs/METHOD.md": "f47ae71edc47bc558b6f98ae61033a0b6d0b96fd3f8117fe1704a06dfede1ad7",
+    "docs/EXPERIMENTS.md": "77ef4f469fdea77a88204f6cf57066bc8b98f9198cf96d30295dab98aebf9460",
+    "docs/METHOD.md": "9cb44e28da80b06b38c9968e93f8c18682a431deaf75451eda6339edc1583556",
     "pyproject.toml": "aaa104ca90862a187376fc8f27c19cc26e7e6d4a3058baae27ac741c5a2f73bb",
     "results/summary.csv": "ac415852aee94e7fe5b5b39a2d1255a1e4906017dd4c5de79399d11940ca9d6e",
     "results/summary.json": "8f739facd5b7836f1f479e535e229136a76d807de16fbcad78df2ca728fdd1aa",
@@ -549,5 +549,12 @@
     "support_hole_cpu_smoke": "passed, 1 seed tiny run only",
     "data_manifest": "state_interface generated split hashes match frozen manifest; hard_iit generator source hash matches historical freeze",
     "full_training": "not run for publication"
+  },
+  "documentation_revision": {
+    "date": "2026-10-02",
+    "scope": "Reframed around supervised parsing and state execution; distinguished four-term supervision from cumulative-state labels; documented answer-only gold executor and posthoc single-bit task audit.",
+    "new_training": false,
+    "historical_evidence_modified": false,
+    "data_audit_path": "config/data_manifest.json/task_structure_audit/hard_iit"
   }
 }

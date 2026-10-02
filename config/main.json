@@ -42,6 +42,7 @@
     "trainable_parameters": 770
   },
   "losses": {
+    "gold": "answer_ce only; gold initial/operator/gate inputs; no next_state_ce",
     "r3": "answer_ce",
     "r3_state": "answer_ce + mean(initial_ce,operator_ce,gate_ce,next_state_ce)",
     "r3_iit": "r3_state + effectful_noncopy_counterfactual_answer_ce",

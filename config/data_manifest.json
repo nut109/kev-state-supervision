@@ -142,5 +142,90 @@
         }
       }
     }
+  },
+  "task_structure_audit": {
+    "hard_iit": {
+      "audit_date": "2026-10-02",
+      "run_type": "posthoc_data_audit; deterministic regeneration and existing predictions; no new training",
+      "generator": "kev.latent_data.generate_causal_splits",
+      "data_seed": 20260929,
+      "matched_original_manifest_hashes": [
+        "train/jsonl_sha256",
+        "train/rule_jsonl_sha256",
+        "val/jsonl_sha256",
+        "val/rule_jsonl_sha256",
+        "stress_val/jsonl_sha256",
+        "stress_val/rule_jsonl_sha256",
+        "id_test/jsonl_sha256",
+        "id_test/rule_jsonl_sha256",
+        "ood_test/jsonl_sha256",
+        "ood_test/rule_jsonl_sha256"
+      ],
+      "reset_definition": "and(false) or or(true); terminal truth becomes independent of all states before the last reset",
+      "suffix_length_definition": "number of instructions including the last reset and all following instructions",
+      "dynamic_state_bits": 1,
+      "train_semantic_transition_counts": {
+        "0|and|false": 605,
+        "0|and|true": 645,
+        "0|copy|none": 1257,
+        "0|invert|none": 1220,
+        "0|or|false": 603,
+        "0|or|true": 654,
+        "1|and|false": 639,
+        "1|and|true": 660,
+        "1|copy|none": 1215,
+        "1|invert|none": 1227,
+        "1|or|false": 629,
+        "1|or|true": 644
+      },
+      "train_transition_total": 9998,
+      "train_legal_transition_configurations": 12,
+      "ood_transition_total": 6600,
+      "ood_by_depth": {
+        "4": {
+          "n": 200,
+          "with_reset": 145,
+          "without_reset": 55,
+          "last_reset_suffix_at_most_3_rules": 123,
+          "answer_correct_with_reset": 145,
+          "answer_correct_without_reset": 55
+        },
+        "5": {
+          "n": 200,
+          "with_reset": 153,
+          "without_reset": 47,
+          "last_reset_suffix_at_most_3_rules": 124,
+          "answer_correct_with_reset": 153,
+          "answer_correct_without_reset": 47
+        },
+        "6": {
+          "n": 200,
+          "with_reset": 161,
+          "without_reset": 39,
+          "last_reset_suffix_at_most_3_rules": 111,
+          "answer_correct_with_reset": 161,
+          "answer_correct_without_reset": 39
+        },
+        "8": {
+          "n": 200,
+          "with_reset": 185,
+          "without_reset": 15,
+          "last_reset_suffix_at_most_3_rules": 119,
+          "answer_correct_with_reset": 185,
+          "answer_correct_without_reset": 15
+        },
+        "10": {
+          "n": 200,
+          "with_reset": 187,
+          "without_reset": 13,
+          "last_reset_suffix_at_most_3_rules": 116,
+          "answer_correct_with_reset": 182,
+          "answer_correct_without_reset": 12
+        }
+      },
+      "prediction_evidence_path": "results/evidence/hard_iit/trial_r3_state_ood_test.json",
+      "prediction_evidence_key": "/rows",
+      "subset_trajectory_available": false
+    }
   }
 }
